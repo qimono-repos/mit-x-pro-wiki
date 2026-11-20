@@ -1,0 +1,10 @@
+{
+  "attachmentFolderPath": "mit-raw",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki/concepts",
+  "useMarkdownLinks": false,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}
