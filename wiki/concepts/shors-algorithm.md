@@ -2,7 +2,7 @@
 title: Shor's algorithm
 type: concept
 ---
-
+	                                                                                                               ``````                                                                                                               ```
 # Shor's algorithm
 
 Shor's algorithm factors an integer by reducing factoring to order-finding, then finding that order with a quantum period-finding routine. The quantum part is not a direct search over factors.
