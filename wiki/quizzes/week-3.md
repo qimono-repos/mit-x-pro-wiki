@@ -212,7 +212,7 @@ Which of the following are **valid** statements?
 
 ### Q3: Non-Commuting Terms
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply  
 > **Raw:** [week4.md:7817](/mit-raw/week4.md) · **Concepts:** [[concepts/trotterization|Trotterization]]
 
 Two operators, $U_1$ and $U_2$, are said to not commute if $U_1U_2\neq U_2U_1$. This means that the order in which the operators are applied matters. Applying $U_1$ and then $U_2$ is not the same as applying $U_2$ and then $U_1$.

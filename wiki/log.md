@@ -169,3 +169,6 @@ Quantum Optimization Quiz Q3 (Ising Model) submitted and graded 1/1. Background 
 
 ## [2026-11-22] update | Week 3 quiz Q4 (Evolution of a State) graded 1/1
 The course's solution matches [[concepts/trotterization#^exact-vs-product]], including the $n \to \infty$ limit. It writes the Trotter product without $\hbar$ (implicitly $\hbar = 1$), as our page does.
+
+## [2026-11-22] update | Week 3 quiz Q3 (Non-Commuting Terms) graded 1/1
+The course's solution states that rotations about different axes don't commute. Small slip in its wording: it describes the reversed order as "45° about x, then 90° about y", but the figure captions (and the logic) swap the order of the same two rotations: 45° about y, then 90° about x.
