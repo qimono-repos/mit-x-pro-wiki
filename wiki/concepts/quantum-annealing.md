@@ -16,7 +16,7 @@ The name comes from metallurgy: heat lets a metal rearrange, and cooling freezes
 | | Simulated annealing | Quantum annealing |
 |---|---|---|
 | Escape mechanism | thermal activation *over* barriers | quantum tunneling *through* barriers |
-| Control knob | temperature $T 	o 0$ | transverse field $A(t) 	o 0$ |
+| Control knob | temperature $T \to 0$ | transverse field $A(t) \to 0$ |
 | Runs on | a classical computer | a quantum device |
 
 ## Why annealing exists: AQC's two failure modes
