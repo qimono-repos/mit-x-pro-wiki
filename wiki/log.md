@@ -46,3 +46,9 @@ Run by Claude (Opus 5.5) on the vault at `fadbf85`. Checks: link resolution, orp
 - Still unverified concept-page claims, background rather than course: BB84 "abort threshold / privacy amplification" detail, the teleportation correction order $X^{m_0}Z^{m_1}$, and the Kadowaki–Nishimori dissipation framing (the 1998 proposal itself is in raw week 5).
 
 **Next:** supervised ingest of official Week 1 in course order. Start with `week2.md`: RSA → Shor → QFT. Then expand the stubs from the transcripts, one page at a time.
+
+## [2026-11-21] query | are all quizzes captured?
+
+Albert asked whether every quiz made it into the notes. I compared the official outline (2026-11-09 screenshot) and the five source Google Docs with `mit-raw/`, matching each `PRACTICE (n questions)` block and each "point(s) (graded)" frame. The result is filed as [quiz inventory](analyses/quiz-inventory.md): 51 of 56 outline questions are captured. Missing: Week 1 case-study Q2 (absent in the source doc screenshots), Week 3 Reflect and Review, Week 4 third adiabatic CYU, and the two annealing CYUs (the annealing page itself is not in the capture). Post-Assessment not captured yet. The source docs confirm that the 5 raw files are 4 official weeks: Week 1 was saved as two docs.
+
+Also noted: `AGENTS.md` line 5 still says "QCFx1 (Introduction to Quantum Computing)"; the title line was fixed in `73cded6`. That is the human's file to change.

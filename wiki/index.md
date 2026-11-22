@@ -34,6 +34,7 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 | Page | Summary |
 |---|---|
 | [Course map](analyses/course-map.md) | Official QCFx2 weeks ↔ raw files ↔ source notes in reading order; Dec 14 deadline. |
+| [Quiz inventory](analyses/quiz-inventory.md) | Every graded question in the outline vs. the capture: 51/56 present, 5 to re-capture. |
 
 ## Sources
 
