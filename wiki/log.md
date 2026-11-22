@@ -157,3 +157,6 @@ Albert confirmed the page title, "Quantum Approximate Optimization Algorithm"; r
 
 ## [2026-11-22] update | QAOA CYU graded 1/1
 QAOA CYU graded 1/1 (7 of 7 Week 4 practice questions). The graded result settles the risky option: the course treats "always better than random" as true, although the lecture proves it for restricted MAX-CUT. [[concepts/qaoa]]: E3LIN2 spelled out as Max-E3LIN2 (background gloss: 3-variable linear equations mod 2).
+
+## [2026-11-22] update | AQC II graded 1/1; 8 of 8 Week 4 practice
+AQC II graded 1/1. [[concepts/adiabatic-quantum-computing]] `^gap-strategies`: added why pure decay fails (it gets stuck in a local minimum), linked to simulated annealing. Pattern across the graded explanations: they justify only the options to be marked, and say nothing about the rest.

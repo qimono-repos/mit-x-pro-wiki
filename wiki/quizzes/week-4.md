@@ -36,7 +36,7 @@ Regarding Adiabatic Quantum Computation, which of the following statements is **
 
 ### Q1: Adiabatic Quantum Computation II
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week5.md:953](/mit-raw/week5.md) · **Concepts:** [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Imagine you are running an optimization algorithm on an Adiabatic Quantum Computer. Unfortunately, the coherence time of the system is limited and it is close to the time set by the minimum energy gap of the optimization problem. What should you **not** do in this situation?
