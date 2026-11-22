@@ -106,3 +106,11 @@ At Albert's request, every graded question is now available as clean markdown in
 ## [2026-11-22] query + ingest | test question: Week 4 Quiz Q2 "Quantum Annealing III"
 
 Matches `mit-raw/week5.md:5095` verbatim. Options A and C are stated in the AQC concept Learn text (Kadowaki–Nishimori: tunneling + relaxation; "no evidence" of enhancement). B is contradicted by the minimum-gap paragraph: a smaller gap requires slower evolution. D's "Ising" is never named by the course outside quiz stems, so I added the external source `mit-raw/external/quantum-annealing-ising.md` (arXiv:2001.00234, arXiv:2112.07491) and linked it from `concepts/quantum-annealing.md#^encoding-and-gap`. Status set to ✅ CHECKED in eDX in `quizzes/week-4.md` (now 13/52).
+
+## [2026-11-22] query | test question: Week 4 Quiz Q1 "Adiabatic Evolution" + Week 4 review
+
+Matches `mit-raw/week5.md:5076`. Options A and C are backed by the AQC concept Learn text: the thermal environment drives transitions once the gap is below $k_BT$; Landau–Zener for fast evolution. B is the plain false one. D ("infinite coherence times") is not addressed by the course; the nearest line is the expert view's "will work, for sure, if you go infinitely slowly… not a practical algorithm". Recorded as a judgment call (already noted in the 2026-11-22 conflict entry).
+
+Week 4 quiz is now fully reviewed: Q1–Q5 ✅ CHECKED in eDX (14/52 overall). Clarified the status convention in `quizzes/index.md`: CHECKED = reviewed, **not** submitted. Albert is running an independent 3-way assessment (Albert, Claude, ChatGPT) before submitting. The answer sheets stay outside this public repo.
+
+Open structural gap, top priority before submitting Week 4: the "Quantum Annealing & Polynomial-Speedup" page and its 2 CYUs, plus a 3rd adiabatic CYU, are not in the capture.
