@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 0/11 ✅ CHECKED in eDX · 11 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 1/11 ✅ CHECKED in eDX · 10 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -240,7 +240,7 @@ The figure above shows the original orientation of a 3D object, a cow. Using the
 
 ### Q4: Evolution of a State
 
-> **Status:** ⏳ pending · **Type:** Select one · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 1  
 > **Raw:** [week4.md:7878](/mit-raw/week4.md) · **Concepts:** [[concepts/trotterization|Trotterization]]
 
 Which of the following correspond to the exact time evolution of the initial quantum state $|\psi(0)\rangle$ under a Hamiltonian $H=H_1+H_2$?
