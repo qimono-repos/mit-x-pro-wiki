@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "mit-raw",
+  "attachmentFolderPath": "mit-raw/assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "wiki/concepts",
   "useMarkdownLinks": false,

@@ -3,6 +3,7 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/plugins/
 
 __pycache__/
 *.pyc
