@@ -31,7 +31,7 @@ The lecture's caveat: for a large enough problem the minimum gap is so small tha
 
 Along the path the two lowest levels form an **avoided crossing**, and the gap shrinks as the problem grows. The Learn text gives two consequences ([raw week 5](/mit-raw/week5.md), AQC concept Learn):
 1. **Speed:** you must go more slowly through the gap region. Go too fast and the system "jumps" to the excited state via a **Landau–Zener transition**. Running faster than the adiabatic theorem allows lowers the chance of a correct answer.
-2. **Noise:** thermal noise and control noise drive transitions once the gap falls below $k_BT$. The device's limited coherence time bounds how slowly you can go.
+2. **Noise:** thermal noise and control noise drive transitions once the gap falls below $k_BT$. The device's limited coherence time bounds how slowly you can go. The requirement is a *finite* runtime long compared with the inverse gap squared, not infinite coherence. The course's AQC II question treats coherence ≈ gap timescale as hard but workable, and the literature finds AQC fairly robust to decoherence in the energy eigenbasis ([external source](/mit-raw/external/adiabatic-decoherence.md)).
 
 ^minimum-gap
 

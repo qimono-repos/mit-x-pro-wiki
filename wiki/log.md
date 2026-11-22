@@ -114,3 +114,7 @@ Matches `mit-raw/week5.md:5076`. Options A and C are backed by the AQC concept L
 Week 4 quiz is now fully reviewed: Q1–Q5 ✅ CHECKED in eDX (14/52 overall). Clarified the status convention in `quizzes/index.md`: CHECKED = reviewed, **not** submitted. Albert is running an independent 3-way assessment (Albert, Claude, ChatGPT) before submitting. The answer sheets stay outside this public repo.
 
 Open structural gap, top priority before submitting Week 4: the "Quantum Annealing & Polynomial-Speedup" page and its 2 CYUs, plus a 3rd adiabatic CYU, are not in the capture.
+
+## [2026-11-22] ingest | external: adiabatic computation and finite coherence
+
+Albash asked whether the AQC II stem ("coherence time is limited… close to the time set by the minimum gap") bears on the Adiabatic Evolution "infinite coherence" option. It does: the course models finite coherence as hard-but-workable, and the Learn text only ever requires a *sufficiently* slow, gap-limited runtime. Added `mit-raw/external/adiabatic-decoherence.md` (Childs–Farhi–Preskill 2001; Albash–Lidar 2015; Campos Venuti et al. 2016) and linked it from `concepts/adiabatic-quantum-computing.md#^minimum-gap`. This supersedes the "judgment call" framing in the earlier conflict entry: the course plus the literature now favour reading "requires infinite coherence" as an overstatement.
