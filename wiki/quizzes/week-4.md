@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 8/11 ✅ CHECKED in eDX · 3 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 9/11 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -63,7 +63,7 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### Q1: Grover's Algorithm
 
-> **Status:** ⏳ pending · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
 > **Raw:** [week5.md:1874](/mit-raw/week5.md) · **Concepts:** [[concepts/grovers-algorithm|Grover's algorithm]]
 
 Regarding Grover's algorithm, which of the following statements are **not valid**?
@@ -104,7 +104,7 @@ For a list of $N=512$ items, how many qubits would you need to implement Grover'
 
 ### Q1: Exactly-1 3-SAT Problem I
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week5.md:3396](/mit-raw/week5.md) · **Concepts:** [[concepts/exactly-1-3-sat|Exactly-1 3-SAT]]
 
 The Exactly-1 3-SAT problem requires us to find an assignment such that $f=1$ (or, True), and there is exactly one literal that evaluates to True in every clause of $f$.

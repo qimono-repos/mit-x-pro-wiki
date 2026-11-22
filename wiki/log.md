@@ -122,3 +122,6 @@ Albert asked whether the AQC II stem ("coherence time is limited… close to the
 ## [2026-11-22] ingest | hints for math-based quiz questions
 
 Added a folded `> [!tip]- 💡 Hint` callout to 30 math or derivation questions in `wiki/quizzes/` (RSA, QFT, period finding, BB84 sifting, polarization and Malus' law, half-wave plate matrix, fiber dB loss, SPDC conservation laws, particle in a box, molecular Hamiltonian, Trotter and BCH, rotations, phase estimation, adiabatic condition $T \gg 1/\Delta_{min}^2$, Grover register and reflections, Exactly-1 3-SAT literal evaluation, Ising energies). Hints point at the method or first step, never the answer. The full worked developments (wrong path marked `← ✗`, then the right path) live only in the private Anki deck.
+
+## [2026-11-22] update | Week 4 practice: 3-SAT I graded 1/1, Grover's Algorithm checked
+Exactly-1 3-SAT Problem I graded 1/1 (3rd graded practice, after N=512 and Syntax Error). Grover's Algorithm CYU captured and checked against raw week 5 (lines 3194–3198, 4945: oracle = first reflection about $|\alpha\rangle$, $W$ = second reflection about $|\psi\rangle$). The eDX explanations revealed after grading go into the private Anki deck only. 18 / 52 checked.
