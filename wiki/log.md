@@ -180,3 +180,6 @@ Ideas and Issues of Quantum Simulation graded 1/1. Pattern across all 13 graded 
 - Week 3 quiz Q1 (Quantum-Inspired Approximations) graded 1/1, completing the Week 3 one-shot quiz (4 of 4 graded correct; with Week 4 Q3, 5 of 5 one-shot answers correct so far).
 - Its explanation links De Chiara et al., *DMRG for Dummies* (arXiv cond-mat/0603842). Added as `mit-raw/external/dmrg-for-dummies.md` (summary, not the PDF). [[concepts/quantum-simulation]] `^quantum-inspired` now records the history (Wilson's NRG → White's DMRG, 1992), 1D vs 2D (area law), and t-DMRG's Trotter link. This resolves the lecture's loose "Ken Wilson" attribution without contradicting it.
 - [[concepts/adiabatic-quantum-computing]]: background note that the Sipser in Farhi–Goldstone–Gutmann–Sipser (2000) is MIT's Michael Sipser (theory of computation).
+
+## [2026-11-22] update | Week 3 VQE CYU graded 1/1; refinement of the explanation pattern
+VQE CYU graded 1/1 with no explanation shown, although three options are false. So a missing explanation does not prove that every option was true: some questions simply have none (this one repeats a pre-assessment item). The earlier rule, "explanations address only the false statements", still holds whenever an explanation does appear.

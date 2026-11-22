@@ -152,7 +152,7 @@ Regarding the phase estimation algorithm, which of the following statements is *
 
 ### Q1: Variational Quantum Eigensolver
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 2  
 > **Raw:** [week4.md:5782](/mit-raw/week4.md) · **Concepts:** [[concepts/vqe|Variational quantum eigensolver]]
 
 Although quantum computers can perform certain calculations much faster than classical ones, classical computers are robust, reliable, and we have been learning how to use them for a longer time. Instead of just jumping into a fully functional quantum computer, and dropping our usual ones, it might be a good idea to combine the best of both worlds. This is the idea behind Variational Quantum Eigensolver, a kind of hybrid computation. In particular, it presents a way to obtain the ground state of a Hamiltonian by computing certain parts of an algorithm in a classical computer and others in a quantum computer. *(completed from the screenshot; the raw transcription is cut short)*solver, a kind of hybrid computation. In particular, it presents a way to obtain the ground state of a Hamiltonian by computing certain parts of an algorithm in a classical computer and others in a quantum computer.
