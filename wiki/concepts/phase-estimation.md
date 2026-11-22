@@ -70,6 +70,8 @@ Generator: [`tools/circuits/phase_estimation.py`](/tools/circuits/phase_estimati
 
 Exact phases come out exact. Others come out as the nearest $n$-bit estimate, most of the time. ^qiskit-demo
 
+**Notation warning.** The course uses $u$ for two different things. In the circuit and derivation, $|u\rangle$ is the *eigenvector* in the second register. In graded feedback, $u$ is the *eigenvalue*, $U|\psi\rangle = u|\psi\rangle$ with $u = e^{i2\pi\theta}$. The phase is written $\phi$ in one place and $\theta$ in another. Read each question's own definitions. ^notation
+
 ## Sources
 
 - [Phase estimation](../sources/week-4-05-phase-estimation.md)

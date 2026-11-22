@@ -133,7 +133,7 @@ Which of the following sentences about simulating quantum chemistry problems is/
 
 ### Q1: Phase Estimation Algorithm
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:5062](/mit-raw/week4.md) · **Concepts:** [[concepts/phase-estimation|Phase estimation]]
 
 Regarding the phase estimation algorithm, which of the following statements is **not valid**?

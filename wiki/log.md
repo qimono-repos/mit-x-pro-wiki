@@ -188,3 +188,6 @@ VQE CYU graded 1/1 with no explanation shown, although three options are false. 
 - [[concepts/phase-estimation]] `^derivation`: the inverse-QFT step whose left-hand side is broken on the eDX page itself (and recorded as unreadable in raw week 4) is reconstructed in LaTeX and marked as my derivation.
 - New convention for circuit diagrams: generator scripts in `tools/circuits/`, outputs committed to `wiki/media/circuits/` as SVG (rendered) plus `.txt` (Qiskit text drawer, embedded in a `text` code block). First one: `phase_estimation.py`, which also simulates exact vs inexact phases (`^qiskit-demo`).
 - Week 3 CYU Phase Estimation Algorithm checked.
+
+## [2026-11-22] update | Week 3 Phase Estimation CYU graded 1/1; notation conflict recorded
+Conflict noted on [[concepts/phase-estimation]] `^notation`: the course uses $u$ both for the eigenvector $|u\rangle$ (circuit, derivation) and for the eigenvalue $u = e^{i2\pi\theta}$ (graded feedback), and writes the phase as both $\phi$ and $\theta$.
