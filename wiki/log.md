@@ -83,3 +83,10 @@ Building the map exposed gaps. I filled each from the raw capture, with location
 **Honesty labels.** Three statements are background, not course content, and are marked inline: AQC as "analog" (the word appears only in a quiz option), Hamiltonians as the physical basis of gates, and the "what to do about a small gap" list (own reasoning). The polarizer Born-rule paragraph is also marked as standard background.
 
 **Data gaps noted on pages:** Chuang's "Ideas and Issues" item 2 is not captured (`quantum-simulation`). Mosca's RSA-2048 odds lost their numbers (`post-quantum-cryptography`).
+
+## [2026-11-22] lint | conflict: polarizer "registers" wording (entanglement questions)
+
+While building Albert's Anki deck v2 (kept outside this public repo because it holds answers), three items came out ambiguous. Recorded so the wiki doesn't silently pick a side:
+- **Entanglement questions** (pre-Q4, Week 2 CYU Entanglement I, Week 2 quiz Q2): the collapse reading and the strict optics reading select different options. Note added to `concepts/photon-polarization-qubits.md`.
+- **Week 1 quiz Q4 (QFT III):** controlled-phase gates are symmetric, so two of the drawn circuits are the same unitary (checked numerically). The textbook drawing is the intended one. Already reflected in `concepts/quantum-fourier-transform.md`.
+- **Week 4 quiz Q1 (Adiabatic Evolution):** whether "requires infinite coherence times" counts as a reason. The lecture says it "will work, for sure, if you go infinitely slowly… not a practical algorithm." Judgment call; see `concepts/adiabatic-quantum-computing.md#^minimum-gap`.

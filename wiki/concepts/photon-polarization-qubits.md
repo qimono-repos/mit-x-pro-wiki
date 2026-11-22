@@ -26,6 +26,8 @@ A polarizer along direction $\theta$ transmits the component of the state along 
 
 For $\tfrac{1}{\sqrt2}(|H\rangle_A|H\rangle_B + |V\rangle_A|V\rangle_B)$: when Alice's $H$-polarizer transmits, the joint state collapses to $|H\rangle_A|H\rangle_B$, and Bob's photon is now $|H\rangle$ wherever he is. What Bob then sees follows from the polarizer rule above applied to $|H\rangle$. If Alice's polarizer is $V$ instead, Bob's photon is $|V\rangle$, and the same reasoning applies. This works at any distance (Moon, Mars), but it gives no way to signal, because Bob's local statistics alone don't reveal Alice's choice. ^entangled-pair-measurement
 
+> **Conflict (course model vs physics), recorded 2026-11-22.** The course's entanglement questions ask what Bob's detector "registers" after a ±45° polarizer. On the **collapse reading** the course appears to use (pre-assessment grading), Bob's photon is described by the polarization it collapsed to (H or V). On the **strict optics reading**, a photon that passes a +45° polarizer *is* +45°-polarized, and a later H/V measurement gives H or V 50/50. The two readings select different options on these questions. Check the platform's feedback before relying on either.
+
 The course also stresses that entangled states "remain entangled even in different bases," and that a conditional two-qubit gate (CNOT) is needed to create them in the circuit model (raw week 3, entangled sources transcript, ~1:45). ^entangled-any-basis
 
 ## Waveplates as single-qubit gates
