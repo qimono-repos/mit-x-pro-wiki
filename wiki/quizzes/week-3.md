@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 3/11 ✅ CHECKED in eDX · 8 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 4/11 ✅ CHECKED in eDX · 7 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -178,7 +178,7 @@ Which one of the following steps of the algorithm is run in a classical computer
 
 ### Q1: Quantum-Inspired Approximations
 
-> **Status:** ⏳ pending · **Type:** Select one · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 1  
 > **Raw:** [week4.md:7777](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-simulation|Quantum simulation: approaches and issues]]
 
 The idea behind quantum simulation is to use well-controlled quantum systems to simulate more complex ones. However, it is not an easy task to implement them properly. A different strategy to tackle this problem is to improve classical simulations of a quantum system by using better quantum-inspired approximations.
