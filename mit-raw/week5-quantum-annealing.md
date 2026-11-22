@@ -1,6 +1,12 @@
 # Page Title: Quantum Annealing
 
-<!-- Added 2026-11-22. Transcript file Q2W4V4_REV_2026_v2-en.srt (course 2, week 4, video 4) downloaded by Albert from the eDX page. Speaker: Gabriel Samach. This page was missing from week5.md; the SRT below is verbatim. Learn prose and video frames for this page are not captured yet. -->
+<!-- Added 2026-11-22. Transcript file Q2W4V4_REV_2026_v2-en.srt (course 2, week 4, video 4) downloaded by Albert from the eDX page. Speaker: Gabriel Samach. This page was missing from week5.md; the SRT below is verbatim. Video frames for this page are not captured yet. -->
+
+## Learn: Introduction to Quantum Annealing (QA)
+
+![Learn text, Introduction to Quantum Annealing (QA), screenshot of the eDX page, 2026-11-22](/mit-raw/week5/media/annealing/learn-introduction-to-quantum-annealing.png)
+
+<!-- Text description (summary, not a transcription): QA as an AQC allowed to leave its ground state; the name comes from metallurgical annealing; classical simulated annealing (accept worse moves E' > E with a probability that falls as the temperature parameter T is lowered); quantum fluctuations and tunneling through barriers, controlled by a transverse field instead of temperature; H(t) = A(t) H_initial + B(t) H_problem with A(0)=1, B(0)=0, A(t_final)=0, B(t_final)=1; minimum gap, noise and Landau-Zener; D-Wave: >2000 superconducting qubits, fixed "chimera graph" connectivity, no theoretical or experimental evidence of enhancement for a general class of problems; low-coherence qubits and ZZ-only couplings, with XX/YY and multi-body terms as possible improvements. -->
 
 ## Transcript
 

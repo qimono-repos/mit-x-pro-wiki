@@ -7,6 +7,18 @@ type: concept
 
 A quantum annealer is basically an adiabatic quantum computer that has left its ground state at some point during the evolution, and uses quantum tunneling plus relaxation to get back down to the ground state or at least a lower-energy one. It targets only classical optimization problems, and the course is explicit that there is no proof or demonstration of quantum enhancement to date ([source note](../sources/week-5-03a-quantum-annealing.md)).
 
+## Simulated annealing, then the quantum version
+
+The name comes from metallurgy: heat lets a metal rearrange, and cooling freezes in the better configuration. **Classical simulated annealing** is the algorithmic version. From a solution with energy $E$, try a neighbour with energy $E'$. Always accept it if $E' < E$, and sometimes accept it even if $E' > E$, with a probability that is high at "high temperature" and shrinks as the temperature parameter $T$ is lowered to zero. Accepting worse moves lets the search climb *over* barriers out of local minima, and at $T = 0$ it freezes into a local or global minimum ([source note](../sources/week-5-03a-quantum-annealing.md), Learn). ^simulated-annealing
+
+**Quantum annealing replaces thermal fluctuations with quantum fluctuations.** A wavefunction is spread out rather than sitting at one point, so when it spans several local minima the system can **tunnel through** a barrier instead of being kicked over it. The tunneling strength is set by the **transverse field** (along x or y on the Bloch sphere), not by temperature ([source note](../sources/week-5-03a-quantum-annealing.md), Learn). ^quantum-fluctuations
+
+| | Simulated annealing | Quantum annealing |
+|---|---|---|
+| Escape mechanism | thermal activation *over* barriers | quantum tunneling *through* barriers |
+| Control knob | temperature $T 	o 0$ | transverse field $A(t) 	o 0$ |
+| Runs on | a classical computer | a quantum device |
+
 ## Why annealing exists: AQC's two failure modes
 
 [[concepts/adiabatic-quantum-computing]] must stay in the ground state, and the gap to the first excited state can become very small. Two things then knock it out ([raw transcript](/mit-raw/week5-quantum-annealing.md), ~1:13–3:25):
@@ -30,11 +42,19 @@ $$
 
 Choose the couplings so the energy levels are the candidate solutions and each level's energy is that solution's cost: higher energy, higher penalty. In the course's words, "the goal of quantum annealing is to engineer a system of qubits with an Ising Hamiltonian corresponding to the optimization problem of interest" ([raw transcript](/mit-raw/week5-quantum-annealing.md), ~6:11–7:22; the qubit-level hardware detail is in this [external source](/mit-raw/external/quantum-annealing-ising.md)). Gap logic carries over from AQC: a *smaller* minimum gap, not a larger one, forces slower evolution through the gap region (see [[concepts/adiabatic-quantum-computing#^minimum-gap]]). ^encoding-and-gap
 
-Protocol: start in the ground state of the transverse-field driver $B = -\sum_j X_j$ (all qubits in $|+\rangle$, easy to prepare), gradually turn $B$ down and $H_p$ up, and read out a low-energy eigenstate of $H_p$. The lower its energy, the better the solution. An excited final state is still a candidate answer, which is the point: for optimization, "several nearly optimal solutions" are often good enough ([raw transcript](/mit-raw/week5-quantum-annealing.md), ~7:33–9:04). ^protocol
+Protocol: the Learn page writes the schedule as
+
+$$
+H(t) = A(t)\,H_\text{initial} + B(t)\,H_\text{problem}, \qquad A(0)=1,\ B(0)=0,\ A(t_\text{final})=0,\ B(t_\text{final})=1 .
+$$
+
+Start in the ground state of the transverse-field driver $H_\text{initial} = -\sum_j X_j$ (all qubits in $|+\rangle$, easy to prepare), gradually turn it down and $H_\text{problem}$ up, and read out a low-energy eigenstate of $H_p$. The lower its energy, the better the solution. An excited final state is still a candidate answer, which is the point: for optimization, "several nearly optimal solutions" are often good enough ([raw transcript](/mit-raw/week5-quantum-annealing.md), ~7:33–9:04). ^protocol
 
 ## D-Wave and the name "annealing"
 
 The expert-view lecture gives the history ([raw transcript](/mit-raw/week5-quantum-annealing-expert-view.md)). D-Wave was founded in 1999, before AQC was proposed (Farhi et al., 2000; Aharonov et al. later proved it universal). In 2007 D-Wave announced a 16-qubit "adiabatic quantum computer", which drew heavy skepticism. Its chips run extremely cold, but their structure still allows thermal excitations, so the temperature probably exceeds the smallest gap. Since that isn't adiabatic computation, it was renamed quantum annealing. The lecturer's verdict: it certainly uses quantum processes, but there are no theoretical results that it is more powerful, and its experimental wins might be only a constant factor from a fast physical process. "We don't really know whether D-wave is more powerful." ^dwave
+
+The Learn page adds the hardware picture: more than 2000 superconducting qubits with fixed "chimera graph" connectivity, an engineering achievement with no theoretical or experimental evidence of enhancement for a general class of problems. Scaling forced design limits: relatively low-coherence qubits, fixed connectivity, and only $ZZ$ couplings, a small corner of the possible annealing "phase space". Higher coherence, $XX$/$YY$ couplings, multi-body terms such as $XXX$, and better connectivity might help ([source note](../sources/week-5-03a-quantum-annealing.md), Learn). ^dwave-hardware
 
 ## AQC vs annealing
 

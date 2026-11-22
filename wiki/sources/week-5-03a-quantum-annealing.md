@@ -9,7 +9,17 @@ raw: mit-raw/week5-quantum-annealing.md
 
 Source page from week 5 (official Week 4), lecture video by Gabriel Samach. [Raw transcript](/mit-raw/week5-quantum-annealing.md)
 
-This page was missing from the original capture of `week5.md`. Only the SRT transcript is captured (added 2026-11-22). Learn prose, video frames, and the page's practice question are still missing.
+This page was missing from the original capture of `week5.md`. Captured: the SRT transcript and a screenshot of the Learn text, "Introduction to Quantum Annealing (QA)" (both added 2026-11-22). Still missing: video frames and the page's practice question.
+
+## Learn (summary in my words; [screenshot](/mit-raw/week5/media/annealing/learn-introduction-to-quantum-annealing.png))
+
+- QA solves classical optimization problems. It is an adiabatic quantum computer allowed to leave its ground state, then tunneling and relaxation bring it back to the ground state or a lower one, which encodes an (approximate) answer.
+- **The name** comes from annealing in metallurgy: heating lets the metal rearrange, and cooling locks in the new, better configuration.
+- **Classical simulated annealing (SA):** from the current solution with energy $E$, pick a nearby one with energy $E'$. Always keep it if $E' < E$. Keep it *sometimes* even if $E' > E$, which lets the search climb out of local minima. That acceptance probability is high at the start ("high temperature") and drops as the temperature parameter $T$ is lowered to zero, until the system freezes into a local or global minimum.
+- **QA swaps thermal fluctuations for quantum fluctuations.** A wavefunction is spread out (it has a mean and a spread, and repeated measurements give different results). When it spans several local minima, the system *tunnels through* barriers instead of being thermally kicked *over* them. The tunneling rate is set by a transverse field (along x or y on the Bloch sphere), not by temperature.
+- **Schedule:** $H(t) = A(t)\,H_	ext{initial} + B(t)\,H_	ext{problem}$ with $A: 1 	o 0$ and $B: 0 	o 1$. $H_	ext{initial}$ is a large transverse $X$ field on all qubits; the optimum is the ground state of $H_	ext{problem}$.
+- As in AQC there is a minimum gap, and real problems almost certainly leave the ground state through noise and Landau–Zener transitions. The hope is that tunneling plus dissipation bring the system back down.
+- **D-Wave:** commercially available, more than 2000 superconducting qubits with fixed "chimera graph" connectivity. An engineering achievement, but there is no theoretical or experimental evidence of quantum enhancement for a general class of optimization problems. Scaling up forced relatively low-coherence qubits, fixed connectivity and only $ZZ$ couplings. Higher coherence, other couplings ($XX$, $YY$), multi-body terms ($XXX$) and richer connectivity might do better, and even a "just classical" annealer could be useful if it beats existing classical computers on some problems.
 
 ## What the video covers
 
