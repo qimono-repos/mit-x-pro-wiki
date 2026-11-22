@@ -48,3 +48,5 @@ Problems are encoded as $H_p|z\rangle = E(z)|z\rangle$ on bitstrings $z$, often 
 - [Adiabatic quantum computing: concept](../sources/week-5-02-adiabatic-quantum-computing-concept.md)
 - [Expert view](../sources/week-5-03-adiabatic-quantum-computing-expert-view.md)
 - Raw: [week 5](/mit-raw/week5.md)
+
+See also [[concepts/qaoa]]: the gate-model cousin that uses the same $B = \sum X$ driver and cost operator, as discrete parameterized unitaries.

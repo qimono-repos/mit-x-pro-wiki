@@ -30,7 +30,8 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 | [Quantum Fourier transform](concepts/quantum-fourier-transform.md) | Change of basis that turns periodicity into peaks. |
 | [Grover's algorithm](concepts/grovers-algorithm.md) | Amplitude amplification for unstructured search. |
 | [Adiabatic quantum computing](concepts/adiabatic-quantum-computing.md) | Slow interpolation from a driver Hamiltonian to a problem Hamiltonian. |
-| [Quantum annealing](concepts/quantum-annealing.md) | Open-system variant that allows leaving and returning toward the ground state. |
+| [Quantum annealing](concepts/quantum-annealing.md) | AQC allowed to leave the ground state; tunneling + relaxation, Ising encoding, D-Wave, no proven enhancement. |
+| [QAOA](concepts/qaoa.md) | Gate-model approximate optimizer: alternate $e^{-i\gamma C}$ and $e^{-i\beta B}$, measure; MAX-CUT, E3LIN2 history. |
 | [BB84](concepts/bb84.md) | Prepare-and-measure quantum key distribution. |
 | [Ekert 91](concepts/ekert91.md) | Entanglement-based QKD, with BBM92. |
 | [Bell inequality](concepts/bell-inequality.md) | Device-independent test used for certifiable randomness. |
@@ -117,8 +118,9 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 - [Introduction to Quantum optimization](sources/week-5-01-introduction-to-quantum-optimization.md) — Course page.
 - [Adiabatic quantum computing: concept](sources/week-5-02-adiabatic-quantum-computing-concept.md) — Course page.
+- [QAOA (Farhi video)](sources/week-5-02a-qaoa-farhi.md) — Course video, transcript only: the Quantum Approximate Optimization Algorithm, MAX-CUT, E3LIN2.
 - [Adiabatic Quantum Computing: Expert View](sources/week-5-03-adiabatic-quantum-computing-expert-view.md) — Course page.
-- [Quantum Annealing](sources/week-5-03a-quantum-annealing.md) — Course page, transcript only (Gabriel Samach): why AQC fails in practice, annealing, Ising encoding.
+- [Quantum Annealing](sources/week-5-03a-quantum-annealing.md) — Course page, Learn screenshot + transcript (Gabriel Samach): why AQC fails in practice, annealing, Ising encoding.
 - [Quantum Annealing: Expert View](sources/week-5-03b-quantum-annealing-expert-view.md) — Course page, transcript only (classroom, D-Wave history): why it's called annealing, no proof of advantage.
 - [Grover's Algorithm: Quantum Search](sources/week-5-04-grover-s-algorithm-quantum-search.md) — Course page.
 - [Introduction to Grover's Algorithm on the Quantum Experience](sources/week-5-05-introduction-to-grover-s-algorithm-on-the-quantum-experience.md) — Course page.

@@ -146,3 +146,8 @@ The page's Learn text, "Introduction to Quantum Annealing (QA)", was missing. It
 
 ## [2026-11-22] update | Quantum Annealing I captured from screenshot
 CYU Quantum Annealing I (on the Quantum Annealing lecture page) transcribed into `wiki/quizzes/week-4.md` with its screenshot and a hint; concept map updated. Both annealing CYUs are now in. Week 4 is missing only the 3rd adiabatic CYU. 20 / 54 checked.
+
+## [2026-11-22] ingest | QAOA video (Farhi), Q2W4V3
+- New raw file `mit-raw/week5-qaoa.md`: Eddie Farhi's QAOA video, verbatim SRT. It was missing from `week5.md`, which mentions QAOA only in the intro (line 32). The eDX page title and Learn prose are not captured, and the position in the course map is a guess (video number 3, so after the adiabatic concept video).
+- New concept [[concepts/qaoa]] (blocks `^problem`, `^circuit`, `^depth`, `^track-record`) and source note `week-5-02a`; index, course map and the AQC page link to it. Lines marked *Background* (2β Bloch-sphere convention, Trotter/VQE analogy) are not course content.
+- Quantum Annealing I graded 1/1 (6 of 6 Week 4 practice questions graded correct).

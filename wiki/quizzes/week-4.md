@@ -63,7 +63,7 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### Q1: Quantum Annealing I
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that are NOT valid · **Attempts:** 3  
 > **Raw:** [week5-quantum-annealing.md](/mit-raw/week5-quantum-annealing.md) (question text from eDX screenshot, 2026-11-22) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Regarding Quantum Annealing, which of the following statements are **not valid**?
