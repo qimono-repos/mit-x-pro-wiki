@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 9/11 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 10/12 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -53,9 +53,31 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 > ![](/mit-raw/week5/media/media/image36.png)
 
 
-### ⚠️ Adiabatic QC 3rd CYU + Quantum Annealing CYUs I & II — NOT CAPTURED
+### ⚠️ Adiabatic QC 3rd CYU + Quantum Annealing CYU I — NOT CAPTURED
 
-> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions; the capture has 2 + 0. The 'Quantum Annealing & Polynomial-Speedup' page itself is missing.
+> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing II (eDX screenshot, 2026-11-22). The 'Quantum Annealing' pages are missing from the raw capture.
+
+
+## CYU · Quantum Annealing
+
+
+### Q1: Quantum Annealing II
+
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 2  
+> **Raw:** eDX screenshot, 2026-11-22 (page 'Quantum Annealing: Expert View', not in raw capture) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
+
+In quantum annealing, what is the most relevant consequence of the system temperature not being low enough?
+
+- [ ] **A.** The minimum energy gap between the ground state and the first excited state is reduced due to the temperature, inducing Landau-Zener transitions.
+- [ ] **B.** Energy from the environment excites the system, bringing it out of the ground state.
+- [ ] **C.** The coherence time of the spins is reduced and the gate fidelity is reduced.
+- [ ] **D.** The minimum computational time necessary to keep the system in its ground state decreases.
+
+> [!tip]- 💡 Hint
+> Compare two energy scales: the minimum gap $\Delta$ between ground and first excited state, and the thermal energy $k_BT$. Which one does temperature actually change? Then ask which options describe a *heat* effect and which describe a *sweep-speed* or *gate-model* effect. Course text: Adiabatic QC concept page, the noise paragraph.
+
+> [!info]- Original eDX screenshot
+> ![](/wiki/quizzes/media/w4-quantum-annealing-ii.png)
 
 
 ## CYU · Grover
@@ -63,7 +85,7 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### Q1: Grover's Algorithm
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that are NOT valid · **Attempts:** 3  
 > **Raw:** [week5.md:1874](/mit-raw/week5.md) · **Concepts:** [[concepts/grovers-algorithm|Grover's algorithm]]
 
 Regarding Grover's algorithm, which of the following statements are **not valid**?

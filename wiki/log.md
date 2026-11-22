@@ -125,3 +125,9 @@ Added a folded `> [!tip]- 💡 Hint` callout to 30 math or derivation questions 
 
 ## [2026-11-22] update | Week 4 practice: 3-SAT I graded 1/1, Grover's Algorithm checked
 Exactly-1 3-SAT Problem I graded 1/1 (3rd graded practice, after N=512 and Syntax Error). Grover's Algorithm CYU captured and checked against raw week 5 (lines 3194–3198, 4945: oracle = first reflection about $|\alpha\rangle$, $W$ = second reflection about $|\psi\rangle$). The eDX explanations revealed after grading go into the private Anki deck only. 18 / 52 checked.
+
+## [2026-11-22] update | Grover's Algorithm graded; Quantum Annealing II captured from screenshot; Grover angle convention fixed
+- Grover's Algorithm CYU graded 1/1 (4 of 4 practice questions graded so far).
+- Quantum Annealing II (CYU on the "Quantum Annealing: Expert View" page) was never in the raw capture. Transcribed from Albert's eDX screenshot into `wiki/quizzes/week-4.md`, with the screenshot in `wiki/quizzes/media/`. `mit-raw/` left untouched; that page still needs a proper capture (prose + SRT). The outline's other annealing CYU (I) and the 3rd adiabatic CYU are still missing. 19 / 53 checked.
+- Lint fix on [[concepts/grovers-algorithm]]: the page mixed two angle conventions (sin θ = 1/√N with a 2θ step, then the course's CI(arccos√(M/N)/θ)). Rewritten in the course's convention (raw week 5, "Geometric Interpretation"): |ψ⟩ = cos(θ/2)|α⟩ + sin(θ/2)|β⟩, each iterate rotates by θ.
+- Conflict noted: the course's graded explanations count Grover's register differently: n qubits in one, n + 1 (index + oracle ancilla) in another. Not a real contradiction; the concept page already says "n index qubits plus the oracle's ancilla".
