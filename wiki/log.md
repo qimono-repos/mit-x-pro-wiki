@@ -163,3 +163,6 @@ AQC II graded 1/1. [[concepts/adiabatic-quantum-computing]] `^gap-strategies`: a
 
 ## [2026-11-22] update | Week 4 practice complete: 9 of 9 graded correct
 AQC I graded 1/1. All Week 4 practice questions are now graded: N=512, Syntax Error, 3-SAT I, Grover's Algorithm, Quantum Annealing I and II, QAOA, AQC I, AQC II. Next: the one-attempt Quantum Optimization Quiz (5 questions).
+
+## [2026-11-22] update | First one-shot Week 4 quiz answer graded: Ising Model 1/1
+Quantum Optimization Quiz Q3 (Ising Model) submitted and graded 1/1. Background note added to [[concepts/adiabatic-quantum-computing]]: the two degenerate Néel states and the global spin-flip symmetry ∏X.

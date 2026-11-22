@@ -43,6 +43,8 @@ Along the path the two lowest levels form an **avoided crossing**, and the gap s
 
 Problems are encoded as $H_p|z\rangle = E(z)|z\rangle$ on bitstrings $z$, often as a sum of clause penalties $E_\alpha(z)$ (0 if clause $\alpha$ is satisfied, 1 if not) ([raw week 5](/mit-raw/week5.md), ~line 1038). The quiz uses an Ising chain, driver $\sum_j X^j$ and problem $J\sum Z^iZ^{j+1}$. Its stem states the energy rule: aligned neighbours contribute $+J$, anti-aligned $-J$, so with $J > 0$ the ground state minimizes the number of aligned neighbours. That's all the information the question needs (raw week 5, quiz Q3, ~line 5121). ^ising
 
+*Background, not in the course:* with $J > 0$ the lowest arrangement is two-fold degenerate, $\uparrow\downarrow\uparrow\cdots$ and $\downarrow\uparrow\downarrow\cdots$ (the two Néel states). Both the driver and $Z^jZ^{j+1}$ commute with the global spin flip $\prod_j X^j$, and the start state $|+\rangle^{\otimes N}$ is flip-symmetric. So an ideal sweep ends in the symmetric superposition of the two Néel states, and measuring in $z$ returns one of them at random. Either way the chain alternates.
+
 ## Sources
 
 - [Adiabatic quantum computing: concept](../sources/week-5-02-adiabatic-quantum-computing-concept.md)

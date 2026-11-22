@@ -257,7 +257,7 @@ Regarding Quantum Annealing, which of the following statements are **valid**?
 
 ### Q3: Adiabatic Quantum Computing: Ising Model
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 1  
 > **Raw:** [week5.md:5119](/mit-raw/week5.md) · **Concepts:** [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Consider a system comprising a long chain of $N$ spins in the presence of a strong magnetic field in the $x$ direction. The spins are thereby all initialized in the ground state, pointing in the $x$ direction, according to the Hamiltonian
