@@ -13,6 +13,7 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 | Page | Summary |
 |---|---|
+| [Exactly-1 3-SAT](concepts/exactly-1-3-sat.md) | 3-CNF search problem with exactly one true literal per clause; the course's Grover oracle example (solution 101). |
 | [RSA cryptosystem](concepts/rsa-cryptosystem.md) | Public-key crypto on a one-way function: $c=m^e \bmod N$, $d=e^{-1} \bmod (p-1)(q-1)$; breaks if $N$ can be factored. |
 | [Shor's algorithm](concepts/shors-algorithm.md) | Factoring reduced to order finding, then solved by quantum period finding. |
 | [Period finding](concepts/period-finding.md) | Quantum subroutine that estimates the period of $f(x) = a^x \bmod N$. |

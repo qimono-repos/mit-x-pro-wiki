@@ -60,3 +60,13 @@ Albert asked why there is no RSA concept page. RSA gets a full lesson in officia
 Backlinks added from `shors-algorithm`, `period-finding` and source notes `week-2-04`, `-05`, `-06`. Indexed.
 
 **Conflict (course-internal, recorded on the concept page):** the "Determining e and d" slide gives $3 \le e \le r$; the key-generation summary slide gives $3 \le e \le N-1$. Both require $\gcd(e, r)=1$.
+
+## [2026-11-22] query + ingest | test question: Week 4 Quiz Q5 "Exactly-1 3-SAT Problem II"
+
+Albert tested the vault against a live question. The screenshot matches `mit-raw/week5.md:5180` word for word (quiz inventory row: Week 4 quiz, Q5). The course covers all four statements in the "Introduction to Grover's Algorithm on the Quantum Experience" transcript and slide legend (~lines 3780–3840). The one gap: the course never defines **"satisfiable"** or CNF formally. It only uses "satisfies" and the truth table.
+
+**Policy:** the repo is **public**, so graded-quiz answers are discussed in chat and *not* filed here. Filed instead: the knowledge needed to answer.
+
+- Added external source `mit-raw/external/boolean-satisfiability.md`. Paraphrased definitions with links to Wikipedia, UIUC CS/ECE 374 and arXiv. Marked as not course material.
+- New concept `concepts/exactly-1-3-sat.md`: vocabulary, 3-SAT vs. Exactly-1 3-SAT, the course instance and truth table, the oracle construction (XOR parity + CCCX built from 3 Toffolis), Grover iterations (2 → ≈95%, 3 → ≈32%). Backlinked from `grovers-algorithm` and source notes `week-5-05`, `-06`, `-08`. Indexed.
+- Schema note: `mit-raw/external/` is a new folder for outside sources. AGENTS.md doesn't mention it yet (human's file).

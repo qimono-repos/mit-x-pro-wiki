@@ -37,3 +37,7 @@ Week 5 covers the algorithm, a walkthrough on the IBM Quantum Experience, and a 
 - [Quantum Experience](../sources/week-5-05-introduction-to-grover-s-algorithm-on-the-quantum-experience.md)
 - [Lab practicum](../sources/week-5-06-lab-practicum-grover-s-algorythm.md)
 - Raw: [week 5](/mit-raw/week5.md)
+
+## Related
+
+- [[concepts/exactly-1-3-sat]]: the course's worked oracle example (3 variables, solution $|101\rangle$, 2 iterations ≈ 95%).
