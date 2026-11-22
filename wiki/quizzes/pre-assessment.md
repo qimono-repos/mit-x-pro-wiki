@@ -78,6 +78,9 @@ Alice takes her photon ($A$) to the Moon and Bob takes his photon ($B$) to Mars.
 - [ ] **C.** Bob detects a horizontally polarized photon.
 - [ ] **D.** Bob detects a vertically polarized photon with 50% chance.
 
+> [!tip]- 💡 Hint
+> After Alice's click, write Bob's single-photon state. Then apply Malus' law: $P = |\langle \theta|\psi\rangle|^2 = \cos^2(\text{angle between them})$.
+
 > [!info]- Original eDX screenshot (shows saved selections)
 > ![](/mit-raw/week2/media/media/image8.png)
 

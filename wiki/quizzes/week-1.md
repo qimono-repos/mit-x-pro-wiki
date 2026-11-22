@@ -63,6 +63,9 @@ In the RSA protocol described in the video and the text unit, Alice follows five
 ##
 
 
+> [!tip]- 💡 Hint
+> Factor $r=(p-1)(q-1)$ into primes first; a valid $e$ must share none of them. For $d$, solve $e\,d \equiv 1 \pmod r$ with the extended Euclidean algorithm (or `A^(-1) mod C`).
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week2/media/media/image2.png)
 
@@ -122,6 +125,9 @@ What is the value of the ciphertext? You can use a modular calculator such as th
 c = [empty text box]
 
 
+> [!tip]- 💡 Hint
+> Which key does the *sender* hold? Use $c = m^{\,?} \bmod N$, and sanity-check by decrypting your $c$ with the other exponent.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week1/media/media/image35.png)
 
@@ -135,6 +141,9 @@ Bob encrypted a plaintext message as the ciphertext $c = 9167$ and sent it to Al
 
 $m =$ [empty text box]
 
+
+> [!tip]- 💡 Hint
+> Rebuild Alice's private key first: $r=(p-1)(q-1)$, then $d=e^{-1}\bmod r$ **for this $e$**. Then $m=c^{d}\bmod N$.
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week1/media/media/image72.png)
@@ -158,6 +167,9 @@ When $j_1 = 1$ and $j_2 = 0$, which is the value of the second qubit's relative 
 - [ ] **C.** $\phi_2 = \pi/2$
 - [ ] **D.** $\phi_2 = \pi$
 
+> [!tip]- 💡 Hint
+> $0.j_1j_2$ is a **binary** fraction: $0.j_1j_2 = j_1/2 + j_2/4$.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week1/media/media/image63.png)
 
@@ -173,6 +185,9 @@ Which of the following quantum circuits implements the Quantum Fourier Transform
 - [ ] **B.** Top: H, $R_2$, SWAP. Bottom: control • under the $R_2$, then SWAP. ($R_2$ controlled from below.)
 - [ ] **C.** Top: H, control •, SWAP. Bottom: $R_2$ (controlled from the top •), then H, then SWAP.
 - [ ] **D.** Top: H, $R_2$, SWAP. Bottom: control • under the $R_2$, then H, then SWAP.
+
+> [!tip]- 💡 Hint
+> Each qubit needs its own Hadamard, plus controlled-$R_k$ phases from the qubits below it, then a SWAP to fix the order. Count the Hadamards in each option.
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week1/media/media/image50.png)
@@ -202,6 +217,9 @@ Shor's quantum algorithm finds the period of a modular exponentiation function $
 - [ ] **B.** The unitary $U_f$ implements the periodic function $f(x)$
 - [ ] **C.** The optional measurement of the second register leaves a reduced superposition state in the first register that retains its periodic structure
 - [ ] **D.** The second quantum Fourier transform leaves the first register in a superposition of states which can be measured to extract the period of $f(x)$
+
+> [!tip]- 💡 Hint
+> Apply each stage to $|0\rangle^{\otimes n}$ and write the state. What does a QFT (equivalently $H^{\otimes n}$) do to $|0\dots0\rangle$?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week1/media/media/image58.png)

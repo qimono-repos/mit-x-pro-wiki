@@ -66,6 +66,9 @@ Which of the following is **not valid**?
 - [ ] **C.** The Hamiltonian used to simulate the particle position only needs the potential energy term $V(x)$, because the kinetic energy describes the particle momentum
 - [ ] **D.** Although the position of a particle can take a continuous set of values, its quantum state can be written as a superposition of a discrete set of states
 
+> [!tip]- 💡 Hint
+> Write the full $\hat H$ for a particle and check: inside the box $V(x)=0$. What would be left if you dropped the kinetic term?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image57.png)
 
@@ -96,6 +99,9 @@ Which of the following phrases is **not valid**?
 - [ ] **C.** The Lie product formula given by, $$\exp\big(-i(H_1+H_2)t\big)=\lim_{n\to\infty}\left(\exp\left(-iH_1\frac{t}{n}\right)\exp\left(-iH_2\frac{t}{n}\right)\right)^{n},$$ can be used to determine the time evolution of $\exp(-iHt)\,|\psi_0\rangle$ and is exact in the limit $n\to\infty$
 - [ ] **D.** The Trotter-Suzuki expansion can only be used for Hamiltonians of the form $H=H_1+H_2$
 
+> [!tip]- 💡 Hint
+> Does the product formula $\big(\prod_\ell e^{-iH_\ell t/n}\big)^n$ care how many terms $H_\ell$ there are?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image56.png)
 > ![](/mit-raw/week4/media/media/image6.png)
@@ -118,6 +124,9 @@ Which of the following sentences about simulating quantum chemistry problems is/
 - [ ] **C.** The full Hamiltonian of an arbitrary molecule can be written as $H=T_{\mathrm{nuc}}+T_{\mathrm{elec}}$, where $T_{\mathrm{nuc}}$ and $T_{\mathrm{elec}}$ refer to the kinetic energy of the nuclei and electrons respectively
 - [ ] **D.** To exactly simulate the interaction between molecules, one has to consider the electron-electron, nucleus-nucleus, and electron-nucleus terms for the interaction between the electrons and nuclei of every atom
 
+> [!tip]- 💡 Hint
+> List every term of a molecular Hamiltonian: kinetic energies **and** all pairwise Coulomb interactions. Then check each option against that list.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image7.png)
 
@@ -133,6 +142,9 @@ Regarding the phase estimation algorithm, which of the following statements is *
 - [ ] **B.** It determines the phase associated with an eigenvalue of $U|\psi\rangle=\exp(i 2\pi\theta)|\psi\rangle$
 - [ ] **C.** It finds the precise value of the phase $\theta$
 - [ ] **D.** It uses the quantum Fourier transform
+
+> [!tip]- 💡 Hint
+> A $t$-qubit register can hold only $t$ binary digits of $\theta$. What if $\theta$ needs more?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image39.png)
@@ -217,6 +229,9 @@ The figure above shows the original orientation of a 3D object, a cow. Using the
 - [ ] **C.** Rotation of 90 degrees around the y axis and rotation of 45 degrees around y
 - [ ] **D.** Rotation of 90 degrees around the y axis and rotation of 45 degrees around x
 
+> [!tip]- 💡 Hint
+> Rotations about the *same* axis just add their angles. What happens when the axes differ? Try it with a book in your hands.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image51.png)
 > ![](/mit-raw/week4/media/media/image31.png)
@@ -234,6 +249,9 @@ Which of the following correspond to the exact time evolution of the initial qua
 - [ ] **B.** $|\psi(t)\rangle=\exp\big(-i(H_1+H_2)\,t/\hbar\big)|\psi(0)\rangle$
 - [ ] **C.** $|\psi(t)\rangle=\exp(-iH_1 t/\hbar)\exp(-iH_2 t/\hbar)|\psi\rangle$
 - [ ] **D.** $|\psi(t)\rangle=\exp(-iH_2 t/\hbar)\exp(-iH_1 t/\hbar)|\psi\rangle$
+
+> [!tip]- 💡 Hint
+> Solve Schrödinger's equation formally, then recall when $e^{A}e^{B} = e^{A+B}$ holds (Baker–Campbell–Hausdorff).
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image1.png)

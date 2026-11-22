@@ -27,6 +27,9 @@ Regarding Adiabatic Quantum Computation, which of the following statements is **
 - [ ] **C.** In Adiabatic Quantum Computation, the quantum state evolves according to several constant Hamiltonians.
 - [ ] **D.** Adiabatic evolution can simulate arbitrary quantum circuits; it is universal.
 
+> [!tip]- 💡 Hint
+> Write $H(t)$ as the course does. Is it a list of fixed Hamiltonians, or one interpolation?
+
 > [!info]- Original eDX screenshot (shows saved selections)
 > ![](/mit-raw/week5/media/media/image41.png)
 
@@ -42,6 +45,9 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 - [ ] **B.** Evaluate if it is possible to modify the evolution of the system to find a way to increase the minimum gap.
 - [ ] **C.** Evaluate the probability for the system staying in the ground state through the evolution, knowing that the success will be probabilistic but perhaps with a high probability.
 - [ ] **D.** Initialize the system in an arbitrary state of a Hamiltonian you want to optimize and let it decay to its ground state (without evolving the system).
+
+> [!tip]- 💡 Hint
+> The runtime must satisfy $T \gg 1/\Delta_{min}^2$ and fit inside the coherence time. Which options shrink the required $T$, and which just break the condition?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image36.png)
@@ -67,6 +73,9 @@ Regarding Grover's algorithm, which of the following statements are **not valid*
 - [ ] **C.** The Grover Operator reflects the input state about the solution state $|\beta\rangle$.
 - [ ] **D.** The number of iterations necessary for finding the solution state is bound by $R\le\left(\frac{\pi}{4}\sqrt{\frac{N}{M}}\right)$, where $M$ is the number of marked items in the list.
 
+> [!tip]- 💡 Hint
+> How many qubits index $2^n$ items? And write $G$ as a product of two reflections: about which two states?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image2.png)
 
@@ -82,6 +91,9 @@ For a list of $N=512$ items, how many qubits would you need to implement Grover'
 - [ ] **B.** 512 qubits
 - [ ] **C.** $2^{512}$ qubits
 - [ ] **D.** $2\cdot 512$ qubits
+
+> [!tip]- 💡 Hint
+> Solve $2^n = 512$.
 
 > [!info]- Original eDX screenshot (shows saved selections)
 > ![](/mit-raw/week5/media/media/image1.png)
@@ -107,6 +119,9 @@ Recall that $x_1\lor x_2$ means $x_1$ OR $x_2$; $x_1\land x_2$ means $x_1$ AND $
 - [ ] **B.** The input $(x_1,x_2,x_3)=(0,1,0)$ has three True literals in the third clause.
 - [ ] **C.** Each clause of the Exactly-1 3-SAT problem can be represented by a sub-circuit and evaluated independently.
 - [ ] **D.** The oracle operation is obtained by combining all sub-circuits for all clauses, such that it outputs True if and only if all clauses are satisfied with exactly one True literal each.
+
+> [!tip]- 💡 Hint
+> A *literal* includes its negation sign. Evaluate each literal of clause 3 at $(x_1,x_2,x_3)=(0,1,0)$ one by one: $\neg x_1 = ?,\ x_2 = ?,\ x_3 = ?$
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image9.png)
@@ -151,6 +166,9 @@ Adiabatic evolution is difficult to implement in a realistic quantum computer be
 - [ ] **C.** Evolving the system too quickly will cause Landau-Zener transitions to higher energy states.
 - [ ] **D.** Adiabatic evolution requires ideal qubits with infinite coherence times.
 
+> [!tip]- 💡 Hint
+> Start from the adiabatic condition $T \gg 1/\Delta_{min}^2$. Is that runtime finite? Which options describe real obstacles to meeting it?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image33.png)
 
@@ -166,6 +184,9 @@ Regarding Quantum Annealing, which of the following statements are **valid**?
 - [ ] **B.** As the minimum gap increases, the evolution of the system through the gap region must be slowed down to ensure the quantum annealer remains in its ground state.
 - [ ] **C.** To date, quantum annealing computers have not demonstrated quantum enhancement for a general class of optimization problems.
 - [ ] **D.** One of the goals of quantum annealing is to engineer a system of qubits with an Ising Hamiltonian corresponding to the optimization problem of interest.
+
+> [!tip]- 💡 Hint
+> Use $T \sim 1/\Delta_{min}^2$: if the minimum gap grows, does the required time grow or shrink?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image32.png)
@@ -202,6 +223,9 @@ What is the arrangement of spins in an $N$-spin chain if the system evolves to t
 - [ ] **C.** The spins will alternate between up and down, such that neighboring spins are anti-aligned.
 - [ ] **D.** The spins will align along the $X$ direction.
 
+> [!tip]- 💡 Hint
+> Compute the total energy $\sum_{\text{bonds}} J\langle Z_j\rangle\langle Z_{j+1}\rangle$ for each configuration on a chain of $N$ spins ($N-1$ bonds), with $J>0$. Which is lowest?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image6.png)
 
@@ -218,6 +242,9 @@ The $n$-qubit Grover operator may be defined as $G=(2|\psi\rangle\langle\psi|-I)
 - [ ] **C.** The state $|\psi\rangle$ is the $n$-qubit equal superposition state.
 - [ ] **D.** The number of repetitions of the Grover operator, neccessary to find the marked items on a list, is upper-bounded by $\dfrac{\pi}{4}\sqrt{\dfrac{N}{M}}$, where $N$ is the number of total items and $M$ marked items.
 
+> [!tip]- 💡 Hint
+> Expand $G$ in the 2D plane spanned by $|\alpha\rangle$ (non-solutions) and $|\beta\rangle$ (solutions). Two reflections compose to what?
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image42.png)
 
@@ -233,6 +260,9 @@ Which of the following statements are **valid**?
 - [ ] **B.** In Boolean algebra, the symbol $\neg$ represents the NOT operation, and it flips the value of the following bit.
 - [ ] **C.** the symbols $\vee$ and $\wedge$ represent the operations OR and AND respectively.
 - [ ] **D.** Given a Boolean function $f$ with three Boolean variables $x_1,x_2,x_3$, the function is said to be satisfiable if there is an assignment of $x_1,x_2,x_3$ such that $f(x_1,x_2,x_3)=1$.
+
+> [!tip]- 💡 Hint
+> Check each statement against the formal definitions: CNF, literal, and *satisfiable* ($\exists x: f(x)=1$). See the external SAT source.
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week5/media/media/image35.png)

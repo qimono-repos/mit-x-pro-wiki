@@ -85,6 +85,9 @@ Which is the key to be used by Alice and Bob?
 - [ ] **C.** 0110
 - [ ] **D.** 1111
 
+> [!tip]- 💡 Hint
+> Mark each column *match / no match* by basis only (rectilinear H/V vs diagonal ±45). Keep matches, then map H, +45 → 0 and V, −45 → 1.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image24.png)
 > ![](/mit-raw/week3/media/media/image30.png)
@@ -104,6 +107,9 @@ According to the figure below, which phrase is **not valid**?
 - [ ] **B.** For a pair of photons of the same frequency, $\theta_1$ and $\theta_2$ are always equal.
 - [ ] **C.** Detecting photon 1 immediately destroys photon 2.
 - [ ] **D.** Not every photon that passes through the crystal is converted to an entangled photon pair.
+
+> [!tip]- 💡 Hint
+> Write energy and momentum conservation for pump → signal + idler. Then ask: does measuring one photon *destroy* the other, or only collapse the joint state?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image53.png)
@@ -170,6 +176,9 @@ Alice takes her photon ($A$) to the Moon and Bob takes his photon ($B$) to Mars.
 - [ ] **C.** If Bob's detector detects a photon, it registers a horizontally polarized photon.
 - [ ] **D.** If Bob's detector detects a photon, it registers a vertically polarized with a 50% chance.
 
+> [!tip]- 💡 Hint
+> Collapse first (what is Bob's photon after Alice's click?), then compute $|\langle +45|\psi_B\rangle|^2$. Be clear about *which* polarization the detector reads.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image54.png)
 > ![](/mit-raw/week3/media/media/image8.png)
@@ -186,6 +195,9 @@ Which of the following phrases are **true**?
 - [ ] **B.** A distributed entangled state can be used as a resource for quantum communication protocols.
 - [ ] **C.** When communicating over an optical fiber, the total attenuation of photons in the fiber is proportional to the distance of the transmission.
 - [ ] **D.** The need for quantum repeaters comes from the loss of information due to scattering and absorption of photons during transmission over optical fibers.
+
+> [!tip]- 💡 Hint
+> Fiber loss is quoted in dB/km. Is a dB figure linear or exponential in distance, and what about the transmitted *power* $10^{-\alpha L/10}$?
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image52.png)
@@ -222,6 +234,9 @@ Which is the key to be used by Alice and Bob?
 - [ ] **C.** 0110
 - [ ] **D.** 1111
 
+> [!tip]- 💡 Hint
+> Mark each column *match / no match* by basis only (rectilinear H/V vs diagonal ±45). Keep matches, then map H, +45 → 0 and V, −45 → 1.
+
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image26.png)
 
@@ -243,6 +258,9 @@ Alice takes her photon ($A$) to Jupiter and Bob takes his photon ($B$) to Pluto.
 - [ ] **B.** Bob will not detect any photon.
 - [ ] **C.** If Bob's detector dectects a photon, it registers a vertically polarized photon with 75% chance.
 - [ ] **D.** If Bob's detector dectects a photon, it registers a horizontally polarized photon with 50% chance.
+
+> [!tip]- 💡 Hint
+> Same steps as Entanglement I with $V$ instead of $H$: $|\langle +45|V\rangle|^2 = ?$
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image40.png)
@@ -306,6 +324,9 @@ For a half-wave plate with angle $\theta$ with respect to the horizontal, which 
 - [ ] **B.** A half-wave plate with $\theta = 0$ corresponds to an $Z$-gate in the circuit model.
 - [ ] **C.** A half-wave plate with $\theta = 45$ corresponds to an $X$-gate in the circuit model.
 - [ ] **D.** A half-wave plate with $\theta = 45$ corresponds to an $Z$-gate in the circuit model.
+
+> [!tip]- 💡 Hint
+> Write the plate as a $2\times2$ matrix with columns = images of $|H\rangle, |V\rangle$, then plug in $\theta = 0$ and $45°$ and compare with $X = \left(\begin{smallmatrix}0&1\\1&0\end{smallmatrix}\right)$, $Z = \left(\begin{smallmatrix}1&0\\0&-1\end{smallmatrix}\right)$.
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week3/media/media/image39.png)

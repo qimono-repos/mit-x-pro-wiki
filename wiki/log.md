@@ -118,3 +118,7 @@ Open structural gap, top priority before submitting Week 4: the "Quantum Anneali
 ## [2026-11-22] ingest | external: adiabatic computation and finite coherence
 
 Albert asked whether the AQC II stem ("coherence time is limited… close to the time set by the minimum gap") bears on the Adiabatic Evolution "infinite coherence" option. It does: the course models finite coherence as hard-but-workable, and the Learn text only ever requires a *sufficiently* slow, gap-limited runtime. Added `mit-raw/external/adiabatic-decoherence.md` (Childs–Farhi–Preskill 2001; Albash–Lidar 2015; Campos Venuti et al. 2016) and linked it from `concepts/adiabatic-quantum-computing.md#^minimum-gap`. This supersedes the "judgment call" framing in the earlier conflict entry: the course plus the literature now favour reading "requires infinite coherence" as an overstatement.
+
+## [2026-11-22] ingest | hints for math-based quiz questions
+
+Added a folded `> [!tip]- 💡 Hint` callout to 30 math or derivation questions in `wiki/quizzes/` (RSA, QFT, period finding, BB84 sifting, polarization and Malus' law, half-wave plate matrix, fiber dB loss, SPDC conservation laws, particle in a box, molecular Hamiltonian, Trotter and BCH, rotations, phase estimation, adiabatic condition $T \gg 1/\Delta_{min}^2$, Grover register and reflections, Exactly-1 3-SAT literal evaluation, Ising energies). Hints point at the method or first step, never the answer. The full worked developments (wrong path marked `← ✗`, then the right path) live only in the private Anki deck.
