@@ -23,7 +23,7 @@ Manin (1980) and Feynman (1982) observed that simulating a quantum system on a c
 
 ([raw week 4](/mit-raw/week4.md), "Ideas and Issues" slides at lines 398 and 1009; transcript ~4:17.) ^ideas-and-issues
 
-**Quantum-inspired classical methods.** "The technique that started all of this in physics was the density matrix renormalization group idea," linked by the lecture to the Nobel prize of Ken Wilson and colleagues. Newer methods include PEPS and MERA. These are *classical* algorithms; neutral-atom hardware is not what PEPS means (same transcript, ~6:48–7:18). ^quantum-inspired
+**Quantum-inspired classical methods.** "The technique that started all of this in physics was the density matrix renormalization group idea," linked by the lecture to the Nobel prize of Ken Wilson and colleagues. Newer methods include PEPS and MERA. These are *classical* algorithms; neutral-atom hardware is not what PEPS means (same transcript, ~6:48–7:18). The course's further reading, *DMRG for Dummies* ([external source](/mit-raw/external/dmrg-for-dummies.md)), gives the history: Wilson's numerical renormalization group came first, and **Steven White's DMRG (1992)** made it work for strongly interacting chains. DMRG keeps only the most important states of each block (the largest reduced-density-matrix eigenvalues). It excels in 1D, where entanglement is limited, and struggles in 2D (area law), which is where PEPS-type methods come in. Its time-dependent version uses the same Suzuki–Trotter splitting as [[concepts/trotterization]]. ^quantum-inspired
 
 ## Sources
 
