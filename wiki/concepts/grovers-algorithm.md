@@ -27,7 +27,7 @@ $$
 \sin \theta = \frac{1}{\sqrt{N}}
 $$
 
-for a single marked item. After about $\lfloor \pi/4 \sqrt{N} \rfloor$ iterates the marked state is measured with high probability. With $M$ marked items the course bounds the number of repetitions by $R \le \frac{\pi}{4}\sqrt{N/M}$; overshooting lowers the success probability again. ^iteration-bound
+for a single marked item. After about $\lfloor \pi/4 \sqrt{N} \rfloor$ iterates the marked state is measured with high probability. With $M$ marked items the course bounds the number of repetitions by $R \le \frac{\pi}{4}\sqrt{N/M}$; overshooting lowers the success probability again. Exact count from the slide: $R = \mathrm{CI}\!\left(\arccos\sqrt{M/N}\,/\,\theta\right)$ (CI = closest integer), which reaches within $\theta/2 < \pi/4$ of $|\beta\rangle$, so success probability is $> 1/2$. Upper bound: $R \le \lceil \tfrac{\pi}{4}\sqrt{N/M}\rceil \to O(\sqrt N)$ ([raw week 5](/mit-raw/week5.md), "Number of Iterations" slide, line 3317). Transcript note: "state CI" in the captions is speech-to-text for "state $|\psi\rangle$". ^iteration-bound
 
 **Register size.** The index register holds $x = 0, \dots, N-1$ with $N = 2^n$, so it needs $n = \log_2 N$ qubits (plus the oracle's ancilla), not $N$, $n^2$ or $2^N$ ([raw week 5](/mit-raw/week5.md), quantum search, ~2:23). ^register-size
 

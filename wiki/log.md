@@ -90,3 +90,7 @@ While building Albert's Anki deck v2 (kept outside this public repo because it h
 - **Entanglement questions** (pre-Q4, Week 2 CYU Entanglement I, Week 2 quiz Q2): the collapse reading and the strict optics reading select different options. Note added to `concepts/photon-polarization-qubits.md`.
 - **Week 1 quiz Q4 (QFT III):** controlled-phase gates are symmetric, so two of the drawn circuits are the same unitary (checked numerically). The textbook drawing is the intended one. Already reflected in `concepts/quantum-fourier-transform.md`.
 - **Week 4 quiz Q1 (Adiabatic Evolution):** whether "requires infinite coherence times" counts as a reason. The lecture says it "will work, for sure, if you go infinitely slowly… not a practical algorithm." Judgment call; see `concepts/adiabatic-quantum-computing.md#^minimum-gap`.
+
+## [2026-11-22] query | test question: Week 4 Quiz Q4 "Grover Operator"
+
+Matches `mit-raw/week5.md:5159` verbatim. Fully covered by the course: the quantum search transcript (~6:37–8:41) and the "Number of Iterations" slide (line 3317). No external source needed. Extended `concepts/grovers-algorithm.md#^iteration-bound` with the slide's exact R formula, the ceiling form of the bound, and the "CI" = ψ caption note. Answer kept out of the repo (it's in the private Anki deck v2).
