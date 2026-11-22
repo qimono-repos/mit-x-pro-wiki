@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 1/11 ✅ CHECKED in eDX · 10 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 2/11 ✅ CHECKED in eDX · 9 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -212,17 +212,16 @@ Which of the following are **valid** statements?
 
 ### Q3: Non-Commuting Terms
 
-> **Status:** ⏳ pending · **Type:** Select all that apply  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply  
 > **Raw:** [week4.md:7817](/mit-raw/week4.md) · **Concepts:** [[concepts/trotterization|Trotterization]]
 
-Two operators, $U_1$ and $U_2$, are said to not commute if $U_1U_2
-eq U_2U_1$. This means that the order in which the operators are applied matters. Applying $U_1$ and then $U_2$ is not the same as applying $U_2$ and then $U_1$.
+Two operators, $U_1$ and $U_2$, are said to not commute if $U_1U_2\neq U_2U_1$. This means that the order in which the operators are applied matters. Applying $U_1$ and then $U_2$ is not the same as applying $U_2$ and then $U_1$.
 
-*(Figure: original orientation of a 3D cow, in the screenshot.)*
+*(Figure: original orientation of a 3D cow.)*
 
-The figure above shows the original orientation of a 3D object, a cow. Using the figures in each alternative, identify which of …
+The figure above shows the original orientation of a 3D object, a cow. Using the figures in each alternative, identify which of the operations do not commute.
 
-*(The rest of the stem is cut off in the capture. Each option shows the cow after both rotation orders, left vs right.)*
+*(Each option shows two panels: left, the 90° rotation first, then the 45° one; right, the reverse order. The figures are helpers: the option text alone fixes the axes and angles.)*
 
 - [ ] **A.** Rotation of 90 degrees around the x axis and rotation of 45 degrees around x
 - [ ] **B.** Rotation of 90 degrees around the x axis and rotation of 45 degrees around y
@@ -231,6 +230,9 @@ The figure above shows the original orientation of a 3D object, a cow. Using the
 
 > [!tip]- 💡 Hint
 > Rotations about the *same* axis just add their angles. What happens when the axes differ? Try it with a book in your hands.
+
+> [!info]- Original eDX screenshot (full page)
+> ![](/wiki/quizzes/media/w3-non-commuting-terms.png)
 
 > [!info]- Original eDX screenshot
 > ![](/mit-raw/week4/media/media/image51.png)
