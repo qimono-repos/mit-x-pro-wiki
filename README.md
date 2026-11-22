@@ -1,6 +1,6 @@
 # mit-x-pro-wiki
 
-Obsidian vault for MIT xPRO QCFx1 (Introduction to Quantum Computing), structured as an [LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+Obsidian vault for MIT xPRO QCFx2 (Introduction to Quantum Computing), structured as an [LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
 ## Open it
 

@@ -1,4 +1,4 @@
-# Schema — MIT xPRO QCFx1 LLM wiki
+# Schema — MIT xPRO QCFx2 LLM wiki
 
 This vault is a [Karpathy LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): a persistent, interlinked markdown knowledge base an LLM maintains, not a RAG pile that is re-derived on every question.
 
