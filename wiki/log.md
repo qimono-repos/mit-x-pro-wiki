@@ -131,3 +131,12 @@ Exactly-1 3-SAT Problem I graded 1/1 (3rd graded practice, after N=512 and Synta
 - Quantum Annealing II (CYU on the "Quantum Annealing: Expert View" page) was never in the raw capture. Transcribed from Albert's eDX screenshot into `wiki/quizzes/week-4.md`, with the screenshot in `wiki/quizzes/media/`. `mit-raw/` left untouched; that page still needs a proper capture (prose + SRT). The outline's other annealing CYU (I) and the 3rd adiabatic CYU are still missing. 19 / 53 checked.
 - Lint fix on [[concepts/grovers-algorithm]]: the page mixed two angle conventions (sin θ = 1/√N with a 2θ step, then the course's CI(arccos√(M/N)/θ)). Rewritten in the course's convention (raw week 5, "Geometric Interpretation"): |ψ⟩ = cos(θ/2)|α⟩ + sin(θ/2)|β⟩, each iterate rotates by θ.
 - Conflict noted: the course's graded explanations count Grover's register differently: n qubits in one, n + 1 (index + oracle ancilla) in another. Not a real contradiction; the concept page already says "n index qubits plus the oracle's ancilla".
+
+## [2026-11-22] ingest | Two missing Week 4 annealing transcripts
+- New raw files (the pages were missing from `week5.md`; transcripts downloaded by Albert, verbatim SRT):
+  - `mit-raw/week5-quantum-annealing.md`: the Quantum Annealing lecture (Gabriel Samach), Q2W4V4.
+  - `mit-raw/week5-quantum-annealing-expert-view.md`: the classroom D-Wave talk, Q2W4V5 (lecturer identified by Albert as Peter Shor). This is the page with CYU Quantum Annealing II.
+- Source notes `week-5-03a`, `week-5-03b`; index and course map updated.
+- [[concepts/quantum-annealing]] rewritten from the course itself. New blocks `^thermal-excitation` (thermal photons vs gap, 10 mK vs 5 GHz ≈ 250 mK), `^protocol`, `^dwave`. "Ising" is now course-sourced (lecture ~7:14), so the external source is supporting detail rather than the only basis.
+- [[concepts/adiabatic-quantum-computing]]: "analog" is now course-sourced (was flagged *Background*); added `^local-schedule` (slow down only at the avoided crossing; adiabatic Grover's gap ~1/√N).
+- Quiz impact: Quantum Annealing III and Adiabatic Evolution are now backed almost verbatim by the lecture. Quantum Annealing II graded 1/1. Still missing: the annealing lecture page's own CYU (likely Annealing I), its Learn prose, and the 3rd adiabatic CYU.

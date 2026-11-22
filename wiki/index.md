@@ -118,6 +118,8 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 - [Introduction to Quantum optimization](sources/week-5-01-introduction-to-quantum-optimization.md) — Course page.
 - [Adiabatic quantum computing: concept](sources/week-5-02-adiabatic-quantum-computing-concept.md) — Course page.
 - [Adiabatic Quantum Computing: Expert View](sources/week-5-03-adiabatic-quantum-computing-expert-view.md) — Course page.
+- [Quantum Annealing](sources/week-5-03a-quantum-annealing.md) — Course page, transcript only (Gabriel Samach): why AQC fails in practice, annealing, Ising encoding.
+- [Quantum Annealing: Expert View](sources/week-5-03b-quantum-annealing-expert-view.md) — Course page, transcript only (classroom, D-Wave history): why it's called annealing, no proof of advantage.
 - [Grover's Algorithm: Quantum Search](sources/week-5-04-grover-s-algorithm-quantum-search.md) — Course page.
 - [Introduction to Grover's Algorithm on the Quantum Experience](sources/week-5-05-introduction-to-grover-s-algorithm-on-the-quantum-experience.md) — Course page.
 - [Lab practicum: Grover's algorythm](sources/week-5-06-lab-practicum-grover-s-algorythm.md) — Course page.

@@ -55,7 +55,7 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### ⚠️ Adiabatic QC 3rd CYU + Quantum Annealing CYU I — NOT CAPTURED
 
-> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing II (eDX screenshot, 2026-11-22). The 'Quantum Annealing' pages are missing from the raw capture.
+> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing II (Expert View page). Both annealing transcripts are now in mit-raw (2026-11-22). Still missing: the Quantum Annealing lecture page's own question (likely Annealing I), its Learn prose, and the 3rd adiabatic CYU.
 
 
 ## CYU · Quantum Annealing
@@ -63,8 +63,8 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### Q1: Quantum Annealing II
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 2  
-> **Raw:** eDX screenshot, 2026-11-22 (page 'Quantum Annealing: Expert View', not in raw capture) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 2  
+> **Raw:** [week5-quantum-annealing-expert-view.md](/mit-raw/week5-quantum-annealing-expert-view.md) (question text from eDX screenshot, 2026-11-22) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 In quantum annealing, what is the most relevant consequence of the system temperature not being low enough?
 
