@@ -40,6 +40,13 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 | [Phase estimation](concepts/phase-estimation.md) | Read an eigenphase into a clock register with the QFT. |
 | [VQE](concepts/vqe.md) | Hybrid variational loop for ground-state energy. |
 
+## Quizzes
+
+| Page | Summary |
+|---|---|
+| [Quizzes: progress](quizzes/index.md) | All 52 graded questions in markdown (`- [ ] **A.**` options, original screenshots folded), with per-question status: ✅ CHECKED in eDX / ⏳ pending. No answers. |
+| [Pre-Assessment](quizzes/pre-assessment.md) · [Week 1](quizzes/week-1.md) · [Week 2](quizzes/week-2.md) · [Week 3](quizzes/week-3.md) · [Week 4](quizzes/week-4.md) | Per-week quiz pages. |
+
 ## Analyses
 
 | Page | Summary |

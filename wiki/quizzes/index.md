@@ -1,0 +1,20 @@
+---
+title: Quizzes
+type: quiz-index
+---
+
+# Quizzes: progress
+
+**Overall:** 12/52 ✅ CHECKED in eDX · 40 ⏳ pending · 3 ⚠️ not captured. Due **Dec 14, 2026, 8:30 PM GMT-3**.
+
+| Section | Page | Checked | Pending | Not captured |
+|---|---|---|---|---|
+| Pre-Assessment | [[quizzes/pre-assessment]] | 9 | 0 | 0 |
+| Week 1 | [[quizzes/week-1]] | 0 | 9 | 1 |
+| Week 2 | [[quizzes/week-2]] | 0 | 12 | 0 |
+| Week 3 | [[quizzes/week-3]] | 0 | 11 | 1 |
+| Week 4 | [[quizzes/week-4]] | 3 | 8 | 1 |
+
+**Conventions.** `✅ CHECKED in eDX` = reviewed and done on the platform (progress only, no answer). `⏳ pending` = still to do. Options carry added letters A–E to match the private Anki deck. Source of truth for the text is `mit-raw/`; these pages are a cleaned transcription. To mark progress, change the status line of a question and the counts here.
+
+Related: [[analyses/quiz-inventory]] (what's captured) · [[analyses/quiz-concept-map]] (which concept each question tests).

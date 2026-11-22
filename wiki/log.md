@@ -94,3 +94,11 @@ While building Albert's Anki deck v2 (kept outside this public repo because it h
 ## [2026-11-22] query | test question: Week 4 Quiz Q4 "Grover Operator"
 
 Matches `mit-raw/week5.md:5159` verbatim. Fully covered by the course: the quantum search transcript (~6:37–8:41) and the "Number of Iterations" slide (line 3317). No external source needed. Extended `concepts/grovers-algorithm.md#^iteration-bound` with the slide's exact R formula, the ceiling form of the bound, and the "CI" = ψ caption note. Answer kept out of the repo (it's in the private Anki deck v2).
+
+## [2026-11-22] ingest | quiz layer: wiki/quizzes (markdown transcription + progress)
+
+At Albert's request, every graded question is now available as clean markdown in a new layer, `wiki/quizzes/` (`index.md` + one page per section). `mit-raw/` stays immutable per the schema, so this is a cleaned transcription, not an edit of raw. Per question: the title, status, type, attempts, raw line, title-level concept links, the stem, the options as `- [ ] **A.** …` (letters added to match the Anki deck, not on eDX), and the original screenshot(s) in a folded `[!info]-` callout.
+- **Status convention:** `✅ CHECKED in eDX` (progress only, no answer) / `⏳ pending` / `⚠️ not captured`. Currently 12/52 checked: the Pre-Assessment (9) plus Week 4 quiz Q3, Q4 and Q5.
+- **Transcription fixes vs raw:** the VQE CYU stem was completed from its screenshot (raw cut short). The cow-rotation options were rebuilt from the four tile labels. Trotterization option C was restored in full. Stray figure-label math and `#` headings were dropped from stems. `\( \)` was converted to `$ $` for Obsidian.
+- **Test question this session:** Week 4 quiz Q3 (Ising). Matches `mit-raw/week5.md:5119`. Covered by `concepts/adiabatic-quantum-computing#^ising`. The stem's sum $J\sum_{i\neq j}Z^iZ^{j+1}$ mixes indices; it means nearest neighbours.
+- Schema note for the human: AGENTS.md doesn't list `wiki/quizzes/` yet.
