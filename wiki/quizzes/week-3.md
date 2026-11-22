@@ -240,7 +240,7 @@ The figure above shows the original orientation of a 3D object, a cow. Using the
 
 ### Q4: Evolution of a State
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 1  
 > **Raw:** [week4.md:7878](/mit-raw/week4.md) · **Concepts:** [[concepts/trotterization|Trotterization]]
 
 Which of the following correspond to the exact time evolution of the initial quantum state $|\psi(0)\rangle$ under a Hamiltonian $H=H_1+H_2$?

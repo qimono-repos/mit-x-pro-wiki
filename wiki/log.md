@@ -166,3 +166,6 @@ AQC I graded 1/1. All Week 4 practice questions are now graded: N=512, Syntax Er
 
 ## [2026-11-22] update | First one-shot Week 4 quiz answer graded: Ising Model 1/1
 Quantum Optimization Quiz Q3 (Ising Model) submitted and graded 1/1. Background note added to [[concepts/adiabatic-quantum-computing]]: the two degenerate Néel states and the global spin-flip symmetry ∏X.
+
+## [2026-11-22] update | Week 3 quiz Q4 (Evolution of a State) graded 1/1
+The course's solution matches [[concepts/trotterization#^exact-vs-product]], including the $n \to \infty$ limit. It writes the Trotter product without $\hbar$ (implicitly $\hbar = 1$), as our page does.
