@@ -13,6 +13,7 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 | Page | Summary |
 |---|---|
+| [RSA cryptosystem](concepts/rsa-cryptosystem.md) | Public-key crypto on a one-way function: $c=m^e \bmod N$, $d=e^{-1} \bmod (p-1)(q-1)$; breaks if $N$ can be factored. |
 | [Shor's algorithm](concepts/shors-algorithm.md) | Factoring reduced to order finding, then solved by quantum period finding. |
 | [Period finding](concepts/period-finding.md) | Quantum subroutine that estimates the period of $f(x) = a^x \bmod N$. |
 | [Simon's algorithm](concepts/simons-algorithm.md) | Hidden-subgroup precursor that inspired Shor's circuit. |

@@ -52,3 +52,11 @@ Run by Claude (Opus 5.5) on the vault at `fadbf85`. Checks: link resolution, orp
 Albert asked whether every quiz made it into the notes. I compared the official outline (2026-11-09 screenshot) and the five source Google Docs with `mit-raw/`, matching each `PRACTICE (n questions)` block and each "point(s) (graded)" frame. The result is filed as [quiz inventory](analyses/quiz-inventory.md): 52 of 57 outline questions are captured. Missing: Week 1 case-study Q2 (absent in the source doc screenshots), Week 3 Reflect and Review, Week 4 third adiabatic CYU, and the two annealing CYUs (the annealing page itself is not in the capture). Post-Assessment not captured yet. The source docs confirm that the 5 raw files are 4 official weeks: Week 1 was saved as two docs.
 
 Also noted: `AGENTS.md` line 5 still says "QCFx1 (Introduction to Quantum Computing)"; the title line was fixed in `73cded6`. That is the human's file to change.
+
+## [2026-11-22] ingest | concept: RSA cryptosystem
+
+Albert asked why there is no RSA concept page. RSA gets a full lesson in official Week 1, a 4-point CYU and two of the five Week 1 quiz questions, and it is the reason Shor matters, so it gets a page. New `concepts/rsa-cryptosystem.md` is built from the Modern Cryptography and RSA pages of raw week 2. Formulas come from the slides, because the Learn prose lost its inline math. It includes a toy example ($N=33$, own numbers, deliberately not the graded $p=101, q=113, e=3533$) and a Shor run on $N=33$ showing both the success case ($g=5$) and the $g^{r/2}\equiv-1$ failure case ($g=2$). It also flags that the course uses $r$ for both the RSA totient and the Shor order.
+
+Backlinks added from `shors-algorithm`, `period-finding` and source notes `week-2-04`, `-05`, `-06`. Indexed.
+
+**Conflict (course-internal, recorded on the concept page):** the "Determining e and d" slide gives $3 \le e \le r$; the key-generation summary slide gives $3 \le e \le N-1$. Both require $\gcd(e, r)=1$.

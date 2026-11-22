@@ -46,6 +46,10 @@ That last line is the whole trick: **the offset (which value of $x$ you happened
 
 One honest caveat: here $r = 6$ ($11^6 = 1771561 \equiv 1 \pmod{21}$), and $2^9/6 \approx 85.3$ is not an integer. The course's last line is the idealized case where $r$ divides $2^l$. In reality the peaks are sharp but sit *near* $z \cdot 85.3$, and that is exactly why the classical step uses continued fractions (convergents $z_n/r_n$) instead of plain division. Source: [raw week 1](/mit-raw/week1.md), first page.
 
+## Related
+
+- [[concepts/rsa-cryptosystem]]: the same periodicity of $x^i \bmod N$ is what makes RSA decryption work; Alice knows the period's multiple $(p-1)(q-1)$, Eve has to measure an order.
+
 ## Course sources
 
 - [Period finding algorithm](../sources/week-1-01-period-finding-algorithm.md)

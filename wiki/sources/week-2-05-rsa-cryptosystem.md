@@ -179,3 +179,7 @@ modern day communication systems.
 - Frames from this page's video were moved next to the matching SRT cue in the raw file when a player timestamp was read.
 - Equations are display math (`$$...$$`). Diagrams may still be an image plus a text description.
 - This page is immutable source commentary. Synthesis belongs in `wiki/concepts/`.
+
+## Related concepts
+
+- [[concepts/rsa-cryptosystem]]
