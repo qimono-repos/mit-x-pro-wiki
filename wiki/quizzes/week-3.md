@@ -112,7 +112,7 @@ Which of the following phrases is **not valid**?
 
 ### Q1: Simulation of Chemistry Problems
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that are NOT valid · **Attempts:** 3  
 > **Raw:** [week4.md:4012](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-chemistry|Quantum chemistry simulation]]
 
 Quantum simulators allow you to solve for the ground state and energy eigenvalues of complex systems composed of several interacting parts. Applications are found in the field of Quantum Chemistry, which studies the interactions and chemical reactions between different molecules, usually composed of several atoms.

@@ -11,10 +11,10 @@ Chemistry is the flagship application of [[concepts/quantum-simulation]]. The mo
 ## The molecular Hamiltonian
 
 $$
-H = T_{nuc} + T_{elec} + V_{nn} + V_{nc} + V_{ee}
+H = T_{nuc} + T_{elec} + V_{nn} + V_{ne} + V_{ee}
 $$
 
-Here $T$ are the kinetic energies of nuclei and electrons, and the $V$ terms are the Coulomb interactions nucleus–nucleus, nucleus–electron and electron–electron. An exact treatment needs *all* the interaction terms, not just the kinetic ones (raw week 2, pre-assessment Q7 stem, eq. 9; raw week 4, ~line 4009). ^molecular-hamiltonian
+Here $T$ are the kinetic energies of nuclei and electrons, and the $V$ terms are the Coulomb interactions nucleus–nucleus, nucleus–electron and electron–electron. An exact treatment needs *all* the interaction terms, not just the kinetic ones (raw week 4, Chuang's board ~8:08–8:27, line ~4929; raw week 2, pre-assessment Q7, eq. 9). **Notation conflict:** the pre-assessment writes the nucleus–electron term as $V_{nc}$; the lecture board and the Week 3 graded feedback write $V_{ne}$. Same term, and $V_{ne}$ is the consistent spelling. ^molecular-hamiltonian
 
 ## Known Hamiltonian, unknown answer
 

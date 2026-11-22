@@ -199,3 +199,6 @@ Added `tools/circuits/circuits.py` (+ README) generating SVG + text diagrams, ea
 - [[concepts/bb84]]: four rounds; matching bases are deterministic, mismatched ones 50/50.
 - [[concepts/quantum-teleportation]]: dynamic circuit with classically controlled X/Z; fidelity 1.000000 (deferred-measurement check).
 - [[concepts/shors-algorithm]]: order finding for N = 15, a = 7, readouts 0, 4, 8, 12 → r = 4 → factors 3, 5.
+
+## [2026-11-22] update | Week 3 chemistry CYU graded 1/1; V_nc vs V_ne
+Graded 1/1. Its feedback writes the molecular Hamiltonian with $V_{ne}$, matching Chuang's board; the pre-assessment's $V_{nc}$ is the same nucleus–electron term. [[concepts/quantum-chemistry]] `^molecular-hamiltonian` now uses $V_{ne}$ and records the conflict.
