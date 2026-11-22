@@ -55,7 +55,7 @@ More layers "can only improve" performance, since a deeper circuit can reproduce
 ## Track record (as told in the course)
 
 - **2014, restricted MAX-CUT:** a guaranteed approximation ratio better than random guessing on every instance, of any size, but not better than the best classical algorithm.
-- **E3LIN2:** the shallow circuit beat the best known classical algorithm, until ten classical computer scientists, prompted by Scott Aaronson's blog post, found a classical algorithm that beat it.
+- **E3LIN2** (Max-E3LIN2: satisfy as many 3-variable linear equations mod 2 as possible): the shallow circuit beat the best known classical algorithm, until ten classical computer scientists, prompted by Scott Aaronson's blog post, found a classical algorithm that beat it.
 - **Now:** on provable worst-case guarantees, the classical algorithm is ahead. Farhi is optimistic that running QAOA on near-term devices may reveal parameters that do as well as classical methods, or better ([raw transcript](/mit-raw/week5-qaoa.md), ~6:41–10:58). ^track-record
 
 ## Sources

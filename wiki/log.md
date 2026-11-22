@@ -154,3 +154,6 @@ CYU Quantum Annealing I (on the Quantum Annealing lecture page) transcribed into
 
 ## [2026-11-22] update | QAOA page title + its CYU captured
 Albert confirmed the page title, "Quantum Approximate Optimization Algorithm"; raw header and source note renamed (file names unchanged). Its CYU was transcribed from his screenshot into `wiki/quizzes/week-4.md` with a hint; concept map updated. Possible tension, noted on the card: one option generalizes "better than random on every instance", which Farhi states for restricted MAX-CUT. 21 / 55 checked.
+
+## [2026-11-22] update | QAOA CYU graded 1/1
+QAOA CYU graded 1/1 (7 of 7 Week 4 practice questions). The graded result settles the risky option: the course treats "always better than random" as true, although the lecture proves it for restricted MAX-CUT. [[concepts/qaoa]]: E3LIN2 spelled out as Max-E3LIN2 (background gloss: 3-variable linear equations mod 2).

@@ -63,7 +63,7 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 
 ### Q1: Quantum Approximate Optimization Algorithm
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that are NOT valid · **Attempts:** 3  
 > **Raw:** [week5-qaoa.md](/mit-raw/week5-qaoa.md) (question text from eDX screenshot, 2026-11-22) · **Concepts:** [[concepts/qaoa|QAOA]]
 
 Which of the following statements about the Quantum Approximate Optimization Algorithm are **false**?
