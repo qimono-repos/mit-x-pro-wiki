@@ -11,7 +11,7 @@ Kadowaki and Nishimori (1998) proposed using quantum tunneling together with dis
 
 The course states: "to date, there is no evidence that quantum annealing computers feature quantum enhancement" ([raw week 5](/mit-raw/week5.md), AQC concept Learn). ^no-enhancement-evidence
 
-**Encoding.** "A cost function is encoded into a Hamiltonian using a prescribed approach": in practice an Ising-type $H_p$ whose ground state is the optimum (see [[concepts/adiabatic-quantum-computing#^ising]]). Gap logic carries over from AQC: a *smaller* minimum gap, not a larger one, forces slower evolution through the gap region (see [[concepts/adiabatic-quantum-computing#^minimum-gap]]). ^encoding-and-gap
+**Encoding.** "A cost function is encoded into a Hamiltonian using a prescribed approach": in practice an Ising-type $H_p = \sum_i h_iZ_i + \sum_{i<j}J_{ij}Z_iZ_j$ whose ground state is the optimum (see [[concepts/adiabatic-quantum-computing#^ising]]). The word "Ising" appears in the course only inside quiz stems; the hardware fact comes from an [external source](/mit-raw/external/quantum-annealing-ising.md). Gap logic carries over from AQC: a *smaller* minimum gap, not a larger one, forces slower evolution through the gap region (see [[concepts/adiabatic-quantum-computing#^minimum-gap]]). ^encoding-and-gap
 
 The same problem Hamiltonian and transverse driver appear on the adiabatic slides; what changes is the role of the bath.
 

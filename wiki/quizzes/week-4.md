@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 3/11 ✅ CHECKED in eDX · 8 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 4/11 ✅ CHECKED in eDX · 7 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -157,7 +157,7 @@ Adiabatic evolution is difficult to implement in a realistic quantum computer be
 
 ### Q2: Quantum Annealing III
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week5.md:5095](/mit-raw/week5.md) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Regarding Quantum Annealing, which of the following statements are **valid**?

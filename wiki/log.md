@@ -102,3 +102,7 @@ At Albert's request, every graded question is now available as clean markdown in
 - **Transcription fixes vs raw:** the VQE CYU stem was completed from its screenshot (raw cut short). The cow-rotation options were rebuilt from the four tile labels. Trotterization option C was restored in full. Stray figure-label math and `#` headings were dropped from stems. `\( \)` was converted to `$ $` for Obsidian.
 - **Test question this session:** Week 4 quiz Q3 (Ising). Matches `mit-raw/week5.md:5119`. Covered by `concepts/adiabatic-quantum-computing#^ising`. The stem's sum $J\sum_{i\neq j}Z^iZ^{j+1}$ mixes indices; it means nearest neighbours.
 - Schema note for the human: AGENTS.md doesn't list `wiki/quizzes/` yet.
+
+## [2026-11-22] query + ingest | test question: Week 4 Quiz Q2 "Quantum Annealing III"
+
+Matches `mit-raw/week5.md:5095` verbatim. Options A and C are stated in the AQC concept Learn text (Kadowaki–Nishimori: tunneling + relaxation; "no evidence" of enhancement). B is contradicted by the minimum-gap paragraph: a smaller gap requires slower evolution. D's "Ising" is never named by the course outside quiz stems, so I added the external source `mit-raw/external/quantum-annealing-ising.md` (arXiv:2001.00234, arXiv:2112.07491) and linked it from `concepts/quantum-annealing.md#^encoding-and-gap`. Status set to ✅ CHECKED in eDX in `quizzes/week-4.md` (now 13/52).
