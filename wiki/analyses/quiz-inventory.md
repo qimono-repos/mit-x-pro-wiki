@@ -7,7 +7,7 @@ type: analysis
 
 This page checks every graded item in the official QCFx2 outline (platform screenshot, 2026-11-09) against what is captured in `mit-raw/`. Everything is **due Dec 14, 2026, 8:30 PM GMT-3**. Raw locations are `file:line`. Use the [course map](course-map.md) to translate raw weeks into official weeks.
 
-**Result: 51 of 56 outline questions are captured.** The five that are missing were never in the source Google Docs, so nothing was lost in the vault build. The Post-Assessment is not captured either; it opens at the end of the course.
+**Result: 52 of 57 outline questions are captured.** The five that are missing were never in the source Google Docs, so nothing was lost in the vault build. The Post-Assessment is not captured either; it opens at the end of the course.
 
 ## Pre-Assessment: 9/9 ✓
 
@@ -49,7 +49,7 @@ Each page's PRACTICE heading sits at the end of the page in the capture, after t
 
 The Week 3 quiz has no page title in the capture. It sits at the end of the [VQE in practice](../sources/week-4-07-vqe-in-practice.md) source note.
 
-## Week 4: Quantum Optimization (10/14 incl. Lab)
+## Week 4: Quantum Optimization (11/14 incl. Lab)
 
 | Outline item | Expected | Captured | Raw |
 |---|---|---|---|
