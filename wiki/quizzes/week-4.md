@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 7/11 ✅ CHECKED in eDX · 4 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 8/11 ✅ CHECKED in eDX · 3 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -92,7 +92,7 @@ For a list of $N=512$ items, how many qubits would you need to implement Grover'
 
 ### Q1: Exactly-1 3-SAT Problem I
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week5.md:3396](/mit-raw/week5.md) · **Concepts:** [[concepts/exactly-1-3-sat|Exactly-1 3-SAT]]
 
 The Exactly-1 3-SAT problem requires us to find an assignment such that $f=1$ (or, True), and there is exactly one literal that evaluates to True in every clause of $f$.
@@ -114,7 +114,7 @@ Recall that $x_1\lor x_2$ means $x_1$ OR $x_2$; $x_1\land x_2$ means $x_1$ AND $
 
 ### Q1: Syntax Error
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 2  
 > **Raw:** [week5.md:4904](/mit-raw/week5.md) · **Concepts:** [[concepts/openqasm|OpenQASM]]
 
 Identify in which line there is an error:
