@@ -64,10 +64,8 @@ that underlies the security of RSA.
 
 To see this, consider the following. When in the above function, . If is
 periodic in , then it follows that the function , , , \... must also
-equal 1. The period can be derived using [[Fermat\'s little
-theorem]{.underline}](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem),
-which uses [[Euler\'s totient
-function]{.underline}](https://en.wikipedia.org/wiki/Euler%27s_totient_function)
+equal 1. The period can be derived using [Fermat's little theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem),
+which uses [Euler's totient function](https://en.wikipedia.org/wiki/Euler%27s_totient_function)
 
   ------------------------------------------------------- ---------------
 
@@ -97,8 +95,7 @@ following conditions:
 2.  is coprime with .
 
 The second condition means that there is no integer (other than 1) that
-divides both and , and so their [[greatest common divisor
-(gcd)]{.underline}](http://mathworld.wolfram.com/GreatestCommonDivisor.html)
+divides both and , and so their [greatest common divisor (gcd)](http://mathworld.wolfram.com/GreatestCommonDivisor.html)
 is 1. This is written as .
 
 Once a value of is chosen, then one *calculates* a *private decryption
@@ -111,10 +108,8 @@ exponent* as the modular multiplicative inverse of , modulo :
 [**Note**]{.underline} that the notation for the modular multiplicative
 inverse above, while often found, can be misleading. is another way of
 writing such that . It does not mean to take the reciprocal of . When
-using a [[modular
-calculator]{.underline}](https://www.wolframalpha.com/input/?i=7%5E(-1)+mod+288),
-you will have to use the syntax\"[[A\^(-1) mod
-C]{.underline}](https://www.wolframalpha.com/input/?i=7%5E(-1)+mod+288)\"
+using a [modular calculator](https://www.wolframalpha.com/input/?i=7%5E(-1)+mod+288),
+you will have to use the syntax\"[A\^(-1) mod C](https://www.wolframalpha.com/input/?i=7%5E(-1)+mod+288)\"
 and **[not]{.underline}** \"1/A mod C\" as the modular multiplicative
 inverse is only defined for integers.
 
@@ -135,8 +130,7 @@ of and .
 
   3\) :  find the period                                                                   
 
-  4\) :  choose a public exponent with [[greatest common                                   
-         divisor]{.underline}](http://mathworld.wolfram.com/GreatestCommonDivisor.html):   
+  4\) :  choose a public exponent with [greatest common divisor](http://mathworld.wolfram.com/GreatestCommonDivisor.html):   
          gcd                                                                               
 
   5\) :  calculate the private exponent                                                    
