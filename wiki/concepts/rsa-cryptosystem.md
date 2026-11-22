@@ -36,7 +36,7 @@ $$
 \end{aligned}
 $$
 
-**Alice keeps private:** $p, q, r, d$. **Alice publishes:** $e, N$. A common choice is $e = 2^{16}+1 = 65\,537$, binary `10000000000000001`. Only two bits are set, so encryption by repeated squaring is cheap.
+**Alice keeps private:** $p, q, r, d$. **Alice publishes:** $e, N$. A common choice is $e = 2^{16}+1 = 65\,537$, binary `10000000000000001`. Only two bits are set, so encryption by repeated squaring is cheap. ^key-generation
 
 **Encryption (Bob) and decryption (Alice):**
 
@@ -46,11 +46,11 @@ c = m^{e} \bmod N
 c^{d} = \left(m^{e}\right)^{d} = m^{ed} \equiv m \pmod N \quad (m < N)
 $$
 
-**Eve** sees $c$, $e$ and $N$. Without $d$ she has no shortcut, and getting $d$ means getting $r$, which means factoring $N$.
+**Eve** sees $c$, $e$ and $N$. Without $d$ she has no shortcut, and getting $d$ means getting $r$, which means factoring $N$. ^encrypt-decrypt
 
 ### Notation trap: $e^{-1}$ is not $1/e$
 
-$d = e^{-1} \bmod r$ is the **modular multiplicative inverse**: the integer $d$ with $e\,d \bmod r = 1$. It is not a reciprocal. The course warns about this explicitly. In a calculator, type `A^(-1) mod C`, never `1/A mod C`.
+$d = e^{-1} \bmod r$ is the **modular multiplicative inverse**: the integer $d$ with $e\,d \bmod r = 1$. It is not a reciprocal. The course warns about this explicitly. In a calculator, type `A^(-1) mod C`, never `1/A mod C`. ^modular-inverse
 
 ## Why decryption works: the period
 

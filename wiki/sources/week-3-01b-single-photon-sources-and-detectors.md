@@ -38,6 +38,7 @@ _(excerpt — continue in the raw file)_
 
 ## Related concepts
 
+- [[concepts/photon-sources-and-detectors]]
 - [[concepts/bb84]]
 
 ## Notes for the wiki

@@ -41,6 +41,7 @@ _(excerpt — continue in the raw file)_
 
 ## Related concepts
 
+- [[concepts/post-quantum-cryptography]]
 - [[concepts/shors-algorithm]]
 
 ## Notes for the wiki

@@ -33,6 +33,7 @@ _(excerpt — continue in the raw file)_
 
 ## Related concepts
 
+- [[concepts/quantum-repeaters]]
 - [[concepts/quantum-teleportation]]
 
 ## Notes for the wiki

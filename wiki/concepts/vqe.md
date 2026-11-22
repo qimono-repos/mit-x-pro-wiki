@@ -13,7 +13,7 @@ $$
 E(\theta) = \langle \psi(\theta) | H | \psi(\theta) \rangle = \sum_k c_k \langle P_k \rangle_\theta
 $$
 
-when $H = \sum_k c_k P_k$ is a linear combination of Pauli strings (the form chemistry Hamiltonians take after a fermion-to-qubit map). A classical optimizer proposes a new $\theta$. The variational theorem says $E(\theta) \ge E_0$, so the loop is minimizing an upper bound on the ground energy.
+when $H = \sum_k c_k P_k$ is a linear combination of Pauli strings (the form chemistry Hamiltonians take after a fermion-to-qubit map). A classical optimizer proposes a new $\theta$. **Division of labour:** state preparation and the measurement of expectation values run on the quantum device; *parameter optimization* runs on the classical computer. The variational theorem says $E(\theta) \ge E_0$, so the loop is minimizing an upper bound on the ground energy. ^hybrid-loop
 
 Week 4 contrasts this hybrid loop with Trotter-plus-phase-estimation, then looks at VQE in practice: ansatz choice, measurement grouping, and noise. The same week is the lead-in to week 5's optimization lectures.
 

@@ -20,7 +20,9 @@ Classically, with only a black box, you walk $f(0), f(1), \ldots$ until the valu
 3. Apply the [[concepts/quantum-fourier-transform]] to the first register.
 4. Measure, and finish with classical continued-fraction post-processing to extract $r$ from the sampled peak $C / 2^l \approx z / r$.
 
-The second register is required even if it is later ignored. Without computing $f$, the first register is just the Fourier transform of a uniform state and the interference that encodes the period never appears. Measuring the second register and discarding the outcome is optional; it does not change the reduced state of the first register.
+The second register is required even if it is later ignored. Without computing $f$, the first register is just the Fourier transform of a uniform state and the interference that encodes the period never appears. Measuring the second register and discarding the outcome is optional; it does not change the reduced state of the first register. ^circuit-roles
+
+In the course's quiz diagram, the *first* "QFT" box plays the role of the Hadamards: on $|0\dots0\rangle$ the QFT and $H^{\otimes n}$ give the same uniform superposition (the quiz stem says so explicitly). It creates a superposition over all $x$, not a register of $|1\rangle$s. $U_f$ implements the periodic function, and the *second* QFT turns the periodic comb into measurable peaks. ^first-qft-is-hadamard
 
 ## Worked example from the course: $f(x) = 11^x \bmod 21$
 

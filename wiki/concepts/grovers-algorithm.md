@@ -21,13 +21,15 @@ $$
 D = 2|s\rangle\langle s| - I, \qquad |s\rangle = \frac{1}{\sqrt{N}}\sum_x |x\rangle.
 $$
 
-One Grover iterate is $G = D\, U_w$. Starting from $|s\rangle$, each iterate rotates the state by $2\theta$ toward $|w\rangle$ in the plane spanned by $|w\rangle$ and the unmarked uniform state, where
+One Grover iterate is $G = D\, U_w$. In the course's notation, the oracle first reflects about the non-solution axis $|\alpha\rangle$ (it flips the sign of the solution component $|\beta\rangle$). The diffusion step, conditional phase shifts between Hadamards, then reflects about the starting superposition $|\psi\rangle$. Two reflections make a rotation toward $|\beta\rangle$ ([raw week 5](/mit-raw/week5.md), quantum search transcript ~7:27–7:47). Starting from $|s\rangle$, each iterate rotates the state by $2\theta$ toward $|w\rangle$ in the plane spanned by $|w\rangle$ and the unmarked uniform state, where ^two-reflections
 
 $$
 \sin \theta = \frac{1}{\sqrt{N}}
 $$
 
-for a single marked item. After about $\lfloor \pi/4 \sqrt{N} \rfloor$ iterates the marked state is measured with high probability.
+for a single marked item. After about $\lfloor \pi/4 \sqrt{N} \rfloor$ iterates the marked state is measured with high probability. With $M$ marked items the course bounds the number of repetitions by $R \le \frac{\pi}{4}\sqrt{N/M}$; overshooting lowers the success probability again. ^iteration-bound
+
+**Register size.** The index register holds $x = 0, \dots, N-1$ with $N = 2^n$, so it needs $n = \log_2 N$ qubits (plus the oracle's ancilla), not $N$, $n^2$ or $2^N$ ([raw week 5](/mit-raw/week5.md), quantum search, ~2:23). ^register-size
 
 ## In this course
 

@@ -5,7 +5,7 @@ type: analysis
 
 # Quiz and graded-question inventory
 
-This page checks every graded item in the official QCFx2 outline (platform screenshot, 2026-11-09) against what is captured in `mit-raw/`. Everything is **due Dec 14, 2026, 8:30 PM GMT-3**. Raw locations are `file:line`. Use the [course map](course-map.md) to translate raw weeks into official weeks.
+This page checks every graded item in the official QCFx2 outline (platform screenshot, 2026-11-09) against what is captured in `mit-raw/`. Everything is **due Dec 14, 2026, 8:30 PM GMT-3**. For the concept behind each question, see the [quiz → concept map](quiz-concept-map.md). Raw locations are `file:line`. Use the [course map](course-map.md) to translate raw weeks into official weeks.
 
 **Result: 52 of 57 outline questions are captured.** The five that are missing were never in the source Google Docs, so nothing was lost in the vault build. The Post-Assessment is not captured either; it opens at the end of the course.
 

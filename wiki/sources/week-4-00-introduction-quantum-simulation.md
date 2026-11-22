@@ -38,6 +38,7 @@ _(excerpt — continue in the raw file)_
 
 ## Related concepts
 
+- [[concepts/quantum-simulation]]
 - [[concepts/hamiltonian-simulation]]
 
 ## Notes for the wiki

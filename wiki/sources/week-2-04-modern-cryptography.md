@@ -112,4 +112,5 @@ efficient to implement.
 
 ## Related concepts
 
+- [[concepts/modern-cryptography]]
 - [[concepts/rsa-cryptosystem]]

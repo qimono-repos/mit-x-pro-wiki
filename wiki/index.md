@@ -13,6 +13,15 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 | Page | Summary |
 |---|---|
+| [Modern cryptography](concepts/modern-cryptography.md) | Cipher vocabulary; symmetric vs public-key; how both are combined; what QKD is for. |
+| [Shor demonstrations](concepts/shor-demonstrations.md) | NMR 2001 (7 qubits, N=15), trapped ions 2016 (Kitaev QFT, recycling), 'pretending to factor'. |
+| [Post-quantum cryptography](concepts/post-quantum-cryptography.md) | Why act now; Mosca's x + y ≥ z; NIST 2016; lattice- and code-based schemes. |
+| [Photon sources and detectors](concepts/photon-sources-and-detectors.md) | Single-photon sources, detector efficiency, 50:50 vs polarizing beam splitters, SPDC type I/II. |
+| [Photon polarization qubits](concepts/photon-polarization-qubits.md) | H/V ↔ 0/1, polarizers as measurements, entangled-pair measurements, half-wave plate as Z/H/X. |
+| [Quantum repeaters](concepts/quantum-repeaters.md) | No-cloning forbids amplifiers; fiber loss in dB ∝ distance; entanglement distributed by segments. |
+| [Quantum simulation](concepts/quantum-simulation.md) | Digital, analog (deformation, time-averaged), hybrid; Chuang's ideas & issues; DMRG/PEPS/MERA. |
+| [Quantum chemistry](concepts/quantum-chemistry.md) | Molecular Hamiltonian; known-but-unsolved; Haber–Bosch vs nitrogenase; QPE vs VQE. |
+| [OpenQASM](concepts/openqasm.md) | Composer code: include, qreg, creg, measure; every statement ends in ';'. |
 | [Exactly-1 3-SAT](concepts/exactly-1-3-sat.md) | 3-CNF search problem with exactly one true literal per clause; the course's Grover oracle example (solution 101). |
 | [RSA cryptosystem](concepts/rsa-cryptosystem.md) | Public-key crypto on a one-way function: $c=m^e \bmod N$, $d=e^{-1} \bmod (p-1)(q-1)$; breaks if $N$ can be factored. |
 | [Shor's algorithm](concepts/shors-algorithm.md) | Factoring reduced to order finding, then solved by quantum period finding. |
@@ -36,6 +45,7 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 | Page | Summary |
 |---|---|
 | [Course map](analyses/course-map.md) | Official QCFx2 weeks ↔ raw files ↔ source notes in reading order; Dec 14 deadline. |
+| [Quiz → concept map](analyses/quiz-concept-map.md) | All 52 captured questions linked to the exact concept paragraph (Obsidian block refs); reverse index by concept. No answers. |
 | [Quiz inventory](analyses/quiz-inventory.md) | Every graded question in the outline vs. the capture: 52/57 present, 5 to re-capture. |
 
 ## Sources

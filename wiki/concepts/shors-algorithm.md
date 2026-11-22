@@ -5,7 +5,7 @@ type: concept
 
 # Shor's algorithm
 
-Shor's algorithm factors an integer by reducing factoring to order-finding, then finding that order with a quantum period-finding routine. The quantum part is not a direct search over factors.
+Shor's algorithm factors an integer by reducing factoring to order-finding, then finding that order with a quantum period-finding routine. The quantum part is not a direct search over factors. ^reduction-summary
 
 ## Reduction
 
@@ -56,4 +56,4 @@ The period is recovered in time polynomial in $\log r$, not linear in $r$. An ap
 - [How Shor's algorithm works](../sources/week-2-07-factoring-with-a-quantum-computer-how-shor-s-algorithm-works.md)
 - [RSA cryptosystem](../sources/week-2-05-rsa-cryptosystem.md): why factoring matters
 - [Demonstrations: introduction](../sources/week-1-07-demonstrations-of-shor-s-algorithm-introduction.md), [NMR](../sources/week-1-08-demonstrations-of-shor-s-algorithm-shor-s-algorithm-with-nmr.md), [trapped ions: results](../sources/week-1-12-demonstrations-of-shor-s-algorithm-quantum-factoring-with-trapped-ions-experimen.md), [pretending to factor](../sources/week-1-13-demonstrations-of-shor-s-algorithm-pretending-to-factor.md)
-- See also [[concepts/period-finding]], [[concepts/quantum-fourier-transform]]
+- See also [[concepts/period-finding]], [[concepts/quantum-fourier-transform]], [[concepts/shor-demonstrations]] (hardware runs: NMR 2001, trapped ions 2016)

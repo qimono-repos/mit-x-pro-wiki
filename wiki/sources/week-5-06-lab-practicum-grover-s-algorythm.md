@@ -21,4 +21,5 @@ _No separate Learn prose on this page; see the raw transcript._
 
 ## Related concepts
 
+- [[concepts/openqasm]]
 - [[concepts/exactly-1-3-sat]]

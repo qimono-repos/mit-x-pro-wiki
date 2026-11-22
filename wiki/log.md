@@ -70,3 +70,16 @@ Albert tested the vault against a live question. The screenshot matches `mit-raw
 - Added external source `mit-raw/external/boolean-satisfiability.md`. Paraphrased definitions with links to Wikipedia, UIUC CS/ECE 374 and arXiv. Marked as not course material.
 - New concept `concepts/exactly-1-3-sat.md`: vocabulary, 3-SAT vs. Exactly-1 3-SAT, the course instance and truth table, the oracle construction (XOR parity + CCCX built from 3 Toffolis), Grover iterations (2 → ≈95%, 3 → ≈32%). Backlinked from `grovers-algorithm` and source notes `week-5-05`, `-06`, `-08`. Indexed.
 - Schema note: `mit-raw/external/` is a new folder for outside sources. AGENTS.md doesn't mention it yet (human's file).
+
+## [2026-11-22] query + ingest | quiz → concept map (all 52 questions)
+
+Albert asked for every quiz question in the course to link to the concept item(s) it tests, as precisely as Obsidian allows. Output: `analyses/quiz-concept-map.md`. Each of the 52 captured questions links to a raw location plus one to three **block references** (`[[concepts/x#^block]]`) that land on the exact paragraph. It also has a reverse index by concept. Rows for the 4 uncaptured items are kept. **No answers are filed** (the repo is public).
+
+Building the map exposed gaps. I filled each from the raw capture, with locations cited:
+- **New concept pages (9):** `modern-cryptography`, `shor-demonstrations`, `post-quantum-cryptography`, `photon-sources-and-detectors`, `photon-polarization-qubits`, `quantum-repeaters`, `quantum-simulation`, `quantum-chemistry`, `openqasm`.
+- **Extended pages:** `bell-inequality` (local realism, three loopholes), `ekert91` (two parties, trusted source, no Bell measurement, CHSH $S=-2\sqrt2$), `quantum-fourier-transform` (binary-fraction product form, 2-qubit circuit), `adiabatic-quantum-computing` (definition/universality, minimum gap, Landau–Zener, thermal noise, Ising), `quantum-annealing`, `hamiltonian-simulation` (what a Hamiltonian is, particle in a box), `trotterization` (exact vs product, non-commuting rotations), `grovers-algorithm` (register size, two reflections, iteration bound), `bb84` (polarization sifting), `quantum-teleportation` (photonic protocol), `period-finding`, `phase-estimation`, `vqe`, `rsa-cryptosystem`, `exactly-1-3-sat`, `shors-algorithm`.
+- Block IDs were added across these pages; all 95 block links validated. Source notes are backlinked to the new pages, and the index is updated.
+
+**Honesty labels.** Three statements are background, not course content, and are marked inline: AQC as "analog" (the word appears only in a quiz option), Hamiltonians as the physical basis of gates, and the "what to do about a small gap" list (own reasoning). The polarizer Born-rule paragraph is also marked as standard background.
+
+**Data gaps noted on pages:** Chuang's "Ideas and Issues" item 2 is not captured (`quantum-simulation`). Mosca's RSA-2048 odds lost their numbers (`post-quantum-cryptography`).
