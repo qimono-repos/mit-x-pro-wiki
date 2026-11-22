@@ -49,8 +49,7 @@ restrict the integral to the period
 
 If you have a sine function with a frequency , like , then using the
 Fourier Transform to move to the frequency domain will give you a
-function that is simply a spike (a [[delta
-function]{.underline}](https://en.wikipedia.org/wiki/Dirac_delta_function))
+function that is simply a spike (a [delta function](https://en.wikipedia.org/wiki/Dirac_delta_function))
 at .
 
 Similarly, a Fourier Transform of a weighted sum of sine functions will
@@ -66,8 +65,7 @@ up into its different frequency components.
 #### The Classical Discrete Time Fourier Transform
 
 The classical Discrete Time Fourier Transform (DTFT) is like the
-continuous [[Fourier
-Transform]{.underline}](https://en.wikipedia.org/wiki/Fourier_transform)
+continuous [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
 except it acts on vectors instead of continuous functions. The DTFT
 takes a vector of numbers as an input -- typically a digital sampling of
 a time-domain signal being analyzed -- and outputs a vector of numbers

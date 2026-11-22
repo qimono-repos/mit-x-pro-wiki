@@ -15,8 +15,7 @@ Welcome to Course 2, *Quantum Algorithms for Cybersecurity, Chemistry,
 and Optimization*. In this first video, we will briefly review what you
 have learned in Course 1, *Introduction to Quantum Computing*. We will
 then preview where we are headed in Course 2. (Courses 3 and 4,
-mentioned at the end of the video, refer to our [[Quantum Realities
-program.]{.underline}](https://xpro.mit.edu/programs/program-v1:xPRO+QCR/))
+mentioned at the end of the video, refer to our [Quantum Realities program.](https://xpro.mit.edu/programs/program-v1:xPRO+QCR/))
 
 ## Notes for the wiki
 

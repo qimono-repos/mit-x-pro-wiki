@@ -1,6 +1,6 @@
 # Index
 
-Content catalog for the MIT xPRO QCFx1 LLM wiki. Read this first when answering a question, then open the linked pages.
+Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cybersecurity, Chemistry, and Optimization*). Raw file numbers are not the official week numbers. See the [course map](analyses/course-map.md). Read this first when answering a question, then open the linked pages.
 
 ## How this vault is organized
 
@@ -28,6 +28,12 @@ Content catalog for the MIT xPRO QCFx1 LLM wiki. Read this first when answering 
 | [Trotterization](concepts/trotterization.md) | Product-formula simulation of a sum of local Hamiltonians. |
 | [Phase estimation](concepts/phase-estimation.md) | Read an eigenphase into a clock register with the QFT. |
 | [VQE](concepts/vqe.md) | Hybrid variational loop for ground-state energy. |
+
+## Analyses
+
+| Page | Summary |
+|---|---|
+| [Course map](analyses/course-map.md) | Official QCFx2 weeks ↔ raw files ↔ source notes in reading order; Dec 14 deadline. |
 
 ## Sources
 
@@ -64,6 +70,8 @@ Content catalog for the MIT xPRO QCFx1 LLM wiki. Read this first when answering 
 ### Week 3
 
 - [Quantum Cryptography - Making Codes](sources/week-3-01-quantum-cryptography-making-codes.md) — Course page.
+- [Post-Quantum Cryptography](sources/week-3-01a-post-quantum-cryptography.md) — Shor breaks asymmetric crypto; symmetric-key schemes are not thought to be at catastrophic risk; NIST post-quantum standardization.
+- [Single-photon sources and detectors](sources/week-3-01b-single-photon-sources-and-detectors.md) — Generating and detecting the photons that QKD runs on.
 - [quantum key distribution bb84](sources/week-3-02-quantum-key-distribution-bb84.md) — Course page.
 - [entangled proton sources and detectors](sources/week-3-03-entangled-proton-sources-and-detectors.md) — Course page.
 - [Quantum Key Distribution - Ekert91 and BBM92](sources/week-3-04-quantum-key-distribution-ekert91-and-bbm92.md) — Course page.
@@ -71,10 +79,12 @@ Content catalog for the MIT xPRO QCFx1 LLM wiki. Read this first when answering 
 - [bell's inequality](sources/week-3-06-bell-s-inequality.md) — Course page.
 - [Bell's Inequality and Certifiable Random Number Generation](sources/week-3-07-bell-s-inequality-and-certifiable-random-number-generation.md) — Course page.
 - [Quantum Teleportation](sources/week-3-08-quantum-teleportation.md) — Course page.
+- [Quantum Repeaters](sources/week-3-08a-quantum-repeaters.md) — Photon loss plus no-cloning rules out classical amplifiers; repeaters distribute entanglement instead.
 - [Quantum Cryptography Quiz (4 questions)](sources/week-3-09-quantum-cryptography-quiz-4-questions.md) — Course page.
 
 ### Week 4
 
+- [Introduction: quantum simulation](sources/week-4-00-introduction-quantum-simulation.md) — Manin (1980) and Feynman (1982): simulating quantum systems classically scales exponentially, so use a quantum system.
 - [What s a Hamiltonian?](sources/week-4-01-what-s-a-hamiltonian.md) — Course page.
 - [Simulation example: Particle in a box](sources/week-4-02-simulation-example-particle-in-a-box.md) — Course page.
 - [Hamiltonian simulation : Trotterization](sources/week-4-03-hamiltonian-simulation-trotterization.md) — Course page.
