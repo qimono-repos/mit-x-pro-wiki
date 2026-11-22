@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 5/11 ✅ CHECKED in eDX · 6 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 6/11 ✅ CHECKED in eDX · 5 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -73,7 +73,7 @@ Regarding Grover's algorithm, which of the following statements are **not valid*
 
 ### Q1: How Many Qubits? N=512
 
-> **Status:** ⏳ pending · **Type:** Select one · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one · **Attempts:** 2  
 > **Raw:** [week5.md:5049](/mit-raw/week5.md) · **Concepts:** [[concepts/grovers-algorithm|Grover's algorithm]]
 
 For a list of $N=512$ items, how many qubits would you need to implement Grover's algorithm?
