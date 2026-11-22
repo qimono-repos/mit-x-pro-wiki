@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 5/11 ✅ CHECKED in eDX · 6 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 6/11 ✅ CHECKED in eDX · 5 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -133,7 +133,7 @@ Which of the following sentences about simulating quantum chemistry problems is/
 
 ### Q1: Phase Estimation Algorithm
 
-> **Status:** ⏳ pending · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:5062](/mit-raw/week4.md) · **Concepts:** [[concepts/phase-estimation|Phase estimation]]
 
 Regarding the phase estimation algorithm, which of the following statements is **not valid**?

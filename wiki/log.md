@@ -183,3 +183,8 @@ Ideas and Issues of Quantum Simulation graded 1/1. Pattern across all 13 graded 
 
 ## [2026-11-22] update | Week 3 VQE CYU graded 1/1; refinement of the explanation pattern
 VQE CYU graded 1/1 with no explanation shown, although three options are false. So a missing explanation does not prove that every option was true: some questions simply have none (this one repeats a pre-assessment item). The earlier rule, "explanations address only the false statements", still holds whenever an explanation does appear.
+
+## [2026-11-22] update | Phase estimation: reconstructed derivation + first Qiskit-generated circuit diagram
+- [[concepts/phase-estimation]] `^derivation`: the inverse-QFT step whose left-hand side is broken on the eDX page itself (and recorded as unreadable in raw week 4) is reconstructed in LaTeX and marked as my derivation.
+- New convention for circuit diagrams: generator scripts in `tools/circuits/`, outputs committed to `wiki/media/circuits/` as SVG (rendered) plus `.txt` (Qiskit text drawer, embedded in a `text` code block). First one: `phase_estimation.py`, which also simulates exact vs inexact phases (`^qiskit-demo`).
+- Week 3 CYU Phase Estimation Algorithm checked.
