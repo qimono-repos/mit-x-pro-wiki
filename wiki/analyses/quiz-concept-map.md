@@ -81,6 +81,7 @@ Coverage: **52 captured questions, all mapped**; 4 rows are missing from the cap
 | CYU · Q1 Adiabatic Quantum Computation II | [week5.md:953](/mit-raw/week5.md) | [[concepts/adiabatic-quantum-computing#^minimum-gap\|minimum gap, Landau–Zener]] · [[concepts/adiabatic-quantum-computing#^gap-strategies\|what helps, what doesn't]] | Adiabatic QC |
 | Adiabatic QC · 3rd CYU (not captured) | — | — | Re-capture. |
 | Quantum Annealing · CYU I and II (not captured) | — | — | Page and questions missing. |
+| CYU · Q1 Quantum Annealing I | [annealing transcript](/mit-raw/week5-quantum-annealing.md) (question from eDX screenshot) | [[concepts/quantum-annealing#^tunneling-relaxation\|tunneling + relaxation]] · [[concepts/quantum-annealing#^encoding-and-gap\|Ising encoding]] · [[concepts/quantum-annealing#^no-enhancement-evidence\|no universality / enhancement claim]] |  |
 | CYU · Q1 Quantum Annealing II | [expert-view transcript](/mit-raw/week5-quantum-annealing-expert-view.md) (question from eDX screenshot) | [[concepts/quantum-annealing#^thermal-excitation\|thermal excitation vs gap]] · [[concepts/adiabatic-quantum-computing#^minimum-gap\|Landau–Zener is a speed effect]] |  |
 | CYU · Q1 Grover's Algorithm | [week5.md:1874](/mit-raw/week5.md) | [[concepts/grovers-algorithm#^register-size\|n = log₂N qubits]] · [[concepts/grovers-algorithm#^two-reflections\|two reflections]] · [[concepts/grovers-algorithm#^iteration-bound\|π/4·√(N/M)]] | Digital simulation: Grover |
 | CYU · Q1 How Many Qubits? N=512 | [week5.md:5049](/mit-raw/week5.md) | [[concepts/grovers-algorithm#^register-size\|n = log₂N qubits]] | Digital simulation: Grover |
@@ -108,7 +109,7 @@ Coverage: **52 captured questions, all mapped**; 4 rows are missing from the cap
 - [[concepts/photon-polarization-qubits]] (5): Pre Q4 Quantum Entanglement; Week 2 CYU · Q1 Spontaneous Parametric Down-Conversion; Week 2 CYU · Q1 Quantum Entanglement I; Week 2 Quiz · Q2 Quantum Entanglement II; Week 2 Quiz · Q4 Half-Wave Plate
 - [[concepts/photon-sources-and-detectors]] (2): Week 2 CYU · Q1 Beam Splitters; Week 2 CYU · Q1 Spontaneous Parametric Down-Conversion
 - [[concepts/post-quantum-cryptography]] (2): Pre Q3 Post-Quantum Cryptography; Week 2 CYU · Q1 Post-Quantum Cryptography
-- [[concepts/quantum-annealing]] (3): Week 4 CYU · Q1 Quantum Annealing II; Week 4 Quiz · Q1 Adiabatic Evolution; Week 4 Quiz · Q2 Quantum Annealing III
+- [[concepts/quantum-annealing]] (4): Week 4 CYU · Q1 Quantum Annealing I; Week 4 CYU · Q1 Quantum Annealing II; Week 4 Quiz · Q1 Adiabatic Evolution; Week 4 Quiz · Q2 Quantum Annealing III
 - [[concepts/quantum-chemistry]] (2): Pre Q7 Simulation of Chemistry Problems; Week 3 CYU · Q1 Simulation of Chemistry Problems
 - [[concepts/quantum-fourier-transform]] (2): Week 1 Quiz · Q3 Quantum Fourier Transform II; Week 1 Quiz · Q4 Quantum Fourier Transform III
 - [[concepts/quantum-repeaters]] (1): Week 2 CYU · Q1 Quantum Repeaters

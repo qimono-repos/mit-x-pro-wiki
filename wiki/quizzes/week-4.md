@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 10/12 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 11/13 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -53,12 +53,31 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 > ![](/mit-raw/week5/media/media/image36.png)
 
 
-### ⚠️ Adiabatic QC 3rd CYU + Quantum Annealing CYU I — NOT CAPTURED
+### ⚠️ Adiabatic QC 3rd CYU — NOT CAPTURED
 
-> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing II (Expert View page). Both annealing transcripts are now in mit-raw (2026-11-22). Still missing: the Quantum Annealing lecture page's own question (likely Annealing I), its Learn prose, and the 3rd adiabatic CYU.
+> **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing I and II (eDX screenshots, 2026-11-22). Still missing: the 3rd adiabatic CYU.
 
 
 ## CYU · Quantum Annealing
+
+
+### Q1: Quantum Annealing I
+
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Raw:** [week5-quantum-annealing.md](/mit-raw/week5-quantum-annealing.md) (question text from eDX screenshot, 2026-11-22) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
+
+Regarding Quantum Annealing, which of the following statements are **not valid**?
+
+- [ ] **A.** Quantum Annealing is designed to solve a particular class of computations known as classical optimization problems.
+- [ ] **B.** One of the goals of quantum annealing is to engineer a system of qubits with an Ising Hamiltonian corresponding to the optimization problem of interest.
+- [ ] **C.** As a consequence of quantum tunneling and relaxation processes, the computer is intentionally evolved to an excited state.
+- [ ] **D.** Quantum annealing has been proven to be a universal quantum computer.
+
+> [!tip]- 💡 Hint
+> This one is about *status*, not math. Two statements are lines lifted from the Quantum Annealing lecture (~4:40 and ~7:15). For the other two ask: do tunneling and relaxation push the energy **up** or **down**? And which of the two paradigms, AQC or annealing, has a universality proof (~9:20)?
+
+> [!info]- Original eDX screenshot
+> ![](/wiki/quizzes/media/w4-quantum-annealing-i.png)
 
 
 ### Q1: Quantum Annealing II

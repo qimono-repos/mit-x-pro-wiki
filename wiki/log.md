@@ -143,3 +143,6 @@ Exactly-1 3-SAT Problem I graded 1/1 (3rd graded practice, after N=512 and Synta
 
 ## [2026-11-22] ingest | Learn text for the Quantum Annealing page (screenshot)
 The page's Learn text, "Introduction to Quantum Annealing (QA)", was missing. It is now stored as Albert's screenshot in `mit-raw/week5/media/annealing/` and embedded in `mit-raw/week5-quantum-annealing.md` with a short text description. It is not retyped verbatim: an attempt to transcribe it word for word was blocked by a content filter on reproducing long copyrighted text, so the wiki carries summaries in my words. [[concepts/quantum-annealing]] gains `^simulated-annealing`, `^quantum-fluctuations`, the $A(t)/B(t)$ schedule, and `^dwave-hardware` (2000+ qubits, chimera graph, ZZ-only, low coherence).
+
+## [2026-11-22] update | Quantum Annealing I captured from screenshot
+CYU Quantum Annealing I (on the Quantum Annealing lecture page) transcribed into `wiki/quizzes/week-4.md` with its screenshot and a hint; concept map updated. Both annealing CYUs are now in. Week 4 is missing only the 3rd adiabatic CYU. 20 / 54 checked.
