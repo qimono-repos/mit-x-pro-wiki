@@ -160,3 +160,6 @@ QAOA CYU graded 1/1 (7 of 7 Week 4 practice questions). The graded result settle
 
 ## [2026-11-22] update | AQC II graded 1/1; 8 of 8 Week 4 practice
 AQC II graded 1/1. [[concepts/adiabatic-quantum-computing]] `^gap-strategies`: added why pure decay fails (it gets stuck in a local minimum), linked to simulated annealing. Pattern across the graded explanations: they justify only the options to be marked, and say nothing about the rest.
+
+## [2026-11-22] update | Week 4 practice complete: 9 of 9 graded correct
+AQC I graded 1/1. All Week 4 practice questions are now graded: N=512, Syntax Error, 3-SAT I, Grover's Algorithm, Quantum Annealing I and II, QAOA, AQC I, AQC II. Next: the one-attempt Quantum Optimization Quiz (5 questions).

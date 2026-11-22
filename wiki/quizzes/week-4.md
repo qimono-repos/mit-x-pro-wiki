@@ -17,7 +17,7 @@ Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → co
 
 ### Q1: Adiabatic Quantum Computation I
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week5.md:148](/mit-raw/week5.md) · **Concepts:** [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Regarding Adiabatic Quantum Computation, which of the following statements is **not valid**?
