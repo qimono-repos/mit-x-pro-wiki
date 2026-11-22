@@ -196,7 +196,7 @@ The first technique created with the propose of improving classical simulations 
 
 ### Q2: Ideas and Issues of Quantum Simulation
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week4.md:7798](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-simulation|Quantum simulation: approaches and issues]]
 
 Which of the following are **valid** statements?

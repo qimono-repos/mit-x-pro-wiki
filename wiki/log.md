@@ -172,3 +172,6 @@ The course's solution matches [[concepts/trotterization#^exact-vs-product]], inc
 
 ## [2026-11-22] update | Week 3 quiz Q3 (Non-Commuting Terms) graded 1/1
 The course's solution states that rotations about different axes don't commute. Small slip in its wording: it describes the reversed order as "45° about x, then 90° about y", but the figure captions (and the logic) swap the order of the same two rotations: 45° about y, then 90° about x.
+
+## [2026-11-22] update | Week 3 quiz Q2 graded 1/1; how the course writes its explanations
+Ideas and Issues of Quantum Simulation graded 1/1. Pattern across all 13 graded explanations seen today: an explanation only addresses the *false* statements (why a distractor is wrong, or why a "not valid" option is not valid). The true statements are never commented on, and a question whose options are all true shows no explanation at all. Corollary: an explanation is not a paraphrase of the right answer, and its examples can come from the author's own head (see the Non-Commuting Terms slip).
