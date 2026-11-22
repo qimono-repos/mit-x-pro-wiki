@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 12/14 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 13/14 ✅ CHECKED in eDX · 1 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -36,7 +36,7 @@ Regarding Adiabatic Quantum Computation, which of the following statements is **
 
 ### Q1: Adiabatic Quantum Computation II
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week5.md:953](/mit-raw/week5.md) · **Concepts:** [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Imagine you are running an optimization algorithm on an Adiabatic Quantum Computer. Unfortunately, the coherence time of the system is limited and it is close to the time set by the minimum energy gap of the optimization problem. What should you **not** do in this situation?
