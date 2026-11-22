@@ -48,6 +48,36 @@ The circuit is the same shape as [[concepts/simons-algorithm]]: a uniform superp
 
 The period is recovered in time polynomial in $\log r$, not linear in $r$. An approximate QFT is enough and uses fewer gates than the exact one.
 
+## Circuit: order finding for N = 15 (generated with Qiskit)
+
+Order finding for $N = 15$, $a = 7$: phase estimation of $U|x\rangle = |7x \bmod 15\rangle$, with the work register starting in $|1\rangle$. Counting qubit $c_j$ controls $U^{2^j}$, i.e. multiplication by $7^{2^j} \bmod 15 = 7, 4, 1, 1$. The last two are the identity, because $7^4 \equiv 1$, a first hint that the order is 4. The multipliers are permutation-matrix gates, not an efficient modular-arithmetic circuit. Generator: [`tools/circuits/circuits.py`](/tools/circuits/circuits.py) (`shor_order_finding`).
+
+![Shor order finding, N = 15, a = 7, 4 counting qubits](/wiki/media/circuits/shor-order-finding-15.svg)
+
+```text
+     ┌───┐                                                        ┌─────────┐┌─┐         
+c_0: ┤ H ├──────■─────────────────────────────────────────────────┤0        ├┤M├─────────
+     ├───┤      │                                                 │         │└╥┘┌─┐      
+c_1: ┤ H ├──────┼─────────────■───────────────────────────────────┤1        ├─╫─┤M├──────
+     ├───┤      │             │                                   │  qft_dg │ ║ └╥┘┌─┐   
+c_2: ┤ H ├──────┼─────────────┼─────────────■─────────────────────┤2        ├─╫──╫─┤M├───
+     ├───┤      │             │             │                     │         │ ║  ║ └╥┘┌─┐
+c_3: ┤ H ├──────┼─────────────┼─────────────┼─────────────■───────┤3        ├─╫──╫──╫─┤M├
+     ├───┤┌─────┴──────┐┌─────┴──────┐┌─────┴──────┐┌─────┴──────┐└─────────┘ ║  ║  ║ └╥┘
+w_0: ┤ X ├┤0           ├┤0           ├┤0           ├┤0           ├────────────╫──╫──╫──╫─
+     └───┘│            ││            ││            ││            │            ║  ║  ║  ║ 
+w_1: ─────┤1           ├┤1           ├┤1           ├┤1           ├────────────╫──╫──╫──╫─
+          │  ×7 mod 15 ││  ×4 mod 15 ││  ×1 mod 15 ││  ×1 mod 15 │            ║  ║  ║  ║ 
+w_2: ─────┤2           ├┤2           ├┤2           ├┤2           ├────────────╫──╫──╫──╫─
+          │            ││            ││            ││            │            ║  ║  ║  ║ 
+w_3: ─────┤3           ├┤3           ├┤3           ├┤3           ├────────────╫──╫──╫──╫─
+          └────────────┘└────────────┘└────────────┘└────────────┘            ║  ║  ║  ║ 
+m: 4/═════════════════════════════════════════════════════════════════════════╩══╩══╩══╩═
+                                                                              0  1  2  3 
+```
+
+Simulated readout: `0000`, `0100`, `1000`, `1100` with probability $0.25$ each, i.e. phases $0, \tfrac14, \tfrac12, \tfrac34 = s/r$ with $r = 4$. Then $7^{2} = 49$, and $\gcd(49 \pm 1, 15) = \gcd(48,15), \gcd(50,15) = 3, 5$, so $15 = 3 \times 5$. See also [[concepts/phase-estimation#^qiskit-demo]]. ^circuit-qiskit
+
 ## Where this is in the course
 
 - [Reduction of factoring to order finding](../sources/week-1-02-shor-s-algorithm-reduction-of-factoring-to-order-finding.md) (week 1 raw)

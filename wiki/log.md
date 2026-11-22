@@ -191,3 +191,11 @@ VQE CYU graded 1/1 with no explanation shown, although three options are false. 
 
 ## [2026-11-22] update | Week 3 Phase Estimation CYU graded 1/1; notation conflict recorded
 Conflict noted on [[concepts/phase-estimation]] `^notation`: the course uses $u$ both for the eigenvector $|u\rangle$ (circuit, derivation) and for the eigenvalue $u = e^{i2\pi\theta}$ (graded feedback), and writes the phase as both $\phi$ and $\theta$.
+
+## [2026-11-22] update | Qiskit circuits for QFT, Grover, BB84, teleportation, Shor
+Added `tools/circuits/circuits.py` (+ README) generating SVG + text diagrams, each verified by simulation, and embedded them as `^circuit-qiskit` sections:
+- [[concepts/quantum-fourier-transform]]: 3-qubit QFT gate by gate; equals `QFTGate(3)` as an operator.
+- [[concepts/grovers-algorithm]]: N = 8, marked |101⟩. P = 0.781 / 0.945 / 0.330 after 1 / 2 / 3 iterations, matching sin²((2R+1)θ/2).
+- [[concepts/bb84]]: four rounds; matching bases are deterministic, mismatched ones 50/50.
+- [[concepts/quantum-teleportation]]: dynamic circuit with classically controlled X/Z; fidelity 1.000000 (deferred-measurement check).
+- [[concepts/shors-algorithm]]: order finding for N = 15, a = 7, readouts 0, 4, 8, 12 → r = 4 → factors 3, 5.

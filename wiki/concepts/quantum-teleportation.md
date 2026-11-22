@@ -20,6 +20,27 @@ The unknown state is destroyed on Alice's side by the measurement, which is why 
 
 **The photonic version in the course.** An entangled source gives photon A to Alice and B to Bob (pre-shared Bell pair). Alice does a **Bell-state measurement** on A and her input photon C, projecting the pair onto one of the four Bell states (with a beam splitter and two detectors). She sends the outcome over a **classical channel**. Bob applies the matching **rotation/decoding** to photon B, which then carries $|\psi\rangle$. Alice never sends a photon to Bob ([raw week 3](/mit-raw/week3.md), teleportation page and quiz Q3 diagram, ~line 11206). Week 3 presents this next to QKD because both spend entanglement as a resource. ^photonic-teleportation
 
+## Circuit (generated with Qiskit)
+
+Teleport $|\psi\rangle = R_Y(1.1)|0\rangle$ from $q_0$ to $q_2$. First barrier: make the Bell pair $q_1q_2$. Second: Alice's Bell-basis measurement (CNOT, H, measure). Then Bob applies $X$ if $m_1 = 1$ and $Z$ if $m_0 = 1$: two classical bits travel, and nothing faster than light. Generator: [`tools/circuits/circuits.py`](/tools/circuits/circuits.py) (`teleport`).
+
+![Teleportation: Bell pair, Bell measurement, classically controlled X and Z](/wiki/media/circuits/teleportation.svg)
+
+```text
+     ┌─────────┐ ░            ░      ┌───┐┌─┐                                                    
+q_0: ┤ Ry(1.1) ├─░────────────░───■──┤ H ├┤M├────────────────────────────────────────────────────
+     └─────────┘ ░ ┌───┐      ░ ┌─┴─┐└┬─┬┘└╥┘                                                    
+q_1: ────────────░─┤ H ├──■───░─┤ X ├─┤M├──╫─────────────────────────────────────────────────────
+                 ░ └───┘┌─┴─┐ ░ └───┘ └╥┘  ║   ┌──────  ┌───┐ ───────┐   ┌──────  ┌───┐ ───────┐ 
+q_2: ────────────░──────┤ X ├─░────────╫───╫───┤ If-0  ─┤ X ├  End-0 ├───┤ If-0  ─┤ Z ├  End-0 ├─
+                 ░      └───┘ ░        ║   ║   └──╥───  └───┘ ───────┘   └──╥───  └───┘ ───────┘ 
+                                       ║   ║ ┌────╨────┐               ┌────╨────┐               
+m: 2/══════════════════════════════════╩═══╩═╡ m_1=0x1 ╞═══════════════╡ m_0=0x1 ╞═══════════════
+                                       1   0 └─────────┘               └─────────┘               
+```
+
+Check (deferred-measurement version, with the corrections as CX and CZ): Bob's qubit equals $|\psi\rangle$ with fidelity $1.000000$. Note that $q_0$ ends up measured, so the original is destroyed: no cloning. ^circuit-qiskit
+
 ## Sources
 
 - [Quantum teleportation](../sources/week-3-08-quantum-teleportation.md)

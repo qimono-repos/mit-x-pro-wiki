@@ -34,6 +34,24 @@ with relative phases $\phi_1 = 2\pi\,0.j_n,\ \phi_2 = 2\pi\,0.j_{n-1}j_n,\ \dots
 
 A text unit in week 2 derives the classical DFT beside the quantum circuit (Hadamards and controlled phase rotations $R_k = \mathrm{diag}(1, e^{2\pi i / 2^k})$). See [week 2 raw](/mit-raw/week2.md).
 
+## Circuit (generated with Qiskit)
+
+The 3-qubit QFT gate by gate: a Hadamard on each qubit, then controlled phase rotations $\pi/2, \pi/4, \ldots$ from the less significant qubits (the binary-fraction phases), then a swap that reverses the qubit order. Generator: [`tools/circuits/circuits.py`](/tools/circuits/circuits.py) (`qft`).
+
+![QFT on 3 qubits: Hadamards, controlled phase rotations, final swap](/wiki/media/circuits/qft-3.svg)
+
+```text
+                             ░                ░ ┌───┐ ░    
+q_0: ───────────────■────────░───────■────────░─┤ H ├─░──X─
+                    │        ░ ┌───┐ │P(π/2)  ░ └───┘ ░  │ 
+q_1: ──────■────────┼────────░─┤ H ├─■────────░───────░──┼─
+     ┌───┐ │P(π/2)  │P(π/4)  ░ └───┘          ░       ░  │ 
+q_2: ┤ H ├─■────────■────────░────────────────░───────░──X─
+     └───┘                   ░                ░       ░    
+```
+
+Check: the gate-by-gate circuit equals Qiskit's built-in `QFTGate(3)` as an operator (simulated). Qiskit numbers qubits little-endian ($q_0$ = least significant), which is why the circuit starts from $q_2$. ^circuit-qiskit
+
 ## Sources
 
 - [Quantum Fourier Transform (optional reading)](../sources/week-2-08-quantum-fourier-transform.md)

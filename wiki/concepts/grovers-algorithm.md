@@ -31,6 +31,26 @@ So $\theta \approx 2/\sqrt{N}$ for one marked item. After about $\lfloor \pi/4 \
 
 **Register size.** The index register holds $x = 0, \dots, N-1$ with $N = 2^n$, so it needs $n = \log_2 N$ qubits (plus the oracle's ancilla), not $N$, $n^2$ or $2^N$ ([raw week 5](/mit-raw/week5.md), quantum search, ~2:23). ^register-size
 
+## Circuit (generated with Qiskit)
+
+Grover search on $N = 8$ items (3 qubits) for the marked state $|101\rangle$, with $R = 2$ iterations. Oracle: flip the sign of $|101\rangle$ (X gates map it to $|111\rangle$, then a multi-controlled Z built as H–CCX–H). Diffusion: reflect about $|\psi\rangle$ with $H^{\otimes 3} X^{\otimes 3}\,(\text{CCZ})\,X^{\otimes 3} H^{\otimes 3}$. Generator: [`tools/circuits/circuits.py`](/tools/circuits/circuits.py) (`grover`).
+
+![Grover search on 3 qubits, marked state 101, two iterations](/wiki/media/circuits/grover-3q.svg)
+
+```text
+        ┌───┐ oracle                 diffusion ┌───┐┌───┐          ┌───┐┌───┐      oracle                 diffusion ┌───┐┌───┐          ┌───┐┌───┐      ░ ┌─┐      
+   q_0: ┤ H ├───░───────────■────────────░─────┤ H ├┤ X ├───────■──┤ X ├┤ H ├────────░───────────■────────────░─────┤ H ├┤ X ├───────■──┤ X ├┤ H ├──────░─┤M├──────
+        ├───┤   ░    ┌───┐  │  ┌───┐     ░     ├───┤├───┤       │  ├───┤├───┤        ░    ┌───┐  │  ┌───┐     ░     ├───┤├───┤       │  ├───┤├───┤      ░ └╥┘┌─┐   
+   q_1: ┤ H ├───░────┤ X ├──■──┤ X ├─────░─────┤ H ├┤ X ├───────■──┤ X ├┤ H ├────────░────┤ X ├──■──┤ X ├─────░─────┤ H ├┤ X ├───────■──┤ X ├┤ H ├──────░──╫─┤M├───
+        ├───┤   ░    ├───┤┌─┴─┐├───┤     ░     ├───┤├───┤┌───┐┌─┴─┐├───┤├───┤┌───┐   ░    ├───┤┌─┴─┐├───┤     ░     ├───┤├───┤┌───┐┌─┴─┐├───┤├───┤┌───┐ ░  ║ └╥┘┌─┐
+   q_2: ┤ H ├───░────┤ H ├┤ X ├┤ H ├─────░─────┤ H ├┤ X ├┤ H ├┤ X ├┤ H ├┤ X ├┤ H ├───░────┤ H ├┤ X ├┤ H ├─────░─────┤ H ├┤ X ├┤ H ├┤ X ├┤ H ├┤ X ├┤ H ├─░──╫──╫─┤M├
+        └───┘   ░    └───┘└───┘└───┘     ░     └───┘└───┘└───┘└───┘└───┘└───┘└───┘   ░    └───┘└───┘└───┘     ░     └───┘└───┘└───┘└───┘└───┘└───┘└───┘ ░  ║  ║ └╥┘
+meas: 3/═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╩══╩══╩═
+                                                                                                                                                           0  1  2 
+```
+
+Simulated success probability: 1 iteration $0.781$, **2 iterations $0.945$**, 3 iterations $0.330$. Overshooting makes it worse, exactly as $\sin^2\!\big((2R+1)\theta/2\big)$ with $\sin(\theta/2) = 1/\sqrt 8$ predicts. The bound $\lceil \tfrac\pi4\sqrt{8}\rceil = 3$ is an upper bound, not the best choice: $R = \mathrm{CI}(\arccos\sqrt{1/8}/\theta) = 2$. ^circuit-qiskit
+
 ## In this course
 
 Week 5 covers the algorithm, a walkthrough on the IBM Quantum Experience, and a lab in QASM (the OpenQASM syntax used by the composer: registers, `h`, `x`, `cx`, `ccx`, `measure`).
