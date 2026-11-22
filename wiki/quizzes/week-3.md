@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 2/11 ✅ CHECKED in eDX · 9 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 3/11 ✅ CHECKED in eDX · 8 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -196,7 +196,7 @@ The first technique created with the propose of improving classical simulations 
 
 ### Q2: Ideas and Issues of Quantum Simulation
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week4.md:7798](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-simulation|Quantum simulation: approaches and issues]]
 
 Which of the following are **valid** statements?
