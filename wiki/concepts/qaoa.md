@@ -60,5 +60,5 @@ More layers "can only improve" performance, since a deeper circuit can reproduce
 
 ## Sources
 
-- [QAOA (Farhi video)](../sources/week-5-02a-qaoa-farhi.md)
+- [Quantum Approximate Optimization Algorithm](../sources/week-5-02a-qaoa-farhi.md)
 - Raw: [QAOA transcript](/mit-raw/week5-qaoa.md) · [week 5](/mit-raw/week5.md) (intro, line 32)

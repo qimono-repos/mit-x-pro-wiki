@@ -1,15 +1,15 @@
 ---
-title: "QAOA (Farhi video)"
+title: "Quantum Approximate Optimization Algorithm"
 type: source
 week: 5
 raw: mit-raw/week5-qaoa.md
 ---
 
-# QAOA (Farhi video)
+# Quantum Approximate Optimization Algorithm
 
 Week 5 (official Week 4) video 3: Eddie Farhi introduces the **Quantum Approximate Optimization Algorithm**. [Raw transcript](/mit-raw/week5-qaoa.md)
 
-Missing from the original `week5.md` capture; transcript added 2026-11-22. The eDX page title and Learn prose are not captured.
+Missing from the original `week5.md` capture; transcript added 2026-11-22. Learn prose is not captured. The page's practice question is **Q1: Quantum Approximate Optimization Algorithm** ([[quizzes/week-4|Week 4 quizzes]]).
 
 ## What the video covers
 

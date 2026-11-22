@@ -151,3 +151,6 @@ CYU Quantum Annealing I (on the Quantum Annealing lecture page) transcribed into
 - New raw file `mit-raw/week5-qaoa.md`: Eddie Farhi's QAOA video, verbatim SRT. It was missing from `week5.md`, which mentions QAOA only in the intro (line 32). The eDX page title and Learn prose are not captured, and the position in the course map is a guess (video number 3, so after the adiabatic concept video).
 - New concept [[concepts/qaoa]] (blocks `^problem`, `^circuit`, `^depth`, `^track-record`) and source note `week-5-02a`; index, course map and the AQC page link to it. Lines marked *Background* (2β Bloch-sphere convention, Trotter/VQE analogy) are not course content.
 - Quantum Annealing I graded 1/1 (6 of 6 Week 4 practice questions graded correct).
+
+## [2026-11-22] update | QAOA page title + its CYU captured
+Albert confirmed the page title, "Quantum Approximate Optimization Algorithm"; raw header and source note renamed (file names unchanged). Its CYU was transcribed from his screenshot into `wiki/quizzes/week-4.md` with a hint; concept map updated. Possible tension, noted on the card: one option generalizes "better than random on every instance", which Farhi states for restricted MAX-CUT. 21 / 55 checked.

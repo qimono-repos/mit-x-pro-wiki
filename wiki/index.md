@@ -118,7 +118,7 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 - [Introduction to Quantum optimization](sources/week-5-01-introduction-to-quantum-optimization.md) — Course page.
 - [Adiabatic quantum computing: concept](sources/week-5-02-adiabatic-quantum-computing-concept.md) — Course page.
-- [QAOA (Farhi video)](sources/week-5-02a-qaoa-farhi.md) — Course video, transcript only: the Quantum Approximate Optimization Algorithm, MAX-CUT, E3LIN2.
+- [Quantum Approximate Optimization Algorithm](sources/week-5-02a-qaoa-farhi.md) — Course video, transcript only: the Quantum Approximate Optimization Algorithm, MAX-CUT, E3LIN2.
 - [Adiabatic Quantum Computing: Expert View](sources/week-5-03-adiabatic-quantum-computing-expert-view.md) — Course page.
 - [Quantum Annealing](sources/week-5-03a-quantum-annealing.md) — Course page, Learn screenshot + transcript (Gabriel Samach): why AQC fails in practice, annealing, Ising encoding.
 - [Quantum Annealing: Expert View](sources/week-5-03b-quantum-annealing-expert-view.md) — Course page, transcript only (classroom, D-Wave history): why it's called annealing, no proof of advantage.

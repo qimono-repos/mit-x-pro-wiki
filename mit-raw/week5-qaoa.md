@@ -1,6 +1,6 @@
-# Page Title: Quantum Approximate Optimization Algorithm (QAOA), Farhi
+# Page Title: Quantum Approximate Optimization Algorithm
 
-<!-- Added 2026-11-22. Transcript file Q2W4V3_REV_2026-en.srt (course 2, week 4, video 3) downloaded by Albert from the eDX page. Speaker: Eddie Farhi (he names his collaborators Sam Gutmann and Jeffrey Goldstone). Missing from week5.md. The eDX page title and any Learn prose are not captured; the title above is descriptive. Verbatim SRT below. -->
+<!-- Added 2026-11-22. Transcript file Q2W4V3_REV_2026-en.srt (course 2, week 4, video 3) downloaded by Albert from the eDX page. Speaker: Eddie Farhi (he names his collaborators Sam Gutmann and Jeffrey Goldstone). Missing from week5.md. Page title confirmed by Albert. Learn prose not captured. The page's practice question (Q1: Quantum Approximate Optimization Algorithm) is transcribed in wiki/quizzes/week-4.md from his screenshot. Verbatim SRT below. -->
 
 ## Transcript
 

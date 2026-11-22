@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 11/13 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 12/14 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -56,6 +56,28 @@ Imagine you are running an optimization algorithm on an Adiabatic Quantum Comput
 ### ⚠️ Adiabatic QC 3rd CYU — NOT CAPTURED
 
 > **Status:** ⚠️ not captured, re-capture from eDX. The outline lists 3 adiabatic + 2 annealing questions. Captured: 2 adiabatic (raw) + Quantum Annealing I and II (eDX screenshots, 2026-11-22). Still missing: the 3rd adiabatic CYU.
+
+
+## CYU · QAOA
+
+
+### Q1: Quantum Approximate Optimization Algorithm
+
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that are NOT valid · **Attempts:** 3  
+> **Raw:** [week5-qaoa.md](/mit-raw/week5-qaoa.md) (question text from eDX screenshot, 2026-11-22) · **Concepts:** [[concepts/qaoa|QAOA]]
+
+Which of the following statements about the Quantum Approximate Optimization Algorithm are **false**?
+
+- [ ] **A.** It does not always find the best possible solution, but it always finds a solution that is better than a random choice.
+- [ ] **B.** It always outperforms classical optimization algorithms.
+- [ ] **C.** The system is initialized with all the spins pointing down (along the z-axis) such that the energy is minimized.
+- [ ] **D.** In the algorithm, the cost function of the optimization problem is “promoted” to an operator and performs a unitary evolution of the system.
+
+> [!tip]- 💡 Hint
+> Two checks against Farhi's video. (1) What state does the algorithm start in: which axis do the spins point along, and what superposition of bit strings is that? (2) What happened after the E3LIN2 result: who is ahead today on provable worst-case guarantees?
+
+> [!info]- Original eDX screenshot
+> ![](/wiki/quizzes/media/w4-qaoa.png)
 
 
 ## CYU · Quantum Annealing
