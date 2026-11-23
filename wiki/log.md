@@ -217,3 +217,6 @@ Raw week 4 (~line 3146) gives $e^{A+B}=e^Ae^Be^{+\frac12[A,B]}$. The correct sec
 
 ## [2026-11-22] update | Week 2 quiz: 3 of 4 graded full marks; eDX at 54%
 BB84 Protocol II, Quantum Teleportation and Half-Wave Plate submitted and graded 1/1. Quantum Entanglement II is saved but not submitted, pending the tie-breaker (CYU Quantum Entanglement I, 3 attempts). eDX weighted grade: 54% (pass 60%). Quantum Repeaters CYU checked; its fiber-loss option matches the Learn text (raw week3 ~l.11095).
+
+## [2026-11-22] update | Teleportation: photon labels differ across course sources; metaphor; derivation verified
+[[concepts/quantum-teleportation]] gains `^labels` (input photon is C in the Learn text and quiz figure, A in the lecture, 1 in the pre-assessment), `^metaphor` (Remus and Romulus), and `^derivation-check` (the Learn page's Bell-basis regrouping verified numerically). The Quantum Repeaters CYU was graded full marks.
