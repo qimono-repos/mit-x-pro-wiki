@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 10/11 ✅ CHECKED in eDX · 1 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 11/11 ✅ CHECKED in eDX · 0 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -17,7 +17,7 @@ Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → co
 
 ### Q1: Ultra-Cold Atoms
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week4.md:74](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-simulation|Quantum simulation: approaches and issues]]
 
 Because of the numerous techniques that can be used to control their quantum properties, optically trapped ultracold atoms are a promising candidate for both quantum simulation and quantum computation.
@@ -38,7 +38,7 @@ As alluded to in the video, which of the following processes are commonly used i
 
 ### Q1: The Role of Hamiltonians in Quantum Mechanics
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:1080](/mit-raw/week4.md) · **Concepts:** [[concepts/hamiltonian-simulation|Hamiltonian simulation]]
 
 Regarding the role of Hamiltonians in quantum mechanics, which of the following statements is **not valid**?
