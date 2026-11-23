@@ -1,6 +1,7 @@
 # Index
 
 Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cybersecurity, Chemistry, and Optimization*). Raw file numbers are not the official week numbers. See the [course map](analyses/course-map.md). Read this first when answering a question, then open the linked pages.
+- [Reflect & Review draft 002](analyses/reflect-rev-draft-002.md) — Brainstorm for the Week 3 reflection: Zhang 2017 press timing, corporate vs university expectations, investment case, IBM QDC 2026, AI Riemann claim.
 
 ## How this vault is organized
 
