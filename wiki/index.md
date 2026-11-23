@@ -122,6 +122,7 @@ Agents: start with [AGENTS.md](../AGENTS.md); Claude Code also reads [CLAUDE.md]
 - [Adiabatic quantum computing: concept](sources/week-5-02-adiabatic-quantum-computing-concept.md) — Course page.
 - [Quantum Approximate Optimization Algorithm](sources/week-5-02a-qaoa-farhi.md) — Course video, transcript only: the Quantum Approximate Optimization Algorithm, MAX-CUT, E3LIN2.
 - [Adiabatic Quantum Computing: Expert View](sources/week-5-03-adiabatic-quantum-computing-expert-view.md) — Course page.
+- [Reflect and Review Activity](sources/week-4-08-reflect-and-review.md) — Official Week 3 APPLY activity (10% of grade): 3 papers, 150–300-word reflection, forum post, 2 peer replies.
 - [Quantum Annealing](sources/week-5-03a-quantum-annealing.md) — Course page, Learn screenshot + transcript (Gabriel Samach): why AQC fails in practice, annealing, Ising encoding.
 - [Quantum Annealing: Expert View](sources/week-5-03b-quantum-annealing-expert-view.md) — Course page, transcript only (classroom, D-Wave history): why it's called annealing, no proof of advantage.
 - [Grover's Algorithm: Quantum Search](sources/week-5-04-grover-s-algorithm-quantum-search.md) — Course page.

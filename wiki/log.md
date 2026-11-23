@@ -228,3 +228,8 @@ BB84 Protocol II, Quantum Teleportation and Half-Wave Plate submitted and graded
 
 ## [2026-11-22] status | PASSING: eDX at 64%
 Week 4 quiz Q4 graded full marks (4 of 5; Q1 pending), Week 2 quiz 3 of 4 (Q2 pending). eDX weighted grade 64% ("You're currently passing this course"). Still at 0: Reflect/Review (10%), Case Study (5%), Post-Assessment (5%), plus the official Week 1 and Week 2 CYUs.
+
+## [2026-11-22] ingest | Week 3 Reflect & Review Activity captured (screenshot + summary) and its three papers
+- `mit-raw/week4-reflect-review.md` (screenshot + description) and source note `week-4-08-reflect-and-review`. This closes the biggest capture gap: the Reflect/Review bucket is 10% of the grade.
+- `mit-raw/external/reflect-review-papers.md`: own-words summaries of Zhang 2017 (53 ions), O'Malley 2016 (H₂, Google/UCSB) and Kandala 2017 (BeH₂, IBM), linked to the VQE, phase estimation, Trotterization and quantum simulation concepts.
+- Requirement noted: the journal box takes 150–300 words. Albert's ~3,200-word draft is working notes, condensed privately.
