@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 5/12 ✅ CHECKED in eDX · 7 ⏳ pending
+**Progress:** 6/12 ✅ CHECKED in eDX · 6 ⏳ pending
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -158,7 +158,7 @@ In the context of Bell's Inequality, which of the following statements is **not 
 
 ### Q1: Quantum Entanglement I
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week3.md:10131](/mit-raw/week3.md) · **Concepts:** [[concepts/photon-polarization-qubits|Photon polarization as a qubit]]
 
 Alice and Bob share polarization-entangled photons prepared in the Bell state,
@@ -186,7 +186,7 @@ Alice takes her photon ($A$) to the Moon and Bob takes his photon ($B$) to Mars.
 
 ### Q1: Quantum Repeaters
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week3.md:11119](/mit-raw/week3.md) · **Concepts:** [[concepts/quantum-repeaters|Quantum repeaters]]
 
 Which of the following phrases are **true**?
