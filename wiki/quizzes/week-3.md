@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 9/11 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 10/11 ✅ CHECKED in eDX · 1 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -38,7 +38,7 @@ As alluded to in the video, which of the following processes are commonly used i
 
 ### Q1: The Role of Hamiltonians in Quantum Mechanics
 
-> **Status:** ⏳ pending · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:1080](/mit-raw/week4.md) · **Concepts:** [[concepts/hamiltonian-simulation|Hamiltonian simulation]]
 
 Regarding the role of Hamiltonians in quantum mechanics, which of the following statements is **not valid**?
@@ -54,7 +54,7 @@ Regarding the role of Hamiltonians in quantum mechanics, which of the following 
 
 ### Q1: Particle in a Box
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:2603](/mit-raw/week4.md) · **Concepts:** [[concepts/hamiltonian-simulation|Hamiltonian simulation]]
 
 In the particle in a box problem, a particle is trapped between two large potential walls. For simplicity, it is assumed that the particle can only move in one dimension, usually denoted with $x$, and the potential $V(x)$ is then written as a function of $x$.
