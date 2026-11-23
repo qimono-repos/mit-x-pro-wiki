@@ -214,3 +214,6 @@ Raw week 4 (~line 3146) gives $e^{A+B}=e^Ae^Be^{+\frac12[A,B]}$. The correct sec
 
 ## [2026-11-22] update | CLAUDE.md added (at Albert's request)
 `CLAUDE.md` points Claude Code to AGENTS.md and documents what AGENTS.md doesn't yet cover: the folders added since (`mit-raw/external/`, `wiki/quizzes/`, `wiki/media/circuits/`, `tools/circuits/`), raw-vs-official week numbering, the no-answers rule for this public repo, the 5-point drill, and the raw-string LaTeX gotcha. Week 2 quiz reviewed (answers saved on eDX, not submitted); Week 2 CYU Entanglement I (3 attempts) is the planned tie-breaker for quiz Q2.
+
+## [2026-11-22] update | Week 2 quiz: 3 of 4 graded full marks; eDX at 54%
+BB84 Protocol II, Quantum Teleportation and Half-Wave Plate submitted and graded 1/1. Quantum Entanglement II is saved but not submitted, pending the tie-breaker (CYU Quantum Entanglement I, 3 attempts). eDX weighted grade: 54% (pass 60%). Quantum Repeaters CYU checked; its fiber-loss option matches the Learn text (raw week3 ~l.11095).

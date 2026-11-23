@@ -5,13 +5,13 @@ type: quiz-index
 
 # Quizzes: progress
 
-**Overall:** 34/55 ✅ CHECKED in eDX · 21 ⏳ pending · 3 ⚠️ not captured. Due **Dec 14, 2026, 8:30 PM GMT-3**.
+**Overall:** 39/55 ✅ CHECKED in eDX · 16 ⏳ pending · 3 ⚠️ not captured. Due **Dec 14, 2026, 8:30 PM GMT-3**.
 
 | Section | Page | Checked | Pending | Not captured |
 |---|---|---|---|---|
 | Pre-Assessment | [[quizzes/pre-assessment]] | 9 | 0 | 0 |
 | Week 1 | [[quizzes/week-1]] | 0 | 9 | 1 |
-| Week 2 | [[quizzes/week-2]] | 0 | 12 | 0 |
+| Week 2 | [[quizzes/week-2]] | 5 | 7 | 0 |
 | Week 3 | [[quizzes/week-3]] | 11 | 0 | 1 |
 | Week 4 | [[quizzes/week-4]] | 14 | 0 | 1 |
 

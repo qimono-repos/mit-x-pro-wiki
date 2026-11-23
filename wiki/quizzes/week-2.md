@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 0/12 ✅ CHECKED in eDX · 12 ⏳ pending
+**Progress:** 5/12 ✅ CHECKED in eDX · 7 ⏳ pending
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -186,7 +186,7 @@ Alice takes her photon ($A$) to the Moon and Bob takes his photon ($B$) to Mars.
 
 ### Q1: Quantum Repeaters
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week3.md:11119](/mit-raw/week3.md) · **Concepts:** [[concepts/quantum-repeaters|Quantum repeaters]]
 
 Which of the following phrases are **true**?
@@ -208,7 +208,7 @@ Which of the following phrases are **true**?
 
 ### Q1: BB84 Protocol II
 
-> **Status:** ⏳ pending · **Type:** Select one · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one · **Attempts:** 1  
 > **Raw:** [week3.md:11146](/mit-raw/week3.md) · **Concepts:** [[concepts/bb84|BB84]]
 
 The figure below shows an example of the BB84 protocol. The horizontal and vertical arrows refer to the horizontal and vertical photon polarization, $|H\rangle$ and $|V\rangle$, respectively. The arrows in +45 and -45 degrees with respect to the horizontal arrow refer to the right-diagonal and left-diagonal photon polarization, $|R\rangle$ and $|L\rangle$, respectively.
@@ -243,7 +243,7 @@ Which is the key to be used by Alice and Bob?
 
 ### Q2: Quantum Entanglement II
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week3.md:11179](/mit-raw/week3.md) · **Concepts:** [[concepts/photon-polarization-qubits|Photon polarization as a qubit]]
 
 Alice and Bob shared polarization entangled photons prepared in the Bell state,
@@ -268,7 +268,7 @@ Alice takes her photon ($A$) to Jupiter and Bob takes his photon ($B$) to Pluto.
 
 ### Q3: Quantum Teleportation
 
-> **Status:** ⏳ pending · **Type:** Select one (which is NOT valid) · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 1  
 > **Raw:** [week3.md:11206](/mit-raw/week3.md) · **Concepts:** [[concepts/quantum-teleportation|Quantum teleportation]]
 
 The figure below shows a high-level diagram of the protocol of teleportation. While photons A and C belong to Alice, photon B belongs to Bob.
@@ -293,7 +293,7 @@ Which of the following phrases is **not valid**?
 
 ### Q4: Half-Wave Plate
 
-> **Status:** ⏳ pending · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week3.md:11241](/mit-raw/week3.md) · **Concepts:** [[concepts/photon-polarization-qubits|Photon polarization as a qubit]]
 
 The quantum state of photon polarization is analogous to the quantum state of a qubit. The figure below illustrates this analogy by showing the Bloch sphere for a qubit (left) and the polarization of a photon (right). You can draw the following correspondence between states:
