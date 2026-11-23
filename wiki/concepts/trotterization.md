@@ -25,6 +25,10 @@ $$
 
 ^exact-vs-product
 
+**Course formula check (BCH).** The Learn text (raw week 4, ~line 3146) writes $e^{\hat A+\hat B}=e^{\hat A}e^{\hat B}e^{\frac12[\hat A,\hat B]}$. Two caveats. (1) It holds exactly only when $[\hat A,\hat B]$ commutes with both $\hat A$ and $\hat B$; in general it's the start of an infinite series (the Zassenhaus formula). (2) The sign should be **minus**: $e^{\hat A+\hat B}=e^{\hat A}e^{\hat B}e^{-\frac12[\hat A,\hat B]}\cdots$. Numerical check with $\hat A=-isX$, $\hat B=-isZ$, $s=0.05$: error of the plain product $3.5\times10^{-3}$, with the course's $+\tfrac12$ $7.1\times10^{-3}$ (worse), with $-\tfrac12$ $2.6\times10^{-4}$ (third order). The point the course makes still stands: when the terms don't commute, $e^{\hat A+\hat B}\ne e^{\hat A}e^{\hat B}$, and the leading error is $\propto[\hat A,\hat B]$. ^bch-sign
+
+**Any number of terms.** The course's Lie product formula is written for $H = \sum_n H_n$, $\hat U(t) = \lim_{\tau\to\infty}\big(\prod_n e^{-i\hat H_n t/\tau\hbar}\big)^{\tau}$, so Trotterization is not limited to two terms (raw week 4, ~line 3150). ^many-terms
+
 
 **Geometric picture (the course's cow).** Rotations about the *same* axis commute: 90° then 45° about $x$ equals 45° then 90°. Rotations about *different* axes generally don't: 90° about $x$ then about $y$ lands the object differently from the reverse order (raw week 4, quiz Q3, ~line 7817). Operators behave the same way. ^non-commuting-rotations
 

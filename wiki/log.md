@@ -202,3 +202,6 @@ Added `tools/circuits/circuits.py` (+ README) generating SVG + text diagrams, ea
 
 ## [2026-11-22] update | Week 3 chemistry CYU graded 1/1; V_nc vs V_ne
 Graded 1/1. Its feedback writes the molecular Hamiltonian with $V_{ne}$, matching Chuang's board; the pre-assessment's $V_{nc}$ is the same nucleus–electron term. [[concepts/quantum-chemistry]] `^molecular-hamiltonian` now uses $V_{ne}$ and records the conflict.
+
+## [2026-11-22] lint | Course BCH formula has a sign error
+Raw week 4 (~line 3146) gives $e^{A+B}=e^Ae^Be^{+\frac12[A,B]}$. The correct second-order factor is $e^{-\frac12[A,B]}$ (Zassenhaus), and it is exact only when $[A,B]$ commutes with $A$ and $B$. Verified numerically. Recorded on [[concepts/trotterization]] `^bch-sign`, along with `^many-terms` (the Lie product formula covers $\sum_n H_n$). Week 3 Trotterization CYU checked.
