@@ -205,3 +205,9 @@ Graded 1/1. Its feedback writes the molecular Hamiltonian with $V_{ne}$, matchin
 
 ## [2026-11-22] lint | Course BCH formula has a sign error
 Raw week 4 (~line 3146) gives $e^{A+B}=e^Ae^Be^{+\frac12[A,B]}$. The correct second-order factor is $e^{-\frac12[A,B]}$ (Zassenhaus), and it is exact only when $[A,B]$ commutes with $A$ and $B$. Verified numerically. Recorded on [[concepts/trotterization]] `^bch-sign`, along with `^many-terms` (the Lie product formula covers $\sum_n H_n$). Week 3 Trotterization CYU checked.
+
+## [2026-11-22] status | End of day: official Weeks 3 and 4 practice complete; eDX at 42%
+- eDX weighted grade 42% (pass 60%, due Dec 14, 2026). Official Week 3: every CYU and the quiz graded full marks (4/4). Official Week 4: all practice 9/9, quiz 1/5 submitted (Q3).
+- **Gap with the biggest weight:** Week 3 "Reflect and Review Activity" (Reflect/Review bucket = 10% of the grade) is still not captured in `mit-raw/`.
+- Remaining capture/review: official Week 2 (raw week3) and Week 1 (raw week1 + week2), the Week 1 case study, the post-assessment.
+- The private Anki build kit (answers) is kept outside this repo.

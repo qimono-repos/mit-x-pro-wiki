@@ -17,7 +17,7 @@ Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → co
 
 ### Q1: Ultra-Cold Atoms
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week4.md:74](/mit-raw/week4.md) · **Concepts:** [[concepts/quantum-simulation|Quantum simulation: approaches and issues]]
 
 Because of the numerous techniques that can be used to control their quantum properties, optically trapped ultracold atoms are a promising candidate for both quantum simulation and quantum computation.
