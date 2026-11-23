@@ -7,7 +7,7 @@ type: quiz
 
 Every graded question of this week, transcribed from the eDX screenshots. Options are lettered **A, B, C, …**; the letters are *not* on the platform, they're added to match the Anki deck. **No answers here** (public repo). Status only tracks progress.
 
-**Progress:** 8/11 ✅ CHECKED in eDX · 3 ⏳ pending · 1 ⚠️ not captured
+**Progress:** 9/11 ✅ CHECKED in eDX · 2 ⏳ pending · 1 ⚠️ not captured
 
 Back to [[quizzes/index|all quizzes]] · [[analyses/quiz-concept-map|quiz → concept map]]
 
@@ -54,7 +54,7 @@ Regarding the role of Hamiltonians in quantum mechanics, which of the following 
 
 ### Q1: Particle in a Box
 
-> **Status:** ⏳ pending · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:2603](/mit-raw/week4.md) · **Concepts:** [[concepts/hamiltonian-simulation|Hamiltonian simulation]]
 
 In the particle in a box problem, a particle is trapped between two large potential walls. For simplicity, it is assumed that the particle can only move in one dimension, usually denoted with $x$, and the potential $V(x)$ is then written as a function of $x$.
@@ -75,7 +75,7 @@ Which of the following is **not valid**?
 
 ### Q1: Trotterization
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select one (which is NOT valid) · **Attempts:** 2  
 > **Raw:** [week4.md:3160](/mit-raw/week4.md) · **Concepts:** [[concepts/trotterization|Trotterization]]
 
 The total Hamiltonian of a quantum system can be defined by more than one term, such as
