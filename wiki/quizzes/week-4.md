@@ -238,7 +238,7 @@ Adiabatic evolution is difficult to implement in a realistic quantum computer be
 
 ### Q2: Quantum Annealing III
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week5.md:5095](/mit-raw/week5.md) · **Concepts:** [[concepts/quantum-annealing|Quantum annealing]] · [[concepts/adiabatic-quantum-computing|Adiabatic quantum computing]]
 
 Regarding Quantum Annealing, which of the following statements are **valid**?
@@ -314,7 +314,7 @@ The $n$-qubit Grover operator may be defined as $G=(2|\psi\rangle\langle\psi|-I)
 
 ### Q5: Exactly-1 3-SAT Problem II
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week5.md:5180](/mit-raw/week5.md) · **Concepts:** [[concepts/exactly-1-3-sat|Exactly-1 3-SAT]]
 
 Which of the following statements are **valid**?

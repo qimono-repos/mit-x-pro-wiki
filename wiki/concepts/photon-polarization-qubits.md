@@ -26,7 +26,9 @@ A polarizer along direction $\theta$ transmits the component of the state along 
 
 For $\tfrac{1}{\sqrt2}(|H\rangle_A|H\rangle_B + |V\rangle_A|V\rangle_B)$: when Alice's $H$-polarizer transmits, the joint state collapses to $|H\rangle_A|H\rangle_B$, and Bob's photon is now $|H\rangle$ wherever he is. What Bob then sees follows from the polarizer rule above applied to $|H\rangle$. If Alice's polarizer is $V$ instead, Bob's photon is $|V\rangle$, and the same reasoning applies. This works at any distance (Moon, Mars), but it gives no way to signal, because Bob's local statistics alone don't reveal Alice's choice. ^entangled-pair-measurement
 
-> **Conflict (course model vs physics), recorded 2026-11-22.** The course's entanglement questions ask what Bob's detector "registers" after a ±45° polarizer. On the **collapse reading** the course appears to use (pre-assessment grading), Bob's photon is described by the polarization it collapsed to (H or V). On the **strict optics reading**, a photon that passes a +45° polarizer *is* +45°-polarized, and a later H/V measurement gives H or V 50/50. The two readings select different options on these questions. Check the platform's feedback before relying on either.
+> **Conflict resolved (2026-11-22).** Earlier we couldn't tell whether the course reads Bob's photon as still $|H\rangle$ after his ±45° polarizer (collapse only) or as the polarizer leaves it. The course's own feedback on the Entanglement CYU settles it with the polarizer rule above: write $|H\rangle_B = \tfrac{1}{\sqrt2}(|D\rangle_B + |A\rangle_B)$ (D = diagonal +45°, A = anti-diagonal −45°). It passes the +45° polarizer with probability ½ and leaves it as $|D\rangle_B = \tfrac{1}{\sqrt2}(|H\rangle_B + |V\rangle_B)$, so a polarization-sensitive detector *after* the polarizer reads H or V 50/50. The pre-assessment's wording, which only describes the collapse, has no detector after the polarizer, so the two aren't in conflict. **Rule: a polarizer is a measurement, and the photon leaves it in the polarizer's state.** ^collapse-vs-polarizer
+
+*Notation:* the course names the diagonal states $|D\rangle/|A\rangle$ here, $|R\rangle/|L\rangle$ in the BB84 quiz, $|\nearrow\rangle/|\searrow\rangle$ in the half-wave-plate question, and $|\pm45°\rangle$ elsewhere. They are the same two states, $|\pm\rangle$ on the Bloch-sphere equator.
 
 The course also stresses that entangled states "remain entangled even in different bases," and that a conditional two-qubit gate (CNOT) is needed to create them in the circuit model (raw week 3, entangled sources transcript, ~1:45). ^entangled-any-basis
 
@@ -38,7 +40,7 @@ $$
 |H\rangle \mapsto \cos 2\theta\,|H\rangle + \sin 2\theta\,|V\rangle, \qquad |V\rangle \mapsto \sin 2\theta\,|H\rangle - \cos 2\theta\,|V\rangle
 $$
 
-(raw week 3, quiz Q4 stem). At $\theta = 0$ this is $Z$; at $\theta = 22.5°$ it is the Hadamard $H$; at $\theta = 45°$ it is $X$ (own check: plug the angle into the matrix $\begin{psmallmatrix}\cos2\theta & \sin2\theta\\ \sin2\theta & -\cos2\theta\end{psmallmatrix}$). Waveplates are also how one Bell state is converted into the other three. ^half-wave-plate
+(raw week 3, quiz Q4 stem). At $\theta = 0$ this is $Z$; at $\theta = 22.5°$ it is the Hadamard $H$; at $\theta = 45°$ it is $X$ (own check: plug the angle into the matrix $\left(\begin{smallmatrix}\cos2\theta & \sin2\theta\\ \sin2\theta & -\cos2\theta\end{smallmatrix}\right)$). Waveplates are also how one Bell state is converted into the other three. ^half-wave-plate
 
 ## Sources
 

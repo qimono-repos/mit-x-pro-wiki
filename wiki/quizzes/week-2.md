@@ -158,7 +158,7 @@ In the context of Bell's Inequality, which of the following statements is **not 
 
 ### Q1: Quantum Entanglement I
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 3  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 (2nd try) · **Type:** Select all that apply · **Attempts:** 3  
 > **Raw:** [week3.md:10131](/mit-raw/week3.md) · **Concepts:** [[concepts/photon-polarization-qubits|Photon polarization as a qubit]]
 
 Alice and Bob share polarization-entangled photons prepared in the Bell state,

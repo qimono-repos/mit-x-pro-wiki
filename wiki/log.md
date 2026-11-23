@@ -220,3 +220,8 @@ BB84 Protocol II, Quantum Teleportation and Half-Wave Plate submitted and graded
 
 ## [2026-11-22] update | Teleportation: photon labels differ across course sources; metaphor; derivation verified
 [[concepts/quantum-teleportation]] gains `^labels` (input photon is C in the Learn text and quiz figure, A in the lecture, 1 in the pre-assessment), `^metaphor` (Remus and Romulus), and `^derivation-check` (the Learn page's Bell-basis regrouping verified numerically). The Quantum Repeaters CYU was graded full marks.
+
+## [2026-11-22] update | Collapse-vs-polarizer conflict resolved; Week 4 quiz: 3 of 5 graded
+- [[concepts/photon-polarization-qubits]] `^collapse-vs-polarizer`: the course's feedback on the Entanglement CYU (graded on the 2nd attempt) uses the polarizer rule: Bob's photon leaves a +45° polarizer as $|D\rangle$, and an H/V detector after it reads 50/50. The pre-assessment's collapse-only wording has no detector stage, so the two don't conflict. Added a note on the course's four names for the diagonal states. Also fixed an unsupported `psmallmatrix` in the half-wave-plate line.
+- Learned about grading: edX gives partial credit on select-all questions (0.5) and shows no explanation for partial answers.
+- Week 4 quiz: Q2 and Q5 submitted, graded full marks (with Q3, 3 of 5 done).
