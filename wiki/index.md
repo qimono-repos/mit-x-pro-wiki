@@ -4,6 +4,8 @@ Content catalog for the MIT xPRO **QCFx2** LLM wiki (*Quantum Algorithms for Cyb
 
 ## How this vault is organized
 
+Agents: start with [AGENTS.md](../AGENTS.md); Claude Code also reads [CLAUDE.md](../CLAUDE.md) (pointer + operating notes).
+
 - `mit-raw/` — immutable course capture (Learn prose, SRT transcripts, slides as LaTeX or images).
 - `wiki/sources/` — one note per course page, pointing at the raw week file.
 - `wiki/concepts/` — synthesized topic pages. The LLM owns this layer.

@@ -211,3 +211,6 @@ Raw week 4 (~line 3146) gives $e^{A+B}=e^Ae^Be^{+\frac12[A,B]}$. The correct sec
 - **Gap with the biggest weight:** Week 3 "Reflect and Review Activity" (Reflect/Review bucket = 10% of the grade) is still not captured in `mit-raw/`.
 - Remaining capture/review: official Week 2 (raw week3) and Week 1 (raw week1 + week2), the Week 1 case study, the post-assessment.
 - The private Anki build kit (answers) is kept outside this repo.
+
+## [2026-11-22] update | CLAUDE.md added (at Albert's request)
+`CLAUDE.md` points Claude Code to AGENTS.md and documents what AGENTS.md doesn't yet cover: the folders added since (`mit-raw/external/`, `wiki/quizzes/`, `wiki/media/circuits/`, `tools/circuits/`), raw-vs-official week numbering, the no-answers rule for this public repo, the 5-point drill, and the raw-string LaTeX gotcha. Week 2 quiz reviewed (answers saved on eDX, not submitted); Week 2 CYU Entanglement I (3 attempts) is the planned tie-breaker for quiz Q2.
