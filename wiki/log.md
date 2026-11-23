@@ -225,3 +225,6 @@ BB84 Protocol II, Quantum Teleportation and Half-Wave Plate submitted and graded
 - [[concepts/photon-polarization-qubits]] `^collapse-vs-polarizer`: the course's feedback on the Entanglement CYU (graded on the 2nd attempt) uses the polarizer rule: Bob's photon leaves a +45° polarizer as $|D\rangle$, and an H/V detector after it reads 50/50. The pre-assessment's collapse-only wording has no detector stage, so the two don't conflict. Added a note on the course's four names for the diagonal states. Also fixed an unsupported `psmallmatrix` in the half-wave-plate line.
 - Learned about grading: edX gives partial credit on select-all questions (0.5) and shows no explanation for partial answers.
 - Week 4 quiz: Q2 and Q5 submitted, graded full marks (with Q3, 3 of 5 done).
+
+## [2026-11-22] status | PASSING: eDX at 64%
+Week 4 quiz Q4 graded full marks (4 of 5; Q1 pending), Week 2 quiz 3 of 4 (Q2 pending). eDX weighted grade 64% ("You're currently passing this course"). Still at 0: Reflect/Review (10%), Case Study (5%), Post-Assessment (5%), plus the official Week 1 and Week 2 CYUs.

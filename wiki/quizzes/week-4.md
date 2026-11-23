@@ -295,7 +295,7 @@ What is the arrangement of spins in an $N$-spin chain if the system evolves to t
 
 ### Q4: Grover Operator
 
-> **Status:** ✅ CHECKED in eDX · **Type:** Select all that apply · **Attempts:** 1  
+> **Status:** ✅ CHECKED in eDX · 🎯 graded 1/1 · **Type:** Select all that apply · **Attempts:** 1  
 > **Raw:** [week5.md:5159](/mit-raw/week5.md) · **Concepts:** [[concepts/grovers-algorithm|Grover's algorithm]]
 
 The $n$-qubit Grover operator may be defined as $G=(2|\psi\rangle\langle\psi|-I)O$. Which of the following statements are **valid**?
