@@ -3,6 +3,8 @@ title: "Reflect & Review: draft 002 (brainstorm, no word limit)"
 type: analysis
 status: brainstorm
 created: 2026-11-23
+updated: 2026-11-24
+revision_contributor: ChatGPT (XYZ framework, external research, consulting brainstorm)
 authors: Albert Gruning (opinions, framing), Claude Opus 5.5 (research, fact-check, structure)
 assignment: "[[sources/week-4-08-reflect-and-review]]"
 chosen_paper: "Zhang et al., Nature 551, 601–604 (2017)"
@@ -13,6 +15,122 @@ chosen_paper: "Zhang et al., Nature 551, 601–604 (2017)"
 > **What this is.** A long brainstorm for the official Week 3 *Reflect & Review* activity ([source note](../sources/week-4-08-reflect-and-review.md)). There's no length limit here; the eDX box itself takes **150–300 words**, so a condensed version gets cut from this later. It builds on PAPER-DRAFT-001 (Grok, private Google Doc) and on the wiki: [[concepts/quantum-simulation]], [[concepts/quantum-annealing]], [[concepts/vqe]], [[concepts/quantum-chemistry]], [[concepts/photon-polarization-qubits]].
 >
 > **Tags used below:** **[fact]** = checked against a linked source on 2026-11-23 · **[opinion]** = Albert's position · **[reasoning]** = Claude's argument · **[to verify]** = not checked yet, don't publish as fact.
+
+---
+
+
+## 0A. XYZ Impact Model — Albert's framework (2026-11-24)
+
+**[opinion / proposed analytical framework]** Evaluate research as a time-dependent vector I(t) = (X(t), Y(t), Z(t)), not a single popularity ranking.
+
+| Axis | Meaning | Evidence to collect |
+|---|---|---|
+| X — scientific | New physics, technical capability, reproducibility, subsequent research | Peer-reviewed results, independent replications, normalized citations, credible classical baselines |
+| Y — media | Visibility, framing, institutional reputation and expectations | Dated headlines, outlet categories, article counts, prominence, audience reach and sentiment |
+| Z — business / financial / fintech | Capital allocation and actual economic activity | Grants, equity financing, contracts, recognized revenue, deployments, hiring, customer outcomes and financial-sector applications |
+
+Time is a parameter, not another score. The axes are conceptually distinct, not assumed statistically independent. Capital raised, revenue, valuation and realized client value are different measures; report them separately. Compare the 2016–17 launch windows and 2026 follow-up; distinguish paper-level evidence from platform-level proxies. No numerical coordinates or ranking without a reproducible dataset.
+
+| Contribution | X: scientific | Y: media | Z: business |
+|---|---|---|---|
+| Zhang (2017) | 53-ion analog many-body dynamics and domain correlations | Shared 50+ headline with Bernien; IBM prototype announced earlier | Platform credibility, not documented immediate revenue |
+| O'Malley (2016) | H₂ molecular energies; VQE vs phase estimation | Accessible chemistry narrative; comparative reach not measured | Chemistry proof of concept, not industrial production |
+| Kandala (2017) | Hardware-efficient VQE, up to BeH₂, quantum magnet | IBM ecosystem and chemistry narrative | Enterprise research pathway, not proven profitable chemistry |
+| Trapped-ion ecosystem (2026) | Helios, digital magnetism and QEC experiments | Commercial firms generate their own headlines | IPO, contracts, deployments; attribution to Zhang alone not established |
+
+**Working thesis:** the chosen paper may score differently on each axis. The press competition is documented, but relative reach and causal impact need a media corpus. Commercial trapped-ion activity supports the relevance of the underlying technology, not a claim that Zhang caused all subsequent investment. Scientific impact can precede commercial relevance by years; headlines can precede both.
+
+## 0B. Hardware race: 2017 versus November 2026
+
+**[external evidence, checked 2026-11-24]** IBM uses superconducting circuit qubits (artificial atoms controlled by electrical/microwave signals at cryogenic temperatures). Zhang used trapped ytterbium ions. The other two assigned papers used superconducting hardware. Bernien's neutral Rydberg atoms are a third modality.
+
+| Date / system | Scale | Quality / architecture | Status |
+|---|---|---|---|
+| IBM, 10 Nov 2017 | 20-qubit client system; 50-qubit prototype | Superconducting; average coherence 90 microseconds for 20-qubit system, similar metrics for prototype | Operational prototype; client access to 20 planned by year end |
+| Zhang, 29–30 Nov 2017 | 53 ions | Long-range Ising analog simulator; individual readout around 99% | Published experiment, not universal 53-qubit gate machine |
+| Bernien, same Nature issue | 51 neutral atoms | Rydberg interactions, analog simulation | Independent experiment |
+| IBM Nighthawk r2, 31 Aug 2026 | 120 programmable qubits; 218 couplers and 120 reset elements (458 physical quantum elements total) | Accurate observable estimation with 7,500+ gates; >100,000 circuits/s, up to 25× Heron throughput; independent fast reset; median idle T1 about 200 microseconds | Available on IBM Quantum Platform |
+| IBM Nighthawk r3, announced 11 Nov 2026 | 520 programmable qubits | Target 10,000 quantum operations | Next generation, not established as deployed; two linked r3s / 1,040 programmable qubits planned for 2027 |
+| IBM Starling / Blue Jay | Roadmap | Fault-tolerant targets for 2029 / 2033+ | Targets, not delivered systems |
+| Quantinuum Helios, Nature June 2026 | 98 physical barium-ion qubits | QCCD shuttling, all-to-all; average 1Q fidelity 99.9975%, 2Q 99.921%, SPAM 99.952% (from reported infidelities) | Commercial system and peer-reviewed benchmark |
+| Quantinuum, Oct 2026 | Helios logical-memory experiment | Company reports 99.9995% logical memory fidelity per operation in specific QEC experiment | Not universal logical-gate fidelity or million-gate algorithm guarantee |
+| IonQ Superion 256, Sept 2026 | 256-qubit platform announced | Electronic Qubit Control; company cites 99.99% 2Q record from 2025, not a demonstrated fleet-wide Superion figure | Announced platform; November report cites demand and planned NVIDIA deployment |
+
+Sources: [IBM 2017 original release](https://www.prnewswire.com/news-releases/ibm-announces-advances-to-ibm-quantum-systems--ecosystem-300553715.html); [IBM r2](https://www.ibm.com/quantum/blog/nighthawk-r2); [IBM QDC 2026](https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027); [IBM roadmap](https://www.ibm.com/roadmaps/quantum); [Helios Nature paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC13322971/), [preprint](https://arxiv.org/abs/2511.05465); [Quantinuum logical memory](https://www.quantinuum.com/blog/quantinuum-closes-in-on-one-million-error-free-operations); [IonQ Superion](https://www.ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing); [IonQ Q3](https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/).
+
+**Reliability is not qubit count.** Compare physical and logical qubits separately; report 1Q/2Q error, SPAM, T1/T2, connectivity, gate duration, circuit depth, throughput, QEC overhead and application-level error. IBM's 7,500-gate observable result is not a fidelity percentage, and Zhang's readout fidelity is not a two-qubit gate benchmark. Trapped ions generally offer strong connectivity/coherence at the cost of slower operations and demanding control/shuttling; superconducting chips offer fast gates and fabrication integration but require cryogenics and routing on restricted connectivity. The 2017 headline contest (50 vs 51 vs 53) compared unlike capabilities. The 2026 comparison must not repeat that mistake.
+
+## 0C. Chemistry, nitrogenase and food production: the industrial bridge
+
+**[course]** [[concepts/quantum-chemistry#^haber-bosch-nitrogenase]] and [Chuang's chemistry lesson](../sources/week-4-04-simulation-of-chemistry-problems.md), raw week4 transcript approximately 2:52–4:31, compare industrial Haber–Bosch (about 450 °C, around 200 atm in the corrected Learn note) with bacterial nitrogenase operating under mild conditions. The aim is to understand alternative reaction pathways, not merely to raise temperature. The example concerns ammonia/fertilizer production, not quantum computers manufacturing enzymes.
+
+**[background]** N₂ + 3H₂ → 2NH₃. Nitrogenase uses an iron-molybdenum cofactor (FeMoco) and electron/proton transfer coupled to ATP consumption; biological fixation is not energy-free. The electronic structure is challenging because several metal centers have strongly correlated electrons and competing spin states. This bridges Zhang's many-body magnetism and the molecular-energy papers: correlated quantum systems are a common scientific theme, but the Ising experiment does not itself solve nitrogenase.
+
+**[external evidence]** The [IEA Ammonia Technology Roadmap](https://www.iea.org/reports/ammonia-technology-roadmap) estimates about 70% of ammonia goes to fertilizer; ammonia production represents about 2% of global final energy use and 1.3% of energy-system CO₂ emissions. This gives an industrial KPI, not a forecast of quantum savings. [Pivot Bio's 2021 Series D](https://www.pivotbio.com/press-releases/series-d) raised $430M for microbial nitrogen innovation (not quantum computing): evidence of economic demand for alternative nitrogen pathways. A [2026 ACS presentation](https://acs.digitellinc.com/p/s/design-of-an-artificial-nitrogenase-that-reduces-dinitrogen-to-ammonia-648930) reports a designed artificial protein binding native FeMoco and reducing nitrogen to ammonia; conference report, not commercial scale or quantum involvement.
+
+**Classical challenge:** [Zhai et al., arXiv:2601.04621](https://arxiv.org/abs/2601.04621), revised June 2026, reports classical chemical-accuracy results for a FeMo-cofactor model. [Reproducibility data](https://zenodo.org/records/22116121). A model result does not solve the complete enzyme, catalytic cycle, kinetics, solvent, ATP supply or plant economics. Quantum research must outperform the strongest contemporary classical method on a specified task.
+
+**Candidate industrial research program [proposal]:** select an active-space Hamiltonian for a catalyst fragment with a chemistry partner; benchmark classical DFT, coupled cluster where appropriate, DMRG and exact diagonalization for small cases; compare VQE or future phase estimation for energy differences and uncertainty. Expand only after credible accuracy/time/cost improvement. Chemistry validation includes reaction barriers, selectivity, turnover, stability, feedstock, bioreactor scale and lifecycle emissions. Target business measures: cost per tonne NH₃, kWh per tonne, CO₂e per tonne, nitrogen-use efficiency and crop yield. A reduction in computation cost is not automatically a reduction in fertilizer cost.
+
+Illustrative economics (not a forecast): a 1 million tonne/year plant saving $10 per tonne would save $10M/year before implementation costs; whether a quantum-derived catalyst can deliver that is open. Green hydrogen, conventional catalyst improvements and microbial engineering remain competing approaches. The chemistry papers deserve serious Z-axis attention even though Zhang is selected.
+
+## 0D. Investment as a corporate external consultant, not a stock tip
+
+**[Albert's position]** Yes, 100% in favor of funding further investigation of the chosen direction. That is conviction in staged R&D, not allocating 100% of capital to one vendor. My earlier ML consulting work identified which business problems suited forecasting, sentiment analysis or another ML method. The same discovery practice applies to quantum: start from the client's problem, not a fashionable algorithm.
+
+### Capital and customer evidence (USD; distinguish transaction types)
+
+| Example | Amount / evidence | Interpretation |
+|---|---|---|
+| IBM, June 2026 | >$10B planned investment over five years | Corporate spending commitment, not annual revenue or a grant to Zhang |
+| Quantinuum, June 2026 | 28M shares × $60 = $1.68B gross IPO base proceeds, before fees | Capital raise, not operating revenue |
+| IonQ / Oxford Ionics, 2025 | $1.1B acquisition, reported by McKinsey | Technology consolidation, not project budget |
+| IonQ Q3 2026 | $505–515M FY revenue guidance, $1.2B reported backlog | Guidance and backlog, not cash collected; diversified company |
+| Quantum technology sector, 2025 | $12.6B startup investment, 6.3× 2024 (McKinsey 2026) | Sector-wide financing, not just trapped ions |
+| Pivot Bio, 2021 | $430M Series D | Adjacent agriculture opportunity, no quantum claim |
+
+Sources: [IBM commitment](https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing%2C-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers); [Quantinuum IPO](https://www.quantinuum.com/press-releases/quantinuum-announces-pricing-of-upsized-initial-public-offering); [IonQ results](https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Record-3Q26-Revenues-and-Raises-FY2026-Guidance-to-505---515-Million-as-Backlog-Grows-to-1-2-Billion/); [McKinsey monitor](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/mckinsey-quantum-technology-monitor-2026-a-commercial-tipping-point); [MIT Quantum Index funding](https://qir.mit.edu/funding/) provides alternative definitions and examples: Quantinuum $600M Series B, QuEra $230M Series B, PsiQuantum $1B Series E, IQM $300M Series B, Quantum Machines $170M Series C. Do not add these deals to aggregate funding without checking overlap.
+
+**Competition for clients:** IonQ and Quantinuum compete in overlapping enterprise, government and research markets, with different trapped-ion architectures and offerings. IonQ cites Tempo deployments and future Superion demand; Quantinuum has Helios and [JPMorgan/Argonne QAOA research](https://www.jpmorganchase.com/about/technology/news/jpmorganchase-research-collaboration-shows-quantum-algorithm-speedup). The latter is a theoretical algorithmic speedup, not profitable portfolio optimization. [Quantinuum SEC Q3 filing](https://www.sec.gov/Archives/edgar/data/2110105/000162828026072454/qnt-20260930.htm) documents ongoing scaling R&D. The [OQC/JPMorgan/AMD 2026 collaboration](https://www.jpmorganchase.com/about/technology/blog/oqc-jpmc-amd-quantum-ai-platform) shows fintech clients also evaluating superconducting platforms. No specific head-to-head tender established.
+
+**Employment:** Albert personally explored Rigetti vacancies during his job search. [Rigetti's careers board](https://www.rigetti.com/careers) and [current listings](https://jobs.lever.co/rigetti?p=careers) include lead quantum systems-performance engineer. A dated snapshot verifies active hiring, not an increasing trend unless historical vacancy counts are collected with the same method. [Rigetti Q3 2026 results](https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results) are a separate commercial indicator. Hiring, funding and revenue indicate ecosystem development, not proof of quantum advantage.
+
+### Concrete funding decision [illustrative proposal, not a quote or existing budget]
+
+As an external consultant to a fertilizer/materials company or funding agency, propose a $250,000 six-month capped R&D pilot:
+
+| Work package | USD | Exit criterion |
+|---|---:|---|
+| Discovery and domain expert workshops | 25,000 | Defined KPI, dataset and decision owner |
+| Classical baseline and Hamiltonian/optimization formulation | 60,000 | Reproducible reference and tolerance |
+| Vendor-neutral feasibility and cloud runs | 60,000 | Comparable IBM and trapped-ion experiments; cost and error logged |
+| Chemistry/materials expert validation | 45,000 | Meaningful error bars and validation plan |
+| Security readiness and integration | 25,000 | Crypto inventory, migration priorities, reproducible integration |
+| Contingency and independent review | 35,000 | Go/no-go report |
+| **Total** | **250,000** | **No scale-up without evidence** |
+
+First release $85k for discovery and classical baseline; release remaining $165k only if a credible quantum hypothesis and feasible resources exist. A later $1M follow-on is a separate decision subject to independent review, client cofunding and risk limits. For an agency funding the original research direction, reserve a distinct basic-science track for replication, scalable ion control and error correction; commercial ROI need not be immediate. These are proposed planning assumptions, not promised returns.
+
+### Qimono service concept: We help you find your quantum advantage
+
+**[proposed offering, not a claim of existing paid clients or delivered advantage]** IBM's [Quantum Working Groups](https://www.ibm.com/quantum/blog/quantum-working-groups) unite researchers and domain experts in healthcare, materials, high-energy physics, optimization and sustainability. Its [quantum readiness training](https://quantum.cloud.ibm.com/learning/en/courses/quantum-business-foundations/how-to-become-quantum-ready) frames strategic use-case discovery; [QDC 2026](https://www.ibm.com/quantum/blog/qdc-2026) describes client workflows, benchmarking and ecosystem tools. This is a precedent, not an affiliation or a claim of equivalent capabilities.
+
+| Service | Concrete deliverable | Baseline / success test |
+|---|---|---|
+| Quantum Advantage Discovery | 2–3 week workshop, ranked use-case register, resource estimates, vendor-neutral roadmap | Business value, bottleneck, realistic resources; no-go acceptable |
+| Optimization & heuristics | Scheduling/routing/portfolio constraints, QUBO/Ising mapping where suitable; classical and quantum-inspired/quantum experiments | MILP, CP-SAT, strong heuristics; quality, runtime, feasibility, cost |
+| Quantum Security Readiness | Crypto inventory, data retention/harvest-now-decrypt-later exposure, crypto-agility and PQC migration checklist | NIST standards, interoperability, risk ownership; no QPU needed |
+| Quantum Leap: ML → QML | Audit AI/RAG/ML pipelines; select a narrow feature-map, kernel or variational-model hypothesis | Held-out predictive metrics, classical kernels/NNs, encoding, latency and cost; RAG remains classical unless evidence supports a specific change |
+
+For fintech, near-term risk management may be more concrete than computing advantage: [Reuters, 19 Nov 2026](https://www.reuters.com/legal/government/global-securities-watchdog-urges-immediate-action-quantum-risks-finance-2026-11-19/) reports IOSCO urging immediate quantum-risk preparation. Separate PQC (classical algorithms resistant to known quantum attacks) from QKD and speculative QML. See [[concepts/post-quantum-cryptography]], [[concepts/quantum-annealing]], [[concepts/vqe]], [[concepts/quantum-simulation]]. First demonstrations can use Qimono's educational experiments, not production claims. Illustrative discovery engagement $10–25k, scoped prototype $40–100k; actual pricing depends on expertise, compute and scope.
+
+**Candidate first-person reflection [draft]:** As an external technology consultant, I would fund this research direction because its scientific evidence and subsequent development of the trapped-ion ecosystem justify measured exploration of industrial opportunities. I would not buy hardware on the basis of a qubit-count headline. I would first identify a valuable computational bottleneck, establish the strongest classical baseline, and allocate a limited budget to independent benchmarks. This is how I approached machine-learning use cases in the past, and how I would position Qimono in the quantum era: helping companies discover whether and where quantum computing might produce a defensible advantage, while preparing them for quantum-security risks today.
+
+**LinkedIn positioning brainstorm (not published):**
+
+> At Qimono, we are developing a vendor-neutral quantum readiness and opportunity-assessment practice. We help businesses explore where quantum computing could create measurable value: optimization and advanced heuristics, quantum security readiness, and our Quantum Leap pathway for teams already using AI, RAG and machine learning. We start with your business problem, benchmark against classical methods, and recommend quantum only where the evidence supports it. No quantum washing. Just better questions, reproducible experiments and a roadmap to measurable results.
+
+For the final reflection, focus on the funding decision and evidence rather than advertising. Keep the longer commercial concept here as a separate brainstorm.
 
 ---
 
@@ -31,13 +149,13 @@ Paper notes (page-by-page guides with wiki links): [[papers/zhang-2017-53-ion-dy
 ## Q1. Impact on a business industry: was it the most influential of the three?
 
 ### Albert's thesis
-**No, not in the press, and the reason is timing, not quality.** The press was busy with other stories, and quantum computing has a bad-press problem: hype, then backlash. **[opinion]**
+**Hypothesis: not the dominant press story, partly because of timing rather than quality.** See XYZ framework above; comparative coverage is not quantified. The press was busy with other stories, and quantum computing has a bad-press problem: hype, then backlash. **[opinion]**
 
 ### Evidence: the timing was brutal **[fact]**
 
 1. **It shared the Nature issue with a rival record.** The same issue (Nature 551, 30 Nov 2017) carried Lukin's group (Harvard/MIT) with a **51-atom Rydberg simulator**. Physics World covered "two independent research groups" in one story ([Physics World, 29 Nov 2017](https://physicsworld.com/a/quantum-simulators-shed-new-light-on-magnetic-phase-transitions/)). Even UMD's own press release announced "two independent teams" with "more than 50" qubits ([UMD CMNS](https://cmns.umd.edu/news-events/news/quantum-simulators-wield-control-over-more-50-qubits-setting-new-record)). The headline was "50+ qubits", shared between two labs, not "53 ions".
-2. **IBM had taken the "50-qubit" mainstream headline three weeks earlier.** On **10 Nov 2017** IBM announced a **50-qubit prototype** and a 20-qubit system on its cloud ([MIT Technology Review](https://www.technologyreview.com/2017/11/10/147728/ibm-raises-the-bar-with-a-50-qubit-quantum-computer/), [AP via Phys.org](https://phys.org/pdf429532312.pdf), [Science News](https://www.sciencenews.org/article/quantum-computing-steps-forward-50-qubit-prototype)). Bloomberg framed it as IBM vs Google in the race to "quantum supremacy" ([DataCenterKnowledge/Bloomberg](https://datacenterknowledge.com/supercomputers/ibm-ups-pressure-on-rivals-with-quantum-computer-prototype)). By 30 Nov the number "50" already belonged to a corporation in the public mind.
-3. **Coverage stayed in specialist outlets.** The 53-ion result went to Physics World, IEEE Spectrum, HPCwire, Optica OPN and Nature Asia, the specialist science press ([IEEE Spectrum](https://spectrum.ieee.org/quantum-simulators-get-bigger-and-badder), [HPCwire](https://www.hpcwire.com/2017/11/29/two-quantum-simulators-cross-50-qubit-threshold/), [Optica OPN](https://www.optica-opn.org/home/newsroom/2017/december/quantum_simulators_leap_ahead)). The IBM announcement went through AP and Bloomberg to the business press.
+2. **IBM had taken the "50-qubit" mainstream headline three weeks earlier.** On **10 Nov 2017** IBM announced a **50-qubit prototype** and a 20-qubit system on its cloud ([MIT Technology Review](https://www.technologyreview.com/2017/11/10/147728/ibm-raises-the-bar-with-a-50-qubit-quantum-computer/), [AP via Phys.org](https://phys.org/pdf429532312.pdf), [Science News](https://www.sciencenews.org/article/quantum-computing-steps-forward-50-qubit-prototype)). Bloomberg framed it as IBM vs Google in the race to "quantum supremacy" ([DataCenterKnowledge/Bloomberg](https://datacenterknowledge.com/supercomputers/ibm-ups-pressure-on-rivals-with-quantum-computer-prototype)). By 30 Nov IBM had established a competing 50-qubit headline; public perception has not been measured.
+3. **Examples of coverage include specialist outlets.** A comprehensive media search is still needed. The 53-ion result went to Physics World, IEEE Spectrum, HPCwire, Optica OPN and Nature Asia, the specialist science press ([IEEE Spectrum](https://spectrum.ieee.org/quantum-simulators-get-bigger-and-badder), [HPCwire](https://www.hpcwire.com/2017/11/29/two-quantum-simulators-cross-50-qubit-threshold/), [Optica OPN](https://www.optica-opn.org/home/newsroom/2017/december/quantum_simulators_leap_ahead)). The IBM announcement went through AP and Bloomberg to the business press.
 4. **Even friendly coverage carried a disclaimer.** Physics World quoted Christine Muschik (Waterloo) calling these simulators "textbook examples of not being quantum computers", because they don't encode a complete gate set ([Physics World](https://physicsworld.com/a/quantum-simulators-shed-new-light-on-magnetic-phase-transitions/)). For a business reader that line reads as "not a product".
 5. **Background [to verify before publishing]:** late 2017 was also the Bitcoin mania (peaking around mid-December 2017) and the AlphaGo Zero moment for AI (Nature, October 2017). Competing "future of computing" stories crowded the same news cycle.
 
@@ -118,7 +236,7 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 
 ---
 
-## 4. Personal insight A: IBM's "State of the Union" (QDC 2026) vs the 2016–17 papers
+## 4. Personal insight A (earlier brainstorm; see §0B for verified status distinctions): IBM's "State of the Union" (QDC 2026) vs the 2016–17 papers
 
 > ⚠️ The YouTube link (`pdSBnIghcXk`) couldn't be fetched from this environment, so this section uses press coverage of **IBM Quantum Developer Conference 2026 (11–13 Nov 2026)**. **[to verify]** Watch the video and confirm the quotes.
 
@@ -134,7 +252,7 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 | | 2016–17 papers | IBM 2026 |
 |---|---|---|
 | Chemistry | H₂ with 2 effective qubits ([[papers/omalley-2016-h2-molecular-energies|O'Malley]]); BeH₂ with 6 ([[papers/kandala-2017-hardware-efficient-vqe|Kandala]]) | Protein–ligand "quantum-centric" simulations with Cleveland Clinic and RIKEN ([IBM Research](https://research.ibm.com/blog/ibm-think-2026-modeling-the-universe-with-quantum-computing)) |
-| Scale | 6 qubits (IBM 2017) | 120 → 520 → 1,040 qubits (2025 → 2027) |
+| Scale | 6 qubits (IBM 2017) | 120 available in 2026 → 520 announced → 1,040 planned for 2027 |
 | Claim | "scalable", "hardware-efficient" | "advantage in 2026", "fault-tolerant by 2029" |
 | Unchanged | **The VQE loop:** quantum state preparation + **classical** optimization ([[concepts/vqe]]) | still hybrid: "quantum-centric supercomputing" = QPU + HPC |
 
@@ -160,7 +278,7 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 - **What it does touch:** many results in computational number theory are proved *assuming* GRH. For example, the Miller primality test is deterministic and polynomial-time *if* GRH holds (AKS already gives an unconditional test). A proof would turn those conditional results into theorems. That tightens the theory under cryptographic parameter choices, but it isn't an attack. **[reasoning, textbook background]**
 - **The bigger signal [opinion]:** in 2026, AI is producing *verifiable* frontier mathematics. The same toolchain (LLMs + formal verification) can audit cryptographic proofs and protocol specs, and can search for **classical** algorithms that erode claimed quantum advantages, which is exactly the "claims withdrawn as classical improves" dynamic Gambetta described.
 
-**Link to the three papers [reasoning]:** all three were benchmarked against *classical* simulation ("hard to compute classically", "chemical accuracy vs exact", "agreement with a noisy device model"). If AI accelerates classical algorithms, the bar for quantum simulation keeps rising. The FeMoco classical result above is an example. **Quantum simulation's moat is physics a classical computer can't fake, which favours Zhang-style many-body dynamics over small-molecule energies.** That's another reason, in hindsight, why the chosen paper ages well.
+**Link to the three papers [reasoning]:** all three were benchmarked against *classical* simulation ("hard to compute classically", "chemical accuracy vs exact", "agreement with a noisy device model"). If AI accelerates classical algorithms, the bar for quantum simulation keeps rising. The FeMoco classical result above is an example. **Potential quantum advantage must be demonstrated against the best classical algorithms for the specified observable and error tolerance; Zhang-style dynamics is a candidate, not a guaranteed moat.** That's another reason, in hindsight, why the chosen paper ages well.
 
 
 > [!note]- 🔗 Wiki connections for §5
@@ -194,6 +312,10 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 ---
 
 ## 7. Next steps
+- [ ] Collect comparable media corpus and citation metrics for XYZ.
+- [ ] Validate historical Rigetti vacancy counts and specific overlapping procurement opportunities.
+- [ ] Refine hypothetical pilot with domain expert and actual client constraints.
+- [ ] Read full FeMoco preprint and evaluate active-space and accuracy assumptions.
 - [ ] Watch IBM's "State of the Union" video and replace §4's press-based facts with direct quotes and timestamps.
 - [ ] Verify the [to verify] items (Bernien citation, Babbage episode, Bitcoin/AlphaGo background, Gidney estimate).
 - [ ] Choose the forum "highlight" (best candidates: the Q1 thesis sentence or the Q2 paragraph).
