@@ -13,4 +13,6 @@ Raw: [screenshot + description](/mit-raw/week4-reflect-review.md). Papers: [exte
 - **Prompts:** business-industry impact, and whether it was the most influential of the three; superconducting/corporate vs trapped-ion/university and the press expectations; would you invest.
 - **Albert's choice:** Zhang et al., the 53-ion dynamical phase transition. The working notes are kept privately (Google Doc "PAPER-DRAFT-001"); the public brainstorm is [[analyses/reflect-rev-draft-002]].
 
+Papers: [[papers/zhang-2017-53-ion-dynamical-phase-transition]] · [[papers/omalley-2016-h2-molecular-energies]] · [[papers/kandala-2017-hardware-efficient-vqe]]
+
 Concepts: [[concepts/quantum-simulation]] · [[concepts/vqe]] · [[concepts/quantum-chemistry]]

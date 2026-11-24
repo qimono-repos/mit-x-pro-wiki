@@ -26,6 +26,10 @@ Here $T$ are the kinetic energies of nuclei and electrons, and the $V$ terms are
 
 Two pathways: [[concepts/phase-estimation]] (deep circuits, precise eigenvalues) and [[concepts/vqe]] (short circuits with a classical optimizer). ^two-pathways
 
+## Research papers
+
+- [[papers/omalley-2016-h2-molecular-energies|O'Malley 2016 (H₂)]] and [[papers/kandala-2017-hardware-efficient-vqe|Kandala 2017 (BeH₂)]]: molecular energy curves on superconducting qubits; investment and press context in [[analyses/reflect-rev-draft-002]].
+
 ## Sources
 
 - [Simulation of chemistry problems](../sources/week-4-04-simulation-of-chemistry-problems.md)

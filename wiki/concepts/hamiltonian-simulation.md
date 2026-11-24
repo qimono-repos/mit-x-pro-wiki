@@ -21,6 +21,10 @@ In more detail: discretize the line, write the kinetic term as a finite-differen
 
 Chemistry problems in the same week are the same task with $H$ the electronic Hamiltonian in a chosen basis (Jordan–Wigner or similar maps turn fermionic terms into Pauli strings).
 
+## Research papers
+
+- [[papers/kandala-2017-hardware-efficient-vqe|Kandala 2017 (BeH₂)]]: Hamiltonians as sums of 100+ Pauli terms on 6 qubits.
+
 ## Sources
 
 - [What is a Hamiltonian?](../sources/week-4-01-what-s-a-hamiltonian.md)

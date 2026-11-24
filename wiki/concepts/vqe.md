@@ -17,6 +17,10 @@ when $H = \sum_k c_k P_k$ is a linear combination of Pauli strings (the form che
 
 Week 4 contrasts this hybrid loop with Trotter-plus-phase-estimation, then looks at VQE in practice: ansatz choice, measurement grouping, and noise. The same week is the lead-in to week 5's optimization lectures.
 
+## Research papers
+
+- [[papers/omalley-2016-h2-molecular-energies|O'Malley 2016 (H₂)]] (VQE vs phase estimation, H₂) and [[papers/kandala-2017-hardware-efficient-vqe|Kandala 2017 (BeH₂)]] (hardware-efficient ansatz, up to BeH₂). Both show the hybrid loop in their Fig. 1.
+
 ## Sources
 
 - [Variational quantum eigensolver](../sources/week-4-06-variational-quantum-eigensolver.md)

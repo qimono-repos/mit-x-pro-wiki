@@ -20,11 +20,11 @@ chosen_paper: "Zhang et al., Nature 551, 601–604 (2017)"
 
 | # | Paper | Platform · institution | One-line takeaway |
 |---|---|---|---|
-| 1 | Zhang et al., *Observation of a many-body dynamical phase transition with a 53-qubit quantum simulator*, **Nature 551, 601–604 (30 Nov 2017)**. [arXiv:1708.01044](https://arxiv.org/abs/1708.01044) | 53 trapped ¹⁷¹Yb⁺ ions · JQI (University of Maryland + NIST), Monroe also IonQ | Analog simulation of a long-range transverse-field Ising model. Individual readout of every ion (~99%) lets them measure many-body correlations shot by shot, and they see a *dynamical* phase transition. **← chosen** |
-| 2 | O'Malley et al., *Scalable quantum simulation of molecular energies*, **Phys. Rev. X 6, 031007 (2016)**. [arXiv:1512.06860](https://arxiv.org/abs/1512.06860) | Superconducting · Google + UCSB (+ Harvard, LBNL, Tufts, UCL) | H₂ energy curve via VQE (chemical accuracy) and Trotterized phase estimation. VQE is more robust to errors. |
-| 3 | Kandala et al., *Hardware-efficient VQE for small molecules and quantum magnets*, **Nature 549, 242–246 (14 Sep 2017)**. [arXiv:1704.05018](https://arxiv.org/abs/1704.05018) | Superconducting · IBM T.J. Watson | Up to 6 qubits, 100+ Pauli terms, molecules up to BeH₂, plus a quantum magnet. Results match a noisy device model. |
+| 1 | [[papers/zhang-2017-53-ion-dynamical-phase-transition\|Zhang et al. 2017]], *Observation of a many-body dynamical phase transition with a 53-qubit quantum simulator*, **Nature 551, 601–604 (30 Nov 2017)**. [[mit-raw/external/papers/zhang-2017-53-ion-dpt-arxiv-1708.01044.pdf\|📄 local PDF]] | 53 trapped ¹⁷¹Yb⁺ ions · JQI (University of Maryland + NIST), Monroe also IonQ | Analog simulation of a long-range transverse-field Ising model. Individual readout of every ion (~99%) lets them measure many-body correlations shot by shot, and they see a *dynamical* phase transition. **← chosen** |
+| 2 | [[papers/omalley-2016-h2-molecular-energies\|O'Malley et al. 2016]], *Scalable quantum simulation of molecular energies*, **Phys. Rev. X 6, 031007 (2016)**. [[mit-raw/external/papers/omalley-2016-h2-molecular-energies-arxiv-1512.06860.pdf\|📄 local PDF]] | Superconducting · Google + UCSB (+ Harvard, LBNL, Tufts, UCL) | H₂ energy curve via VQE (chemical accuracy) and Trotterized phase estimation. VQE is more robust to errors. |
+| 3 | [[papers/kandala-2017-hardware-efficient-vqe\|Kandala et al. 2017]], *Hardware-efficient VQE for small molecules and quantum magnets*, **Nature 549, 242–246 (14 Sep 2017)**. [[mit-raw/external/papers/kandala-2017-hardware-efficient-vqe-arxiv-1704.05018.pdf\|📄 local PDF]] | Superconducting · IBM T.J. Watson | Up to 6 qubits, 100+ Pauli terms, molecules up to BeH₂, plus a quantum magnet. Results match a noisy device model. |
 
-Summaries: [external note](/mit-raw/external/reflect-review-papers.md).
+Paper notes (page-by-page guides with wiki links): [[papers/zhang-2017-53-ion-dynamical-phase-transition]] · [[papers/omalley-2016-h2-molecular-energies]] · [[papers/kandala-2017-hardware-efficient-vqe]] · Combined summary: [external note](/mit-raw/external/reflect-review-papers.md).
 
 ---
 
@@ -48,7 +48,7 @@ Summaries: [external note](/mit-raw/external/reflect-review-papers.md).
 - **Claims get withdrawn.** At IBM's own QDC 2026, Jay Gambetta's keynote described "classical researchers overtaking quantum results, claims being withdrawn as classical makes improvements" ([SiliconANGLE, 12 Nov 2026](https://siliconangle.com/?p=854010)). The field now says this openly.
 
 ### So what was its real business impact? **[reasoning]**
-- **Industry: materials and magnetism, plus the trapped-ion hardware industry itself.** Zhang's paper simulated a quantum magnet, the model family behind magnetic materials and the same Ising Hamiltonian that [[concepts/quantum-annealing]] uses to encode optimization problems. Its direct business effect wasn't a product. It was **credibility capital** for trapped ions as a scalable, individually controllable platform.
+- **Industry: materials and magnetism, plus the trapped-ion hardware industry itself.** [[papers/zhang-2017-53-ion-dynamical-phase-transition|Zhang's paper]] simulated a quantum magnet, the model family behind magnetic materials and the same Ising Hamiltonian that [[concepts/quantum-annealing]] uses to encode optimization problems. Its direct business effect wasn't a product. It was **credibility capital** for trapped ions as a scalable, individually controllable platform.
 - **The line from 2017 to 2026 is visible in Nature:**
   - 2026: *Digital quantum magnetism on a trapped-ion quantum computer* (Haghshenas et al., **Nature**, doi:10.1038/s41586-026-10445-3), Quantinuum hardware with TUM theory, "a regime in which classical computational methods begin to fail" ([TUM/MCQST](https://www.mcqst.de/news-and-events/news/quantum-computer-opens-a-new-path-to-practical-scientific-applications.html)). **[fact]** That's Zhang's question (quantum magnetism with ions) asked again with a *digital*, gate-based machine.
   - June 2026: Quantinuum's **98-qubit Helios**, "all-to-all connectivity", published in **Nature** ([Nature Asia summary](https://www.natureasia.com/ja-jp/phys-sci/research/15569), doi:10.1038/s41586-026-10676-4). **[fact]** All-to-all connectivity is exactly the property Zhang highlighted (long-range interactions, high connectivity).
@@ -56,6 +56,15 @@ Summaries: [external note](/mit-raw/external/reflect-review-papers.md).
 - **Was it the most influential of the three?** In the **press, no** (timing, a shared headline, "not a computer"). In **science and industry, arguably yes over the long run**: the chemistry-VQE line (papers 2 and 3) became an algorithm family everyone uses, but its "chemistry advantage" story keeps hitting classical counterattacks. For example, a January 2026 preprint claims a **classical solution of the FeMo-cofactor model to chemical accuracy** (Zhai et al., arXiv:2601.04621, discussed on *The New Quantum Era* podcast) ([Apple Podcasts show notes](https://podcasts.apple.com/us/podcast/the-new-quantum-era---innovation-in-quantum-computing,-science-and-technology/id1637676725)). **[fact, show-notes level; read the preprint before citing]** FeMoco is the nitrogenase cofactor, the same enzyme behind Chuang's Haber–Bosch example in our Week 3 chemistry lecture ([[concepts/quantum-chemistry]]). Meanwhile, the ion line kept growing into gate-model machines.
 
 > **Candidate thesis sentence [opinion + reasoning]:** "Zhang et al. lost the 2017 press cycle (it shared a Nature issue with a 51-atom rival, three weeks after IBM's 50-qubit headline, and was labelled 'not a quantum computer'), but it won the decade: its signature properties, individual control and all-to-all connectivity, are the selling points of 2026's trapped-ion machines in Nature."
+
+
+> [!note]- 🔗 Wiki connections for Q1
+> - **What the paper actually measured:** single-shot readout of all 53 ions ([[mit-raw/external/papers/zhang-2017-53-ion-dpt-arxiv-1708.01044.pdf#page=3|Fig. 3, p.3]]) and spin domains as many-body correlators ([[mit-raw/external/papers/zhang-2017-53-ion-dpt-arxiv-1708.01044.pdf#page=4|Fig. 4, p.4]]). This is Chuang's issue #3, "what to measure?": [[concepts/quantum-simulation#^ideas-and-issues]].
+> - **Analog vs digital simulation:** [[concepts/quantum-simulation#^approaches]] and [[concepts/quantum-simulation#^analog-deformation]]. The 2026 Nature "digital quantum magnetism" paper is the *digital* answer to Zhang's *analog* question.
+> - **Why "hard to compute classically" holds:** DMRG-type methods excel in 1D with short-range entanglement ([[concepts/quantum-simulation#^quantum-inspired]], [[papers/zhang-2017-53-ion-dynamical-phase-transition]]); Zhang's couplings are long-range.
+> - **The chemistry side of the comparison:** the FeMoco/nitrogenase example is Chuang's Haber–Bosch story: [[concepts/quantum-chemistry#^haber-bosch-nitrogenase]], [[concepts/quantum-chemistry#^two-pathways]].
+> - **"Claims withdrawn as classical improves"** matches the course's own caution on annealing: [[concepts/quantum-annealing#^no-enhancement-evidence]] and the D-Wave story [[concepts/quantum-annealing#^dwave]].
+> - **Graded questions on the same material:** [[quizzes/week-3#Q2: Ideas and Issues of Quantum Simulation]], [[quizzes/week-3#Q1: Quantum-Inspired Approximations]], [[quizzes/week-3#Q1: Ultra-Cold Atoms]].
 
 ---
 
@@ -72,6 +81,12 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 - **Lesson [opinion]:** institution and technology shaped the *first* expectation (corporate = product, university = physics), but the *outcome* didn't respect that split. The press measured **who announced**; the market later rewarded **what scaled**.
 
 > **Candidate paragraph:** "In 2017 the corporate superconducting papers were reported as a product race (cloud access, IBM vs Google, 'quantum supremacy'), while the university trapped-ion result was reported as physics, even 'not a quantum computer'. That framing set expectations: companies would deliver, universities would discover. Nine years on, trapped ions are themselves a public-market industry (IonQ on the NYSE, Quantinuum's 2026 IPO). The press measured who announced; the market rewarded what scaled."
+
+
+> [!note]- 🔗 Wiki connections for Q2
+> - **The two hardware worlds in our notes:** atoms and ions (analog simulators, BECs, time-averaged Hamiltonians) in [[concepts/quantum-simulation#^analog-deformation]] and [[quizzes/week-3#Q1: Ultra-Cold Atoms]]; superconducting circuits in IBM's roadmap and our [Qiskit circuits](/tools/circuits/README.md).
+> - **A corporate example in our own course:** D-Wave's "adiabatic → annealing" rebranding, told by Shor: [[concepts/quantum-annealing#^dwave]] and [[sources/week-5-03b-quantum-annealing-expert-view]]. Institution shaped expectations there too.
+> - **The IBM paper's authors (Chow, Gambetta)** lead IBM's 2026 roadmap: [[papers/kandala-2017-hardware-efficient-vqe]].
 
 ---
 
@@ -95,6 +110,12 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 
 > **Candidate paragraph:** "Yes. I would fund the trapped-ion line this paper helped launch, because its 2017 advantages (individual control, high connectivity, single-shot readout) are exactly what 2026's best ion machines advertise in Nature. As a funding agency I'd hedge across superconducting (IBM) and neutral atoms (Infleqtion), keep annealing (D-Wave) as a separate optimization bet, and reserve a slice for the software and education layer, which is where my own venture, Qimono, works: tools that make results like this reproducible for developers."
 
+
+> [!note]- 🔗 Wiki connections for Q3
+> - **What the money buys, technically:** individual addressing and all-to-all coupling ([[papers/zhang-2017-53-ion-dynamical-phase-transition]]), the same Ising machinery as [[concepts/quantum-annealing#^encoding-and-gap]] and [[concepts/adiabatic-quantum-computing#^ising]].
+> - **Why simulation before cryptography:** Shor needs fault tolerance ([[concepts/shors-algorithm#^reduction-summary]]); the risk timeline is in [[concepts/post-quantum-cryptography#^mosca-inequality]].
+> - **Qimono's layer, already in this vault:** the [Qiskit circuit generators](/tools/circuits/README.md) (phase estimation, Grover, Shor N = 15, teleportation), the [[analyses/quiz-concept-map]], and this Karpathy-style wiki itself.
+
 ---
 
 ## 4. Personal insight A: IBM's "State of the Union" (QDC 2026) vs the 2016–17 papers
@@ -112,12 +133,18 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 
 | | 2016–17 papers | IBM 2026 |
 |---|---|---|
-| Chemistry | H₂ with 2 effective qubits; BeH₂ with 6 | Protein–ligand "quantum-centric" simulations with Cleveland Clinic and RIKEN ([IBM Research](https://research.ibm.com/blog/ibm-think-2026-modeling-the-universe-with-quantum-computing)) |
+| Chemistry | H₂ with 2 effective qubits ([[papers/omalley-2016-h2-molecular-energies|O'Malley]]); BeH₂ with 6 ([[papers/kandala-2017-hardware-efficient-vqe|Kandala]]) | Protein–ligand "quantum-centric" simulations with Cleveland Clinic and RIKEN ([IBM Research](https://research.ibm.com/blog/ibm-think-2026-modeling-the-universe-with-quantum-computing)) |
 | Scale | 6 qubits (IBM 2017) | 120 → 520 → 1,040 qubits (2025 → 2027) |
 | Claim | "scalable", "hardware-efficient" | "advantage in 2026", "fault-tolerant by 2029" |
 | Unchanged | **The VQE loop:** quantum state preparation + **classical** optimization ([[concepts/vqe]]) | still hybrid: "quantum-centric supercomputing" = QPU + HPC |
 
 **Opinion hook [opinion]:** IBM's 2017 paper (Kandala) and IBM's 2026 roadmap share one idea, *hybrid*. What changed is the *size of the promise*. Zhang's group made no promise and shipped a physics result. The investor's job is to discount the promises and price the results.
+
+
+> [!note]- 🔗 Wiki connections for §4
+> - **IBM's own 2017 paper,** for the then-vs-now table: [[papers/kandala-2017-hardware-efficient-vqe]] (6 qubits, BeH₂, [[mit-raw/external/papers/kandala-2017-hardware-efficient-vqe-arxiv-1704.05018.pdf#page=4|Fig. 3, p.4]]).
+> - **The hybrid loop IBM still uses:** [[concepts/vqe#^hybrid-loop]], graded in [[quizzes/week-3#Q1: Variational Quantum Eigensolver]].
+> - **Gate depth (IBM's 7,500 → 15,000 gates)** matters because deep circuits are where [[concepts/trotterization#^n|Trotter steps]] and [[concepts/phase-estimation#^precision|phase-estimation precision]] get expensive.
 
 ---
 
@@ -135,12 +162,19 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 
 **Link to the three papers [reasoning]:** all three were benchmarked against *classical* simulation ("hard to compute classically", "chemical accuracy vs exact", "agreement with a noisy device model"). If AI accelerates classical algorithms, the bar for quantum simulation keeps rising. The FeMoco classical result above is an example. **Quantum simulation's moat is physics a classical computer can't fake, which favours Zhang-style many-body dynamics over small-molecule energies.** That's another reason, in hindsight, why the chosen paper ages well.
 
+
+> [!note]- 🔗 Wiki connections for §5
+> - **RSA and why primes matter:** [[concepts/rsa-cryptosystem#^key-generation]], [[concepts/rsa-cryptosystem#^encrypt-decrypt]].
+> - **The actual quantum threat:** [[concepts/shors-algorithm#^reduction-summary]] and its [[concepts/shors-algorithm#^circuit-qiskit|N = 15 circuit]]; [[concepts/phase-estimation#^uses]].
+> - **The response:** [[concepts/post-quantum-cryptography#^why-now]], [[concepts/post-quantum-cryptography#^pqc-response]], [[concepts/post-quantum-cryptography#^mosca-inequality]].
+> - **Classical methods raising the bar:** [[concepts/quantum-simulation#^quantum-inspired]] (DMRG → PEPS/MERA) and the external note [DMRG for Dummies](/mit-raw/external/dmrg-for-dummies.md).
+
 ---
 
 ## 6. Sources to quote, by type (as the assignment encourages)
 
 **Nature** (the course's main source):
-- Zhang et al. 2017 (chosen); Bernien et al. 2017 (Lukin, 51 atoms, same issue) **[to verify: exact citation Nature 551, 579]**.
+- [[papers/zhang-2017-53-ion-dynamical-phase-transition|Zhang et al. 2017]] (chosen, [[mit-raw/external/papers/zhang-2017-53-ion-dpt-arxiv-1708.01044.pdf|local PDF]]); Bernien et al. 2017 (Lukin, 51 atoms, same issue) **[to verify: exact citation Nature 551, 579]**.
 - Haghshenas et al. 2026, *Digital quantum magnetism on a trapped-ion quantum computer*, doi:10.1038/s41586-026-10445-3.
 - Ransford et al. 2026, *A 98-qubit trapped-ion quantum computer with all-to-all connectivity*, doi:10.1038/s41586-026-10676-4, plus a News & Views piece.
 

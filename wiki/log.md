@@ -236,3 +236,8 @@ Week 4 quiz Q4 graded full marks (4 of 5; Q1 pending), Week 2 quiz 3 of 4 (Q2 pe
 
 ## [2026-11-23] analysis | Reflect & Review draft 002 (brainstorm)
 New `wiki/analyses/reflect-rev-draft-002.md`: answers to the three prompts on Zhang et al. 2017, with sources checked on 2026-11-23. Findings: the paper shared Nature 551 with Lukin's 51-atom simulator and came three weeks after IBM's 50-qubit press release; its descendants are in Nature 2026 (Haghshenas et al. digital quantum magnetism; Helios 98-qubit all-to-all); 2026 listings (IONQ, QBTS, INFQ on NYSE; QNT, RGTI on Nasdaq); IBM QDC 2026 roadmap (Nighthawk r3, Starling 2029, Blue Jay 2033+); the AI-assisted Riemann Hypothesis claim (20 Nov 2026, unconfirmed) and why it doesn't break RSA. Items marked [to verify] aren't publishable yet; the IBM YouTube video couldn't be fetched.
+
+## [2026-11-23] update | Papers layer + draft 002 wired into the wiki graph
+- New `wiki/papers/`: one note per Reflect & Review paper, each with a page-by-page guide pointing to the local PDF (`#page=N`) and links into concepts, quizzes and course pages. New finding: Zhang 2017's Fig. 2 discusses the Ising model's Z₂ spin-flip symmetry, the same symmetry as `^ising` on the AQC page and the graded Week 4 Ising question.
+- PDFs are in `mit-raw/external/papers/`, **gitignored** (arXiv default license; no open license shown), with a README of download links. Obsidian links work locally.
+- [[analyses/reflect-rev-draft-002]]: paper links now point to the local notes and PDFs; each section has a "🔗 Wiki connections" callout (65 wikilinks, all validated). Backlinks ("Research papers") added on 8 concept pages. Index has a Papers section, and CLAUDE.md documents the new folders.

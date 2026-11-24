@@ -72,6 +72,10 @@ Exact phases come out exact. Others come out as the nearest $n$-bit estimate, mo
 
 **Notation warning.** The course uses $u$ for two different things. In the circuit and derivation, $|u\rangle$ is the *eigenvector* in the second register. In graded feedback, $u$ is the *eigenvalue*, $U|\psi\rangle = u|\psi\rangle$ with $u = e^{i2\pi\theta}$. The phase is written $\phi$ in one place and $\theta$ in another. Read each question's own definitions. ^notation
 
+## Research papers
+
+- [[papers/omalley-2016-h2-molecular-energies|O'Malley 2016 (H₂)]]: Trotterized phase estimation on real hardware, compared with VQE.
+
 ## Sources
 
 - [Phase estimation](../sources/week-4-05-phase-estimation.md)

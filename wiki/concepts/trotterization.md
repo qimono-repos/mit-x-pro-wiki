@@ -32,6 +32,10 @@ $$
 
 **Geometric picture (the course's cow).** Rotations about the *same* axis commute: 90° then 45° about $x$ equals 45° then 90°. Rotations about *different* axes generally don't: 90° about $x$ then about $y$ lands the object differently from the reverse order (raw week 4, quiz Q3, ~line 7817). Operators behave the same way. ^non-commuting-rotations
 
+## Research papers
+
+- [[papers/omalley-2016-h2-molecular-energies|O'Malley 2016 (H₂)]]: the Trotterized evolution inside its phase-estimation experiment.
+
 ## Sources
 
 - [Hamiltonian simulation: Trotterization](../sources/week-4-03-hamiltonian-simulation-trotterization.md)

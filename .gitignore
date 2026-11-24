@@ -7,3 +7,7 @@
 
 __pycache__/
 *.pyc
+
+# Research-paper PDFs: kept locally for Obsidian links, not redistributed
+# (arXiv default license only grants distribution rights to arXiv). See mit-raw/external/papers/README.md
+mit-raw/external/papers/*.pdf

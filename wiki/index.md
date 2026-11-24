@@ -12,6 +12,16 @@ Agents: start with [AGENTS.md](../AGENTS.md); Claude Code also reads [CLAUDE.md]
 - `wiki/concepts/` — synthesized topic pages. The LLM owns this layer.
 - `wiki/log.md` — append-only ingest / query / lint log.
 
+## Papers
+
+Research papers, one note each, with a page-by-page guide and links into the concepts. Local PDFs are in `mit-raw/external/papers/` (gitignored; see its README).
+
+| Paper | Summary |
+|---|---|
+| [Zhang et al. 2017](papers/zhang-2017-53-ion-dynamical-phase-transition.md) | 53 trapped ions: long-range Ising, dynamical phase transition. Chosen Reflect & Review paper. |
+| [O'Malley et al. 2016](papers/omalley-2016-h2-molecular-energies.md) | Google/UCSB: H₂ via VQE and Trotterized phase estimation. |
+| [Kandala et al. 2017](papers/kandala-2017-hardware-efficient-vqe.md) | IBM: hardware-efficient VQE up to BeH₂, plus a quantum magnet. |
+
 ## Concepts
 
 | Page | Summary |

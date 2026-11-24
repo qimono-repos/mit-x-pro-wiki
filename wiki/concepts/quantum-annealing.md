@@ -65,6 +65,10 @@ The Learn page adds the hardware picture: more than 2000 superconducting qubits 
 | Provable enhancement | universal, polynomially equivalent to the gate model | none proved or demonstrated |
 | Role of the environment | noise to avoid | relaxation is part of the mechanism |
 
+## Research papers
+
+- [[papers/zhang-2017-53-ion-dynamical-phase-transition|Zhang 2017 (53 ions)]]: the same transverse-field Ising Hamiltonian, but quenched instead of swept.
+
 ## Sources
 
 - [Quantum Annealing](../sources/week-5-03a-quantum-annealing.md) (transcript)

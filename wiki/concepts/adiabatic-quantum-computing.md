@@ -45,6 +45,10 @@ Problems are encoded as $H_p|z\rangle = E(z)|z\rangle$ on bitstrings $z$, often 
 
 *Background, not in the course:* with $J > 0$ the lowest arrangement is two-fold degenerate, $\uparrow\downarrow\uparrow\cdots$ and $\downarrow\uparrow\downarrow\cdots$ (the two Néel states). Both the driver and $Z^jZ^{j+1}$ commute with the global spin flip $\prod_j X^j$, and the start state $|+\rangle^{\otimes N}$ is flip-symmetric. So an ideal sweep ends in the symmetric superposition of the two Néel states, and measuring in $z$ returns one of them at random. Either way the chain alternates.
 
+## Research papers
+
+- [[papers/zhang-2017-53-ion-dynamical-phase-transition|Zhang 2017 (53 ions)]]: a 53-ion Ising chain whose Fig. 2 discusses the same Z₂ (∏X) symmetry as `^ising` above.
+
 ## Sources
 
 - [Adiabatic quantum computing: concept](../sources/week-5-02-adiabatic-quantum-computing-concept.md)
