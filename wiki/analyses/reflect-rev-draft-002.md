@@ -40,6 +40,10 @@ Time is a parameter, not another score. The axes are conceptually distinct, not 
 
 **Working thesis:** the chosen paper may score differently on each axis. The press competition is documented, but relative reach and causal impact need a media corpus. Commercial trapped-ion activity supports the relevance of the underlying technology, not a claim that Zhang caused all subsequent investment. Scientific impact can precede commercial relevance by years; headlines can precede both.
 
+### Bloch-inspired representation (user proposal)
+
+Reuse Bloch/Poincaré sphere geometry as a visualization, not quantum-state physics: raw I=(X,Y,Z), r=||I||₂, unit direction I/r for r>0. Benchmarks independently equal 1; raw coordinates may exceed 1 and r may exceed 1 even when every coordinate is below 1. Distinguish axis overflow from radial overflow; retain magnitude and original coordinates when normalizing. Zero vector has no direction. No quantum density matrix or probability interpretation. OOP design: reusable sphere renderer with domain-specific axis labels, raw/unit modes, overflow indicator and time trajectories. See [[analyses/qimono-live-delivery]] for operationalization.
+
 ## 0B. Hardware race: 2017 versus November 2026
 
 **[external evidence, checked 2026-11-24]** IBM uses superconducting circuit qubits (artificial atoms controlled by electrical/microwave signals at cryogenic temperatures). Zhang used trapped ytterbium ions. The other two assigned papers used superconducting hardware. Bernien's neutral Rydberg atoms are a third modality.
@@ -314,7 +318,7 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 ## 6A. Venture sprint follow-up (2026-11-24)
 
 - [[analyses/femoco-classical-benchmark-2026]] — October journal publication, full source and abstract link, technical limitations, classical vs quantum comparison.
-- [[analyses/qimono-venture-pilot]] — replaces earlier illustrative allocation with two alternative $250k budgets, four proposed experts, six-month Gantt, ISO readiness, angel pitch and mobile-first intake plan.
+- [[analyses/qimono-venture-pilot]] — replaces earlier illustrative allocation with two alternative $275k budgets including $25k local SpinQ lab, four proposed experts, six-month Gantt, ISO readiness, angel pitch and mobile-first intake plan.
 - [[analyses/qimono-assessment-slides]] — seven-slide Markdown demo with store QR placeholders.
 
 ## 7. Next steps
