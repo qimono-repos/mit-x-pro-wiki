@@ -1,11 +1,11 @@
 ---
-title: Qimono 250k venture pilot
+title: Qimono 275k venture pilot
 type: analysis
 status: proposal
 date: 2026-11-24
 ---
 
-# Qimono: $250,000 angel-funded pilot
+# Qimono: $275,000 angel-funded pilot
 
 Hypothetical six-month runway after funding closes; four proposed team members, not confirmed hires. USD, gross contractor allocations, no equity terms assumed. This is an assessment business plus reduced-model chemistry R&D, not a promise to solve FeMoco.
 
@@ -13,7 +13,7 @@ Hypothetical six-month runway after funding closes; four proposed team members, 
 
 | Line | IBM route | IonQ via Braket route |
 |---|---:|---:|
-| Founder/developer, 6 x $6,000 | 36,000 | 36,000 |
+| Founder/developer (Qiskit, PennyLane, Q#, Python, React Native/Expo, Power Apps), 6 x $6,000 | 36,000 | 36,000 |
 | Computational chemist, 6 x $7,000 | 42,000 | 42,000 |
 | ISO/ISMS lead, 6 x $4,000 | 24,000 | 24,000 |
 | Cybersecurity engineer, 6 x $5,000 | 30,000 | 30,000 |
@@ -25,13 +25,23 @@ Hypothetical six-month runway after funding closes; four proposed team members, 
 | Travel, including proposed UNAHUR visit | 4,000 | 4,000 |
 | Legal, insurance, accounting | 8,000 | 8,000 |
 | Tax/FX/contingency | 32,400 | 32,400 |
-| **Total** | **250,000** | **250,000** |
+| **Original operating budget** | **250,000** | **250,000** |
+| Local SpinQ lab acquisition ceiling | 25,000 | 25,000 |
+| **Total** | **275,000** | **275,000** |
 
 These are alternative budgets, not cumulative. Compensation assumes negotiated contractor/part-time scope (founder full-time, chemistry ~0.8 FTE, ISO ~0.4, cyber ~0.5; adjust rates/benefits locally). Cloud prices exclude taxes. Reserve must cover any local employment/tax obligations or scope must shrink.
 
 IBM Flex starts at 400 minutes annually × $72 = $28,800; confirm eligibility, contract duration, backend access, expiration, and tax before purchase. PAYG alternative 300 minutes × $96 = $28,800 at starting price. [IBM pricing](https://www.ibm.com/quantum/products).
 
 AWS Braket IonQ Forte on-demand: 350 tasks × ($0.30 + 1,000 shots × $0.08) = $28,105; $695 reserve within QPU line. Validate region, availability, minimum shots and mitigation overhead. This is a shot budget, not equivalent to IBM minutes. [AWS pricing](https://aws.amazon.com/braket/pricing/). Optional mixed-platform pilot: use PAYG IBM and Braket within same cap, reduce runs. No access purchased. Grok top current published self-service tier Ultra $200/seat/month; legacy Heavy availability uncertain. [official pricing](https://docs.x.ai/x-subscription/pricing). AI tool subscriptions are not API credits; never send confidential client data absent approved contractual controls.
+
+## Existing technical portfolio and local lab
+
+Founder stack: Qiskit, PennyLane and Q# (user-described portfolio; [QU repository](https://github.com/qimono-repos/qu) README explicitly documents Q#), Python, React Native/Expo and prior collaborative Gantt Power Apps development. Cybersecurity: [PROXORA](https://github.com/qimono-repos/proxora) README documents self-contained Debian packaging and post-quantum release verification; extend into Ubuntu/Debian package provenance, crypto-agility and signed release verification, not a claim of whole-system quantum safety.
+
+Local lab: $25k acquisition ceiling added to original $250k; user reports previous base quote $19k, not independently verified. [SpinQ Gemini Mini series](https://www.spinq.com/en/products-services/spinq-gemini-mini) is two-qubit NMR educational hardware. Request best configuration, SDK, warranty, training, dimensions and Australian collection option. Two proposed Argentina-based collaborators; former teammate may return March 2027, no confirmed role or additional salary. Collection is conditional on legal import/export, airline and vendor approval; [ARCA baggage exclusions](https://www.arca.gob.ar/viajeros/ayuda/objetos.asp) distinguish commercial/industrial goods. Keep landed costs within cap or obtain new approval. Lab complements rather than replaces cloud hardware; no FeMoco-scale claims. March acceptance gate: quote, import approval, serial asset registration, documented acceptance circuits, safety and support arrangements. Investor receives equity/contractual rights only if agreed; equipment ownership remains company asset unless contract specifies otherwise.
+
+Live delivery: [[analyses/qimono-live-delivery]] is the twelve-sprint operating model. Existing Mermaid baseline below remains a portable view; live actual dates will supersede it.
 
 ## Six-month Gantt (relative to funding)
 
@@ -79,7 +89,7 @@ Our technical differentiator is evidence. We compare the best classical approach
 
 I am a software developer with prior machine-learning consulting experience, currently studying quantum algorithms through MIT xPRO. I propose recruiting three complementary specialists in computational chemistry, information-security management and cybersecurity.
 
-We seek $250,000 for six months to build and test the app, run reproducible classical and quantum benchmarks, establish security controls and target two paid pilot customers.
+We seek $275,000, including $25,000 for a local quantum prototyping laboratory, for six months to build and test the app, run reproducible classical and quantum benchmarks, establish security controls and target two paid pilot customers.
 
 Our promise is not that every company needs quantum computing. It is that every assessment ends with a defensible decision: invest, investigate, secure, or continue classically.
 
