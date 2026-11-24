@@ -245,3 +245,7 @@ New `wiki/analyses/reflect-rev-draft-002.md`: answers to the three prompts on Zh
 ## [2026-11-24] query | Extend Reflect & Review draft 002 and correct course identity
 
 Extended [[analyses/reflect-rev-draft-002]] in place with Albert's XYZ impact framework, sourced 2017–2026 hardware comparisons, nitrogenase and fertilizer economics, classical FeMoco challenge, capital and hiring evidence, and illustrative staged funding/Qimono consultancy. Distinguishes released systems from roadmap, physical from logical metrics, financing from revenue, and personal observation from verified hiring trend. Updated index and corrected QCFx2 course title in root schema/README at Albert's request; preserved historical log and authentic Course 1 references in course material. No quiz answers or raw changes. Media ranking, historical vacancy trend and full FeMoco paper review remain open.
+
+## [2026-11-24] query | XYZ normalization and Qimono venture sprint
+
+Added three benchmark anchors to reflection; linked FeMoco journal and preprint analysis, alternative $250k pilot budgets, four proposed roles, ISO readiness, Gantt, pitch and seven-slide Markdown deck. Store QR codes pending real listings; no hires, funding or subscriptions confirmed. Public repository contains proposal only, no private learner identities.
