@@ -147,3 +147,5 @@ Research papers, one note each, with a page-by-page guide and links into the con
 - [[analyses/femoco-classical-benchmark-2026]] — technical comparison and source links.
 
 - [[analyses/qimono-live-delivery]] — live Gantt/Kanban platform comparison, twelve calendar-aligned sprints, ISO evidence and stakeholder access model.
+
+- [[analyses/qimono-agri-prospects]] — Argentina/Australia agriculture prospects, market evidence and discovery priorities.
