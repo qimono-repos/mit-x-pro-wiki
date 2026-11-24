@@ -2,7 +2,7 @@
 
 This vault is a [Karpathy LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): a persistent, interlinked markdown knowledge base an LLM maintains, not a RAG pile that is re-derived on every question.
 
-The course material is MIT xPRO QCFx1 (Introduction to Quantum Computing), captured from the edX pages the student saved: Learn prose, SRT transcripts, and video-frame screenshots.
+The course material is MIT xPRO QCFx2 (Quantum Algorithms for Cybersecurity, Chemistry, and Optimization), captured from the edX pages the student saved: Learn prose, SRT transcripts, and video-frame screenshots.
 
 ## Three layers
 
