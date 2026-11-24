@@ -142,6 +142,8 @@ Research papers, one note each, with a page-by-page guide and links into the con
 - [Grover's algorithm: Introduction](sources/week-5-07-grover-s-algorithm-introduction.md) — Course page.
 - [Quantum optimization Qiz](sources/week-5-08-quantum-optimization-qiz.md) — Course page.
 
-- [[analyses/qimono-venture-pilot]] — proposed $250k angel pilot, workforce, alternative cloud budgets, Gantt, ISO and app funnel.
+- [[analyses/qimono-venture-pilot]] — proposed $275k angel pilot, workforce, alternative cloud budgets, Gantt, ISO and app funnel.
 - [[analyses/qimono-assessment-slides]] — seven-slide Marp/Obsidian assessment workflow.
 - [[analyses/femoco-classical-benchmark-2026]] — technical comparison and source links.
+
+- [[analyses/qimono-live-delivery]] — live Gantt/Kanban platform comparison, twelve calendar-aligned sprints, ISO evidence and stakeholder access model.
