@@ -29,7 +29,7 @@ chosen_paper: "Zhang et al., Nature 551, 601–604 (2017)"
 | Y — media | Visibility, framing, institutional reputation and expectations | Dated headlines, outlet categories, article counts, prominence, audience reach and sentiment |
 | Z — business / financial / fintech | Capital allocation and actual economic activity | Grants, equity financing, contracts, recognized revenue, deployments, hiring, customer outcomes and financial-sector applications |
 
-Time is a parameter, not another score. The axes are conceptually distinct, not assumed statistically independent. Capital raised, revenue, valuation and realized client value are different measures; report them separately. Compare the 2016–17 launch windows and 2026 follow-up; distinguish paper-level evidence from platform-level proxies. No numerical coordinates or ranking without a reproducible dataset.
+Time is a parameter, not another score. The axes are conceptually distinct, not assumed statistically independent. Capital raised, revenue, valuation and realized client value are different measures; report them separately. Compare the 2016–17 launch windows and 2026 follow-up; distinguish paper-level evidence from platform-level proxies. Numerical hypotheses are now permitted, but label subjective scores separately from measured indices. Calibrate X=1 against [Attention Is All You Need](https://arxiv.org/abs/1706.03762), Y=1 against [AlphaZero](https://arxiv.org/abs/1712.01815), and Z=1 against the [DeepSeek V3](https://arxiv.org/abs/2412.19437) / [R1](https://arxiv.org/abs/2501.12948) disruption event. Reference values are chosen anchors, not ceilings. Illustrative Zhang vector (0.35,0.15,0.10) is a hypothesis, not data. Measure citations/adoption at matched ages, press reach within matched windows, and attributable cost reductions/commercial adoption separately. DeepSeek V3 efficiency involves MoE, precision and co-design, not just R1 distillation; $5.576M reported training compute is not total development cost. The quantum analogy is a cost or capability discontinuity on equivalent tasks. [Google Sycamore 2019](https://research.google/pubs/quantum-supremacy-using-a-programmable-superconducting-processor/) claimed 200 seconds vs 10,000 years; [IBM counterestimate](https://www.ibm.com/quantum/blog/on-quantum-supremacy) 2.5 days; [Willow 2024](https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/) advances error correction and sampling. These are task-specific, not commercial advantage. Classical baselines keep evolving.
 
 | Contribution | X: scientific | Y: media | Z: business |
 |---|---|---|---|
@@ -310,6 +310,12 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 **Press, 2017 (for the timing argument):** Physics World, IEEE Spectrum, HPCwire, Optica OPN, UMD release (29–30 Nov 2017); MIT Technology Review, AP, Science News, Bloomberg (IBM, 10 Nov 2017).
 
 ---
+
+## 6A. Venture sprint follow-up (2026-11-24)
+
+- [[analyses/femoco-classical-benchmark-2026]] — October journal publication, full source and abstract link, technical limitations, classical vs quantum comparison.
+- [[analyses/qimono-venture-pilot]] — replaces earlier illustrative allocation with two alternative $250k budgets, four proposed experts, six-month Gantt, ISO readiness, angel pitch and mobile-first intake plan.
+- [[analyses/qimono-assessment-slides]] — seven-slide Markdown demo with store QR placeholders.
 
 ## 7. Next steps
 - [ ] Collect comparable media corpus and citation metrics for XYZ.
