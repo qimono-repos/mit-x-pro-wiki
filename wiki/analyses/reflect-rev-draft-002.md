@@ -333,3 +333,7 @@ Two papers came from **big companies** (Google, IBM) using **superconducting chi
 - [ ] Draft 2 peer replies (5-step template).
 
 *Draft 001 (Grok, ~3,200 words) remains the private research notes. Its 2026 qubit table needs the same fact-check pass.*
+
+## Venture follow-up: agricultural market and sovereign delivery (2026-11-24)
+
+[[analyses/qimono-agri-prospects]] identifies real prospective organizations in Argentina's Pampas and Australia's grain regions, including Rizobacter, AFA, Profertil and GRDC research network. Profertil's proposed US$1.7B expansion and Australian A$17.33M fertilizer research consortium demonstrate economic context, not demand for quantum services. Local SpinQ commercial POC RFQ sent; no order. OpenProject proposed as Git-host-independent first-class operational infrastructure; see [[analyses/qimono-live-delivery]].
