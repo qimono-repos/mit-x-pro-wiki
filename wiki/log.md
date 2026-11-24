@@ -253,3 +253,7 @@ Added three benchmark anchors to reflection; linked FeMoco journal and preprint 
 ## [2026-11-24] query | Bloch impact visualization and live delivery model
 
 Added Bloch-inspired raw/unit geometry, expanded founder stack and PROXORA packaging evidence, revised alternative budgets to $275k with $25k conditional SpinQ acquisition, retained Mermaid baseline and added twelve-sprint live delivery model. No live project, equipment purchase or email sent; user-reported $19k quote unverified. Confidential evidence must remain private.
+
+## [2026-11-24] query | SpinQ RFQ, independent Gantt and agriculture prospects
+
+Sent SpinQ RFQ for commercial offline 3-qubit POC system, $25k ceiling, operational by March 7, 2027, Australian collection alternative. Founder rejects GitHub Projects; self-hosted OpenProject proposed; portable automation and Git-host independence documented. Added Argentina/Australia prospective agricultural organizations and funding context. No equipment order, live deployment, or agricultural outreach.
