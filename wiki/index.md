@@ -149,3 +149,5 @@ Research papers, one note each, with a page-by-page guide and links into the con
 - [[analyses/qimono-live-delivery]] — live Gantt/Kanban platform comparison, twelve calendar-aligned sprints, ISO evidence and stakeholder access model.
 
 - [[analyses/qimono-agri-prospects]] — Argentina/Australia agriculture prospects, market evidence and discovery priorities.
+
+- [[analyses/qimono-commercial-strategy]] — two audiences, fintech discovery, regional quantum campaign and signature convention.
