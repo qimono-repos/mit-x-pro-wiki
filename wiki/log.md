@@ -257,3 +257,7 @@ Added Bloch-inspired raw/unit geometry, expanded founder stack and PROXORA packa
 ## [2026-11-24] query | SpinQ RFQ, independent Gantt and agriculture prospects
 
 Sent SpinQ RFQ for commercial offline 3-qubit POC system, $25k ceiling, operational by March 7, 2027, Australian collection alternative. Founder rejects GitHub Projects; self-hosted OpenProject proposed; portable automation and Git-host independence documented. Added Argentina/Australia prospective agricultural organizations and funding context. No equipment order, live deployment, or agricultural outreach.
+
+## [2026-11-24] query | Separate investor and client funnels
+
+Documented $275k funding versus client assessment funnel, agriculture and fintech tracks, regional research hooks, single-signer convention. Fintech outreach drafted, not sent.
